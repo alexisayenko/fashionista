@@ -5,6 +5,7 @@
   --rule: #1110;
   --serif: "Didot", "Bodoni 72", "Playfair Display", Georgia, serif;
   --sans: "Helvetica Neue", Arial, sans-serif;
+  --hero-photo-ratio: 4 / 5;
 }
 
 * { box-sizing: border-box; }
@@ -119,6 +120,14 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--accent);
+  margin: 0 0 0.25rem;
+}
+
+.ownership {
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #666;
   margin: 0 0 1rem;
 }
 
@@ -281,7 +290,10 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 .hero-portrait img {
   display: block;
   width: 100%;
+  aspect-ratio: var(--hero-photo-ratio);
   height: auto;
+  object-fit: cover;
+  object-position: center top;
   border: 1px solid var(--ink);
 }
 .hero-portrait figcaption {
@@ -415,21 +427,26 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 .hero-slider .slider-viewport {
   position: relative;
   overflow: hidden;
+  aspect-ratio: var(--hero-photo-ratio);
   border: 1px solid var(--ink);
 }
 .hero-slider .slider-track {
   display: flex;
+  height: 100%;
   transition: transform 0.45s ease;
   will-change: transform;
 }
 .hero-slider .slide {
   flex: 0 0 100%;
   min-width: 0;
+  height: 100%;
 }
 .hero-slider .slide img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .slider-arrow {
@@ -437,28 +454,38 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  width: 2.4rem;
-  height: 2.4rem;
-  border: 1px solid var(--ink);
-  background: #fff;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
   color: var(--ink);
-  font-family: var(--sans);
-  font-weight: 700;
-  font-size: 1.1rem;
-  line-height: 1;
   padding: 0;
   margin: 0;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
-  transition: background 0.2s ease, color 0.2s ease;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+  opacity: 0.5;
+  transition: opacity 0.25s ease, background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
-.slider-arrow:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
-.slider-arrow:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.slider-arrow.prev { left: 0.5rem; }
-.slider-arrow.next { right: 0.5rem; }
+.slider-arrow svg { display: block; }
+.hero-slider:hover .slider-arrow,
+.hero-slider:focus-within .slider-arrow { opacity: 1; }
+.slider-arrow:hover {
+  background: var(--ink);
+  color: #fff;
+  transform: translateY(-50%) scale(1.06);
+}
+.slider-arrow:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.slider-arrow.prev { left: 0.75rem; }
+.slider-arrow.next { right: 0.75rem; }
 
 .slider-captions {
   margin-top: 0.6rem;
@@ -509,4 +536,61 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 
 @media (max-width: 640px) {
   .hero-slider { flex: 0 0 auto; max-width: 320px; }
+}
+
+/* Secondary badges: couture status and heritage specialty */
+.badge-row .badge + .badge { margin-left: 0.35rem; }
+.badge-couture-official {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.badge-couture-correspondent {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.badge-specialty {
+  color: #666;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Creative director role label (Men / Women) */
+.cd-role {
+  display: inline-block;
+  min-width: 3.5em;
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-style: normal;
+  color: var(--accent);
+}
+
+/* How-to-read legend above the grid */
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.9rem 1.8rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.02);
+  margin: 0 0 0.75rem;
+}
+.legend > div { margin: 0; }
+.legend dt {
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.15rem;
+}
+.legend dd {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #333;
+}
+.legend-note {
+  font-size: 0.75rem;
+  color: #777;
+  font-style: italic;
+  margin: 0 0 2.5rem;
 }
