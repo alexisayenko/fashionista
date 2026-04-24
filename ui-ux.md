@@ -1,6 +1,109 @@
 # UI / UX documentation
 
-Visual and interaction rules for the Fashionista site. Keep this in sync with [styles.css](styles.css) and the house pages under [houses/](houses/).
+Visual and interaction rules for the Fashionista site. Keep this in sync with [styles.css](styles.css), the index grid in [index.html](index.html), and the house pages under [houses/](houses/).
+
+## Index page — maison grid
+
+The site entrance at [index.html](index.html) presents every documented house as a scannable grid of "passport" cards. Each card answers the same compact set of questions — where, when, who owns it, what it makes, who designs it, and where it falls on three editorial meters — so readers can sweep across houses without re-parsing each card's structure.
+
+### Grid shell
+
+Under the `Maisons` heading, the houses section carries three blocks in order: the reading legend, the meters note, then the grid itself.
+
+```
+section#houses.houses
+├── h2                        "Maisons"
+├── dl.legend                 reading legend (Timeline / Price / Heat / Exclusivity)
+├── p.legend-note             italic "meters are editorial 1–5" caveat
+└── ul.house-grid             auto-fit grid, min 240 px columns, 2 rem gap
+    └── li.house-card × N     one card per house
+```
+
+The `.legend` is an auto-fit grid with a min column width of 200 px, boxed in a faint 1 px `rgba(0,0,0,0.25)` border over a 2 % black wash. Each term pairs a tracked, accent-coloured `<dt>` label with a sentence-length `<dd>` definition.
+
+### House card (fixed field order)
+
+Every `.house-card` carries the same fields in the same order. The ordering matters — a reader skimming the grid compares like-to-like between cards.
+
+| # | Element | Class | Notes |
+| --- | --- | --- | --- |
+| 1 | House name | `<h3>` | Serif display. Wrap in an `<a>` when a detail page exists. |
+| 2 | Origin meta | `.meta` | Flag icon (`flag-icons`), then `City · Est. YEAR`. Accent-coloured tracked caps. |
+| 3 | Ownership | `.ownership` | Conglomerate, `Independent · <family>`, partial-stake note, or `Public · <exchange>`. See [Ownership labels](#ownership-labels--canonical-forms). |
+| 4 | Timeline | `.timeline` + `.timeline-dot` | 1825–2025 bar with an accent dot positioned via `--pos: N%` (0 % = 1825, 100 % = 2025). |
+| 5 | Badges | `.badge-row` | One primary product-type badge, plus optional secondary badges. See [Badges](#badges--product-type-and-status). |
+| 6 | Price + Heat meters | `dl.stats > .stat` | Two inline 5-dot meters, Price in accent, Heat in crimson. |
+| 7 | Creative director | `.director` | Single line, or split Men / Women lines when the house has separate directors. See [Creative director line](#creative-director-line). |
+| 8 | Exclusivity panel | `.exclusivity-panel` | Boxed-off 5-dot meter with its own label, deliberately set apart from the other meters. |
+| 9 | Description | `<p>` (card's last `<p>`) | One-sentence cultural blurb. The card's final `<p>` inherits `color: #333` via `.house-card p:last-child`. |
+| 10 | "Read more" link | `.more` | Only on houses with a detail page; accent-coloured tracked caps. |
+
+### Badges — product type and status
+
+The badge row separates two axes. The primary badge is the product type (`Ready-to-Wear` in practice for every house today). Secondary badges capture institutional couture status or heritage specialty and appear only when they apply.
+
+| Variant | Class | Style | Used for |
+| --- | --- | --- | --- |
+| Primary | `.badge` | Black 1 px border, transparent fill, ink text | Product type. Every card carries exactly one. |
+| Couture · Official | `.badge.badge-couture-official` | Filled `--accent`, white text | Chambre Syndicale full members. |
+| Couture · Correspondent | `.badge.badge-couture-correspondent` | Accent border, accent text, transparent fill | Invited correspondent couture members. |
+| Specialty | `.badge.badge-specialty` | Muted `#666` text, `rgba(0,0,0,0.3)` border | Heritage / craft specialty (e.g. `Leather` for houses whose core is leather goods). |
+
+Secondary badges carry a 0.35 rem left margin via `.badge-row .badge + .badge`. Never stack two primary badges; if a house warrants a second product type, reach for an additional specialty badge or extend this table.
+
+### Meters — Price, Heat, Exclusivity
+
+Three 5-dot meters summarise commercial and cultural position. They are **editorial reads**, not quantitative measures — the legend above the grid says so explicitly.
+
+| Meter | Class | Glyph | "On" colour | Measures |
+| --- | --- | --- | --- | --- |
+| Price | `.meter.price` | `$` | `--accent` | Retail tier, boutique entry to full archive. |
+| Heat | `.meter.heat` | `●` | `#c0392b` (crimson) | Current cultural momentum. |
+| Exclusivity | `.meter.ex` | `●` | `#2c3e50` (slate) | Access and distribution control. Shown inside `.exclusivity-panel`, boxed off so it reads as a separate judgement from Price / Heat. |
+
+"Off" dots are `#d9d4c9`. Dot letter-spacing is fixed at 2 px for a consistent rhythm across rows.
+
+### Creative director line
+
+Default is a single-line `.director` paragraph — italic, small, `#555`: `Name · since YEAR`.
+
+When a house has separate men's and women's creative directors, split into two lines with `.cd-role` role labels so the grid stays legible at a glance:
+
+```html
+<p class="director">
+  <span class="cd-role">Men</span> [Director name] &middot; since [YEAR]<br>
+  <span class="cd-role">Women</span> [Director name] &middot; since [YEAR]
+</p>
+```
+
+`.cd-role` is a tracked, accent-coloured caps label with `min-width: 3.5em` so the `Men` and `Women` labels column-align across the two lines.
+
+### Ownership labels — canonical forms
+
+Keep the ownership line short and use these canonical forms:
+
+- **Conglomerate**: bare group name — e.g. `LVMH`, `Kering`, `Prada Group`.
+- **Family / founder-held**: `Independent · <family or group>` — e.g. `Independent · Hermès family`, `Independent · Founders`.
+- **Partial stake**: `<primary owner> · <stake-holder> stake` — primary owner first, minority stake-holder second.
+- **Publicly listed, widely held**: `Public · <exchange>` — e.g. `Public · LSE`.
+
+Ownership churns — verify against fresh sources before publishing.
+
+### Utility classes used on the grid
+
+| Class | Purpose | Defined in |
+| --- | --- | --- |
+| `.house-grid` | Auto-fit grid container for the cards | [styles.css](styles.css) |
+| `.house-card` | Card frame with 1 px `--ink` border and hover lift | [styles.css](styles.css) |
+| `.meta` | City · Year lockup (accent, tracked caps) | [styles.css](styles.css) |
+| `.ownership` | Ownership line (muted `#666`, tracked caps) | [styles.css](styles.css) |
+| `.timeline`, `.timeline-dot` | 1825–2025 timeline bar + accent dot | [styles.css](styles.css) |
+| `.badge-row`, `.badge`, `.badge-couture-official`, `.badge-couture-correspondent`, `.badge-specialty` | Badge row and variants | [styles.css](styles.css) |
+| `.stats`, `.stat`, `.meter`, `.meter.price`, `.meter.heat`, `.meter.ex` | Meter system | [styles.css](styles.css) |
+| `.director`, `.cd-role` | Creative director line and role label | [styles.css](styles.css) |
+| `.exclusivity-panel`, `.ex-label` | Boxed-off Exclusivity block | [styles.css](styles.css) |
+| `.legend`, `.legend-note` | Reading-legend block above the grid | [styles.css](styles.css) |
+| `.more` | "Read more" link on cards with detail pages | [styles.css](styles.css) |
 
 ## Brand page structure
 
@@ -46,7 +149,7 @@ Each maison's article body should carry these nine `<section>` blocks in this or
 | --- | --- | --- | --- |
 | 1 | **Founding** | `<p>` | Year, founder(s); bold names with `<strong>`. |
 | 2 | **Key milestones** | `<ul class="milestones">` | Each `<li>` opens with `<strong>Year or era.</strong>` followed by the event. |
-| 3 | **Creative director & ownership** | `<p>` + optional `<p class="note">` | Italic `.note` for "to be updated" / successional uncertainty. |
+| 3 | **Creative director & ownership** | `<p>` + optional `<p class="note">` | Italic `.note` for "to be updated" / successional uncertainty. Split Men / Women lines when the house has separate creative directors, matching the index-grid convention. |
 | 4 | **Main product lines** | `<ul class="plain-list">` | Bulletless list; each `<li>` starts with `<strong>Line</strong> — description`. |
 | 5 | **Design DNA** | `<p>` | One tight paragraph on silhouette, palette, philosophy. |
 | 6 | **Beyond the timeline** | `<p class="section-intro">` + `<ul class="signature-pieces">` | Italic lead; each piece = `<strong>` name, optional `<span class="piece-year">`, `<p>` body. |
