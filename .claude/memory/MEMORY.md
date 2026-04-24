@@ -6,3 +6,4 @@
 - [Don't use Unicode flag emoji on web pages](feedback_flags_not_emoji.md) — Windows default font doesn't render them; use flag-icons CSS library instead
 - [Use WSL 1, not WSL 2](project_wsl_version.md) — Symantec Endpoint blocks WSL 2 on this machine
 - [Delegate risky image/media operations to sub-agents](feedback_risky_image_ops.md) — isolate image/media reads in a sub-agent so API 400s don't kill the main session
+- [Git commit signing is SSH-based, needs allowedSignersFile for local verification](project_git_signing.md) — SSH signing via ed25519 in WSL; without allowedSignersFile set, signed commits display locally as unsigned even though GitHub verifies them
