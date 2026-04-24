@@ -3,4 +3,6 @@
 - [Fashion house content schema](project_house_content_schema.md) — the 9 fields every house entry should cover (founder, milestones, CD/owner, products, DNA, iconics, positioning, financials, cultural impact)
 - [Install and run tools in WSL](feedback_use_wsl.md) — all project tooling lives in WSL, not Windows/Git Bash
 - [Short and precise communication](feedback_short_answers.md) — keep answers and questions terse
+- [Don't use Unicode flag emoji on web pages](feedback_flags_not_emoji.md) — Windows default font doesn't render them; use flag-icons CSS library instead
 - [Use WSL 1, not WSL 2](project_wsl_version.md) — Symantec Endpoint blocks WSL 2 on this machine
+- [Delegate risky image/media operations to sub-agents](feedback_risky_image_ops.md) — isolate image/media reads in a sub-agent so API 400s don't kill the main session
