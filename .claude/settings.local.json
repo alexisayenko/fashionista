@@ -22,6 +22,7 @@
       "PowerShell(Get-ChildItem \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\\" | ForEach-Object { Write-Host $_.FullName; icacls $_.FullName | Select-String \"IsolatedUsers\" })",
       "PowerShell(\\(Get-Acl \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\feedback_use_wsl.md\"\\).AreAccessRulesProtected; Write-Host \"---project_domain---\"; \\(Get-Acl \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\project_domain.md\"\\).AreAccessRulesProtected)",
       "PowerShell(Get-ChildItem \"C:\\\\Alex\\\\fashionista\\\\.claude\" -Recurse -File | ForEach-Object { icacls $_.FullName /inheritance:e 2>&1 | Out-Null }; Write-Host \"---after---\"; Get-ChildItem \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\\" | ForEach-Object { Write-Host $_.Name; icacls $_.FullName | Select-String \"IsolatedUsers\" })"
-    ]
+    ],
+    "defaultMode": "acceptEdits"
   }
 }
