@@ -488,19 +488,20 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 .slider-arrow.next { right: 0.75rem; }
 
 .slider-captions {
+  display: grid;
   margin-top: 0.6rem;
   text-align: center;
-  min-height: 3.2rem;
 }
 .slide-caption {
-  display: none;
+  grid-area: 1 / 1;
   margin: 0;
   font-size: 0.7rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--accent);
+  visibility: hidden;
 }
-.slide-caption.is-active { display: block; }
+.slide-caption.is-active { visibility: visible; }
 .slide-caption .credit {
   display: block;
   margin-top: 0.35rem;
