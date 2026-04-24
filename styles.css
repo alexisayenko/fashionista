@@ -124,12 +124,15 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 
 .house-card p:last-child { margin: 0; color: #333; }
 
-/* Timeline: horizontal rule with a dot at the founding year (1800 → 2026) */
+/* Timeline: 1825–2025, eight 25-year segments. Ticks at 0/12.5/…/100%. */
 .timeline {
   position: relative;
-  height: 2px;
-  background: rgba(0, 0, 0, 0.12);
-  margin: 0 0 1.1rem;
+  height: 10px;
+  margin: 0.25rem 0 1.1rem;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)) 0 50% / 100% 1px no-repeat,
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)) 100% 0 / 1px 100% no-repeat,
+    repeating-linear-gradient(to right, rgba(0, 0, 0, 0.35) 0 1px, transparent 1px 12.5%);
 }
 .timeline-dot {
   position: absolute;
@@ -140,6 +143,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
   margin: -4px 0 0 -4px;
   border-radius: 50%;
   background: var(--accent);
+  z-index: 1;
 }
 
 /* Craft badge */
