@@ -2,9 +2,9 @@
   "permissions": {
     "allow": [
       "Bash",
-      "Edit(c:/Alex/fashionista/**)",
-      "Write(c:/Alex/fashionista/**)",
-      "Read(c:/Alex/fashionista/**)",
+      "Edit",
+      "Write",
+      "Read",
       "Bash(wsl -e *)",
       "PowerShell(gh --version)",
       "PowerShell(gh auth status)",
