@@ -1,3 +1,4 @@
+- [Solo developer](user_solo_dev.md) — user works solo on this project; no team/reviewers to defer to
 - [Project domain](project_domain.md) — Fashionista project covers luxury fashion brands (Armani, Dolce & Gabbana, Chanel, Prada, etc.)
 - [Install and run tools in WSL](feedback_use_wsl.md) — all project tooling lives in WSL, not Windows/Git Bash
 - [Short and precise communication](feedback_short_answers.md) — keep answers and questions terse

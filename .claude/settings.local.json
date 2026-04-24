@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl -e *)",
+      "PowerShell(gh --version)",
+      "PowerShell(gh auth status)",
+      "PowerShell(Get-Command gh -ErrorAction SilentlyContinue)",
+      "Bash(mkdir -p c:/Alex/fashionista/.claude/memory)",
+      "Bash(mv C:/Users/alex.isayenko/.claude/projects/c--Alex-fashionista/memory/*.md c:/Alex/fashionista/.claude/memory/)",
+      "Bash(rmdir C:/Users/alex.isayenko/.claude/projects/c--Alex-fashionista/memory)",
+      "Bash(cmd //c 'mklink /J \"C:\\\\Users\\\\alex.isayenko\\\\.claude\\\\projects\\\\c--Alex-fashionista\\\\memory\" \"c:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\"')",
+      "Read(//c/Users/alex.isayenko/.claude/projects/c--Alex-fashionista/memory/**)",
+      "PowerShell(icacls \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\feedback_short_answers.md\")",
+      "PowerShell(icacls \"C:\\\\Alex\\\\fashionista\" /grant \"IsolatedUsers:\\(OI\\)\\(CI\\)M\" /T 2>&1)",
+      "PowerShell(icacls \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\feedback_short_answers.md\" /grant \"IsolatedUsers:\\(M\\)\")",
+      "PowerShell(icacls \"C:\\\\Alex\\\\fashionista\\\\.claude\" /grant \"IsolatedUsers:\\(OI\\)\\(CI\\)M\" /T /C)",
+      "PowerShell(icacls \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\feedback_use_wsl.md\")",
+      "PowerShell(Get-ChildItem \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\\" | ForEach-Object { Write-Host $_.FullName; icacls $_.FullName | Select-String \"IsolatedUsers\" })",
+      "PowerShell(\\(Get-Acl \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\feedback_use_wsl.md\"\\).AreAccessRulesProtected; Write-Host \"---project_domain---\"; \\(Get-Acl \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\project_domain.md\"\\).AreAccessRulesProtected)",
+      "PowerShell(Get-ChildItem \"C:\\\\Alex\\\\fashionista\\\\.claude\" -Recurse -File | ForEach-Object { icacls $_.FullName /inheritance:e 2>&1 | Out-Null }; Write-Host \"---after---\"; Get-ChildItem \"C:\\\\Alex\\\\fashionista\\\\.claude\\\\memory\\\\\" | ForEach-Object { Write-Host $_.Name; icacls $_.FullName | Select-String \"IsolatedUsers\" })"
+    ]
+  }
+}
