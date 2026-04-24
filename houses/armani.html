@@ -23,17 +23,43 @@
             <h1>Armani</h1>
             <p class="house-sub">Milan &middot; Italy</p>
           </div>
-          <figure class="hero-portrait">
-            <img src="../assets/armani.jpg" alt="Portrait of Giorgio Armani, 1997." />
-            <figcaption>
-              Giorgio Armani, 1997
-              <span class="credit">
-                Photo by
-                <a href="https://commons.wikimedia.org/wiki/File:Giorgio_Armani_1997.jpg" rel="noopener">GianAngelo Pistoia</a>
-                &middot;
-                <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC&nbsp;BY-SA&nbsp;4.0</a>
-              </span>
-            </figcaption>
+          <figure class="hero-slider" data-index="0" aria-roledescription="carousel" aria-label="Giorgio Armani through the years">
+            <div class="slider-viewport">
+              <div class="slider-track">
+                <div class="slide" aria-hidden="false">
+                  <img src="../assets/armani.jpg" alt="Portrait of Giorgio Armani, 1997." />
+                </div>
+                <div class="slide" aria-hidden="true">
+                  <img src="../assets/armani-2009.jpg" alt="Portrait of Giorgio Armani, 2009." />
+                </div>
+              </div>
+              <button type="button" class="slider-arrow prev" aria-label="Previous photo">&lt;</button>
+              <button type="button" class="slider-arrow next" aria-label="Next photo">&gt;</button>
+            </div>
+            <div class="slider-captions">
+              <figcaption class="slide-caption is-active">
+                Giorgio Armani, 1997
+                <span class="credit">
+                  Photo by
+                  <a href="https://commons.wikimedia.org/wiki/File:Giorgio_Armani_1997.jpg" rel="noopener">GianAngelo Pistoia</a>
+                  &middot;
+                  <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC&nbsp;BY-SA&nbsp;4.0</a>
+                </span>
+              </figcaption>
+              <figcaption class="slide-caption">
+                Giorgio Armani, 2009
+                <span class="credit">
+                  Photo by
+                  <a href="https://commons.wikimedia.org/wiki/File:GiorgioArmani.jpg" rel="noopener">Jan Schroeder</a>
+                  &middot;
+                  <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener">CC&nbsp;BY-SA&nbsp;3.0</a>
+                </span>
+              </figcaption>
+            </div>
+            <div class="slider-dots" role="tablist" aria-label="Select photo">
+              <button type="button" class="slider-dot is-active" data-slide="0" aria-label="Photo 1 of 2 (1997)"></button>
+              <button type="button" class="slider-dot" data-slide="1" aria-label="Photo 2 of 2 (2009)"></button>
+            </div>
           </figure>
         </header>
 
@@ -110,14 +136,82 @@
         </section>
 
         <section>
-          <h2>Iconic collections &amp; pieces</h2>
-          <p>
-            The deconstructed jacket remains the house's foundational
-            statement. Armani's red-carpet eveningwear helped define modern
-            celebrity dressing, and its film costumes &mdash; most notably for
-            <em>American Gigolo</em> (1980) &mdash; cemented the brand's
-            cinematic identity.
+          <h2>Beyond the timeline</h2>
+          <p class="section-intro">
+            A reason to exist beyond a timeline &mdash; the pieces that made
+            Armani Armani.
           </p>
+          <ul class="signature-pieces">
+            <li>
+              <strong>The unstructured jacket</strong>
+              <span class="piece-year">1975&ndash;</span>
+              <p>
+                The foundational Armani piece: the men's blazer stripped of
+                canvassing and padding, yielding a fluid, shoulder-relaxed
+                silhouette that redrew the line of modern tailoring.
+              </p>
+            </li>
+            <li>
+              <strong><em>American Gigolo</em> wardrobe</strong>
+              <span class="piece-year">1980</span>
+              <p>
+                Richard Gere's on-screen wardrobe for Paul Schrader's film,
+                including the closet-scene layout of shirts and jackets &mdash;
+                the production that launched the house internationally and made
+                Armani shorthand for cinematic style.
+              </p>
+            </li>
+            <li>
+              <strong>The women's power suit</strong>
+              <span class="piece-year">1980s</span>
+              <p>
+                A softened take on the men's jacket, cut for women and adopted
+                as the defining executive uniform of the decade.
+              </p>
+            </li>
+            <li>
+              <strong><em>The Untouchables</em> costumes</strong>
+              <span class="piece-year">1987</span>
+              <p>
+                Brian De Palma's prohibition-era film, dressed by Armani and
+                credited with reviving the vocabulary of classical menswear on
+                screen and off.
+              </p>
+            </li>
+            <li>
+              <strong>Red-carpet eveningwear</strong>
+              <span class="piece-year">1990&ndash;</span>
+              <p>
+                Minimalist silk-jersey gowns worn by Michelle Pfeiffer, Jodie
+                Foster, Cate Blanchett and others &mdash; effectively the
+                template for modern celebrity dressing.
+              </p>
+            </li>
+            <li>
+              <strong>Acqua di Gi&ograve;</strong>
+              <span class="piece-year">1996</span>
+              <p>
+                The Mediterranean-accented men's fragrance that became one of
+                the best-selling colognes ever produced.
+              </p>
+            </li>
+            <li>
+              <strong>Armani Priv&eacute;</strong>
+              <span class="piece-year">2005&ndash;</span>
+              <p>
+                The house's Paris-based haute couture line, launched in January
+                2005 and worn almost immediately onto the Oscars red carpet.
+              </p>
+            </li>
+            <li>
+              <strong>The &ldquo;greige&rdquo; palette</strong>
+              <p>
+                The greys, beiges and taupes that became shorthand for Armani
+                restraint &mdash; &ldquo;quiet luxury&rdquo; decades before the
+                term existed.
+              </p>
+            </li>
+          </ul>
         </section>
 
         <section>
@@ -154,5 +248,39 @@
     <footer class="site-footer">
       <p>&copy; 2026 Fashionista.</p>
     </footer>
+
+    <script>
+      (function () {
+        const slider = document.querySelector('.hero-slider');
+        if (!slider) return;
+        const track = slider.querySelector('.slider-track');
+        const slides = track.querySelectorAll('.slide');
+        const captions = slider.querySelectorAll('.slide-caption');
+        const dots = slider.querySelectorAll('.slider-dot');
+        const prev = slider.querySelector('.slider-arrow.prev');
+        const next = slider.querySelector('.slider-arrow.next');
+        const total = slides.length;
+        let index = 0;
+
+        function go(i) {
+          index = (i + total) % total;
+          track.style.transform = 'translateX(-' + (index * 100) + '%)';
+          slides.forEach((s, k) => s.setAttribute('aria-hidden', k === index ? 'false' : 'true'));
+          captions.forEach((c, k) => c.classList.toggle('is-active', k === index));
+          dots.forEach((d, k) => d.classList.toggle('is-active', k === index));
+          slider.setAttribute('data-index', String(index));
+        }
+
+        prev.addEventListener('click', () => go(index - 1));
+        next.addEventListener('click', () => go(index + 1));
+        dots.forEach((d, k) => d.addEventListener('click', () => go(k)));
+
+        slider.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowLeft') { go(index - 1); e.preventDefault(); }
+          else if (e.key === 'ArrowRight') { go(index + 1); e.preventDefault(); }
+        });
+        slider.tabIndex = 0;
+      })();
+    </script>
   </body>
 </html>

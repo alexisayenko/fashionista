@@ -362,6 +362,33 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
   padding: 0.35rem 0;
 }
 
+.section-intro {
+  font-style: italic;
+  color: #555;
+  margin: 0 0 1.25rem;
+}
+
+.signature-pieces {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.signature-pieces li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.signature-pieces li:last-child { border-bottom: none; }
+.signature-pieces li p {
+  margin: 0.35rem 0 0;
+}
+.piece-year {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-left: 0.5rem;
+}
+
 .house-page .note {
   color: #777;
   font-size: 0.9rem;
@@ -377,3 +404,109 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 }
 .back-link a { color: var(--ink); text-decoration: none; }
 .back-link a:hover { color: var(--accent); }
+
+/* Hero photo slider — swaps in for .hero-portrait when a house has multiple photos */
+.hero-slider {
+  flex: 0 0 260px;
+  margin: 0;
+  position: relative;
+  outline: none;
+}
+.hero-slider .slider-viewport {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--ink);
+}
+.hero-slider .slider-track {
+  display: flex;
+  transition: transform 0.45s ease;
+  will-change: transform;
+}
+.hero-slider .slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+.hero-slider .slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid var(--ink);
+  background: #fff;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.slider-arrow:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+.slider-arrow:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.slider-arrow.prev { left: 0.5rem; }
+.slider-arrow.next { right: 0.5rem; }
+
+.slider-captions {
+  margin-top: 0.6rem;
+  text-align: center;
+  min-height: 3.2rem;
+}
+.slide-caption {
+  display: none;
+  margin: 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.slide-caption.is-active { display: block; }
+.slide-caption .credit {
+  display: block;
+  margin-top: 0.35rem;
+  letter-spacing: 0.08em;
+  text-transform: none;
+  color: #666;
+  font-size: 0.65rem;
+}
+.slide-caption .credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+}
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--ink);
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-dot.is-active { background: var(--accent); border-color: var(--accent); }
+.slider-dot:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+@media (max-width: 640px) {
+  .hero-slider { flex: 0 0 auto; max-width: 320px; }
+}
