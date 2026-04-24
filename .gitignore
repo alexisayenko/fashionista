@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+
+# Claude working docs (temp)
+claude-security-policy.md
+
+# Claude memory lives in .claude/memory/ and IS committed (project memory, not secrets).
+# If that ever changes, uncomment:
+# .claude/

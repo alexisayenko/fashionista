@@ -1,0 +1,4 @@
+- [Project domain](project_domain.md) — Fashionista project covers luxury fashion brands (Armani, Dolce & Gabbana, Chanel, Prada, etc.)
+- [Install and run tools in WSL](feedback_use_wsl.md) — all project tooling lives in WSL, not Windows/Git Bash
+- [Short and precise communication](feedback_short_answers.md) — keep answers and questions terse
+- [Use WSL 1, not WSL 2](project_wsl_version.md) — Symantec Endpoint blocks WSL 2 on this machine
