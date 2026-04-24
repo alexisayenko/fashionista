@@ -141,6 +141,14 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 }
 .house-card h3 a:hover { color: var(--accent); }
 
+.house-card h3 .flag {
+  font-size: 0.85em;
+  vertical-align: middle;
+  margin-left: 0.25em;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla", sans-serif;
+  font-style: normal;
+}
+
 .house-card .more {
   margin: 1rem 0 0;
   font-size: 0.75rem;
@@ -265,6 +273,11 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 }
 .plain-list li {
   padding: 0.35rem 0;
+}
+
+.house-page .note {
+  color: #777;
+  font-size: 0.9rem;
 }
 
 .back-link {
