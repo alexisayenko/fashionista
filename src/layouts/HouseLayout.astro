@@ -1,0 +1,252 @@
+---
+import { Image } from 'astro:assets';
+import 'flag-icons/css/flag-icons.min.css';
+
+const { house } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{house.name} — Fashionista</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="dev-tint">
+    <header class="site-header">
+      <div class="brand"><a href="/">Fashionista</a></div>
+      <nav>
+        <a href="/#houses">Houses</a>
+        <a href="/#about">About</a>
+      </nav>
+    </header>
+
+    <main class="house-page">
+      <article>
+        <header class="house-hero">
+          <div class="hero-text">
+            <p class="eyebrow">Maison</p>
+            <h1>{house.name}</h1>
+            <p class="house-sub">
+              <span class={`fi fi-${house.countryCode}`} aria-label={house.country} title={house.country}></span>
+              {house.city} · {house.country} · Est. {house.founded}
+            </p>
+            <p class="hero-founding" set:html={house.founding}></p>
+          </div>
+
+          {house.heroSlides && (
+            <figure class="hero-slider" data-index="0" aria-roledescription="carousel" aria-label={`${house.name} through the years`}>
+              <div class="slider-viewport">
+                <div class="slider-track">
+                  {house.heroSlides.map((slide, i) => (
+                    <div class="slide" aria-hidden={i === 0 ? 'false' : 'true'}>
+                      <Image src={slide.src} alt={slide.alt} />
+                    </div>
+                  ))}
+                </div>
+                <button type="button" class="slider-arrow prev" aria-label="Previous photo">
+                  <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false">
+                    <path d="M15 4 L7 12 L15 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </button>
+                <button type="button" class="slider-arrow next" aria-label="Next photo">
+                  <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false">
+                    <path d="M9 4 L17 12 L9 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </button>
+              </div>
+              <div class="slider-captions">
+                {house.heroSlides.map((slide, i) => (
+                  <figcaption class={`slide-caption${i === 0 ? ' is-active' : ''}`}>
+                    {slide.caption}
+                    <span class="credit" set:html={slide.credit}></span>
+                  </figcaption>
+                ))}
+              </div>
+              <div class="slider-dots" role="tablist" aria-label="Select photo">
+                {house.heroSlides.map((_, i) => (
+                  <button type="button" class={`slider-dot${i === 0 ? ' is-active' : ''}`} data-slide={i} aria-label={`Photo ${i + 1} of ${house.heroSlides!.length}`}></button>
+                ))}
+              </div>
+            </figure>
+          )}
+
+          {house.heroPortrait && !house.heroSlides && (
+            <figure class="hero-portrait">
+              <Image src={house.heroPortrait.src} alt={house.heroPortrait.alt} />
+              <figcaption>
+                {house.heroPortrait.caption}
+                <span class="credit" set:html={house.heroPortrait.credit}></span>
+              </figcaption>
+            </figure>
+          )}
+        </header>
+
+        {house.identityMarks && (
+          <section class="visual-identity">
+            <div class="identity-marks">
+              {house.identityMarks.map((mark) => (
+                <figure class="identity-mark">
+                  <img src={mark.src} alt={mark.alt} />
+                  <figcaption>{mark.caption}</figcaption>
+                </figure>
+              ))}
+            </div>
+            {house.palette && (
+              <ul class="palette-swatches">
+                {house.palette.map((color) => (
+                  <li>
+                    <span class="swatch" style={`background:${color.hex}`}></span>
+                    <strong>{color.name}</strong> <code>{color.hex}</code>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {house.trademarkNotice && (
+              <p class="trademark-notice" set:html={house.trademarkNotice}></p>
+            )}
+          </section>
+        )}
+
+        <section>
+          <h2>Key milestones</h2>
+          <ul class="milestones">
+            {house.milestones.map((m) => (
+              <li><strong>{m.year}.</strong> <Fragment set:html={m.text} /></li>
+            ))}
+          </ul>
+        </section>
+
+        <section>
+          <h2>Creative director &amp; ownership</h2>
+          <p set:html={house.creativeDirector}></p>
+          {house.volatileNote && (
+            <p class="note"><em>{house.volatileNote}</em></p>
+          )}
+        </section>
+
+        <section>
+          <h2>Main product lines</h2>
+          <ul class="plain-list">
+            {house.productLines.map((line) => (
+              <li set:html={line}></li>
+            ))}
+          </ul>
+        </section>
+
+        <section>
+          <h2>Design DNA</h2>
+          <p set:html={house.designDna}></p>
+        </section>
+
+        <section>
+          <h2>Beyond the timeline</h2>
+          <p class="section-intro">{house.signatureIntro}</p>
+          <ul class="signature-pieces">
+            {house.signaturePieces.map((piece, i) => (
+              <li>
+                <strong>{piece.name}</strong>
+                {piece.year && <span class="piece-year">{piece.year}</span>}
+                {piece.figure && (
+                  <figure class="piece-figure">
+                    <button type="button" class="piece-figure-trigger" aria-label={`Enlarge photograph of ${piece.name}`} data-target={`dialog-piece-${i}`}>
+                      <Image src={piece.figure.src} alt={piece.figure.alt} loading="lazy" />
+                    </button>
+                    <figcaption>
+                      <span class="piece-credit" set:html={piece.figure.caption}></span>
+                    </figcaption>
+                  </figure>
+                )}
+                <p set:html={piece.text}></p>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section>
+          <h2>Market positioning</h2>
+          <p set:html={house.marketPositioning}></p>
+        </section>
+
+        <section>
+          <h2>Business scale</h2>
+          <p set:html={house.businessScale}></p>
+        </section>
+
+        <section>
+          <h2>Cultural impact &amp; collaborations</h2>
+          <p set:html={house.culturalImpact}></p>
+        </section>
+
+        <p class="back-link"><a href="/#houses">← All houses</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Fashionista.</p>
+    </footer>
+
+    {house.signaturePieces.map((piece, i) => piece.figure && (
+      <dialog id={`dialog-piece-${i}`} class="image-dialog" aria-label={`${piece.name}, full size`}>
+        <button type="button" class="image-dialog-close" aria-label="Close">×</button>
+        <Image src={piece.figure.src} alt={piece.figure.alt} />
+        <p class="image-dialog-caption" set:html={piece.figure.caption}></p>
+      </dialog>
+    ))}
+
+    <script>
+      // Hero slider
+      (function () {
+        const slider = document.querySelector('.hero-slider');
+        if (!slider) return;
+        const track = slider.querySelector('.slider-track');
+        const slides = track ? track.querySelectorAll('.slide') : [];
+        const captions = slider.querySelectorAll('.slide-caption');
+        const dots = slider.querySelectorAll('.slider-dot');
+        const prev = slider.querySelector('.slider-arrow.prev');
+        const next = slider.querySelector('.slider-arrow.next');
+        const total = slides.length;
+        let index = 0;
+
+        function go(i: number) {
+          index = (i + total) % total;
+          if (track instanceof HTMLElement) {
+            track.style.transform = 'translateX(-' + (index * 100) + '%)';
+          }
+          slides.forEach((s, k) => s.setAttribute('aria-hidden', k === index ? 'false' : 'true'));
+          captions.forEach((c, k) => c.classList.toggle('is-active', k === index));
+          dots.forEach((d, k) => d.classList.toggle('is-active', k === index));
+          slider.setAttribute('data-index', String(index));
+        }
+
+        prev?.addEventListener('click', () => go(index - 1));
+        next?.addEventListener('click', () => go(index + 1));
+        dots.forEach((d, k) => d.addEventListener('click', () => go(k)));
+
+        slider.addEventListener('keydown', (e) => {
+          const ke = e as KeyboardEvent;
+          if (ke.key === 'ArrowLeft') { go(index - 1); ke.preventDefault(); }
+          else if (ke.key === 'ArrowRight') { go(index + 1); ke.preventDefault(); }
+        });
+        if (slider instanceof HTMLElement) slider.tabIndex = 0;
+      })();
+
+      // Lightbox dialogs for signature-piece figures
+      (function () {
+        const triggers = document.querySelectorAll('.piece-figure-trigger');
+        triggers.forEach((trigger) => {
+          const targetId = (trigger as HTMLElement).dataset.target;
+          if (!targetId) return;
+          const dialog = document.getElementById(targetId) as HTMLDialogElement | null;
+          if (!dialog || typeof dialog.showModal !== 'function') return;
+          trigger.addEventListener('click', () => dialog.showModal());
+          const closeBtn = dialog.querySelector('.image-dialog-close');
+          if (closeBtn) closeBtn.addEventListener('click', () => dialog.close());
+          dialog.addEventListener('click', (e) => {
+            if (e.target === dialog) dialog.close();
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

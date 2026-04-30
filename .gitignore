@@ -16,6 +16,13 @@ Thumbs.db
 # Claude working docs (temp)
 claude-security-policy.md
 
+# Astro / Node
+node_modules/
+dist/
+.astro/
+.env.production
+.env.development
+
 # Claude memory lives in .claude/memory/ and IS committed (project memory, not secrets).
 # If that ever changes, uncomment:
 # .claude/

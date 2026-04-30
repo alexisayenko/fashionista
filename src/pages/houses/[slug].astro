@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import HouseLayout from '../../layouts/HouseLayout.astro';
+
+export async function getStaticPaths() {
+  const houses = await getCollection('houses');
+  return houses.map((entry) => ({
+    params: { slug: entry.id },
+    props: { house: entry.data },
+  }));
+}
+
+const { house } = Astro.props;
+---
+<HouseLayout house={house} />

@@ -1,0 +1,201 @@
+name: Chanel
+city: Paris
+country: France
+countryCode: fr
+founded: 1910
+
+founding: |
+  Founded in 1910 in Paris by <strong>Gabrielle "Coco" Chanel</strong>
+  (1883–1971), who opened her first millinery boutique at 21 rue Cambon. The
+  atelier expanded into clothing through the 1910s and was consolidated as
+  the House of Chanel by the early 1920s.
+
+heroSlides:
+  - src: ../../assets/houses/chanel/chanel-coco-1928-mariniere.jpg
+    alt: Coco Chanel in a striped marinière, 1928.
+    caption: Coco Chanel in marinière, 1928
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Gabrielle_Chanel_en_marini%C3%A8re.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+
+  - src: ../../assets/houses/chanel/chanel-coco-1931-la.jpg
+    alt: Coco Chanel during her Hollywood / Goldwyn-contract trip, Los Angeles, 1931.
+    caption: Coco Chanel, Los Angeles, 1931
+    credit: 'Photo by <a href="https://commons.wikimedia.org/wiki/File:Coco_Chanel_in_Los_Angeles,_1931.jpg" rel="noopener">Los Angeles Times / UCLA Library</a> · <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC BY 4.0</a>'
+
+  - src: ../../assets/houses/chanel/chanel-coco-1925-aintree.jpg
+    alt: Coco Chanel with Hugh Grosvenor, Duke of Westminster, at Aintree racecourse, 1925.
+    caption: Coco Chanel with the Duke of Westminster, Aintree, 1925
+    credit: 'Radio Times Hulton Picture Library · <a href="https://commons.wikimedia.org/wiki/File:Hugh_Grosvenor,_Duke_of_Westminster_und_Coco_Chanel.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+
+  - src: ../../assets/houses/chanel/chanel-coco-1920.jpg
+    alt: Bust portrait of Coco Chanel, c. 1920.
+    caption: Coco Chanel, c. 1920
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Coco_Chanel,_ca_1920.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+
+identityMarks:
+  - src: /assets/chanel-wordmark.svg
+    alt: Chanel wordmark — the spaced-caps treatment of the brand name
+    caption: Wordmark
+  - src: /assets/chanel-logo-cc.svg
+    alt: Chanel interlocking double-C device
+    caption: Interlocking-Cs device
+
+palette:
+  - { name: Black, hex: '#000000' }
+  - { name: White, hex: '#FFFFFF' }
+  - { name: Beige, hex: '#E8DCC4' }
+  - { name: Gold,  hex: '#C9A961' }
+
+trademarkNotice: |
+  CHANEL and the interlocking-Cs device are trademarks of
+  Chanel SAS, used here for identification under nominative
+  fair use. Source files via Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Chanel_logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons) and
+  <a href="https://en.wikipedia.org/wiki/File:Chanel_logo_interlocking_cs.svg">device</a>
+  (PD-shape, English Wikipedia). Hex values are approximations
+  for editorial illustration; no Pantone licensing implied.
+
+milestones:
+  - year: 1921
+    text: Launch of <em>Chanel N°5</em>, the first fragrance to bear a couturier's name and the bedrock of the house's commercial fortunes.
+  - year: 1926
+    text: American <em>Vogue</em> publishes the little black dress, calling it "Chanel's Ford" for its inevitability and universality.
+  - year: 1932
+    text: <em>Bijoux de Diamants</em>, Chanel's only diamond fine-jewellery collection, presented in her own apartment.
+  - year: 1939–1954
+    text: Couture house shuttered during the Second World War; Coco Chanel returns to design at age 71 with her February 1954 collection.
+  - year: 1955
+    text: Introduction of the quilted <em>2.55</em> shoulder bag, named for the month and year of its release.
+  - year: 1971
+    text: Coco Chanel dies on 10 January at the Hotel Ritz, Paris.
+  - year: 1983
+    text: <strong>Karl Lagerfeld</strong> joins as creative director, beginning a thirty-six-year tenure that modernises the codes without breaking them.
+  - year: 2002
+    text: Acquisition of artisan ateliers under the <em>Paraffection</em> umbrella (Lesage, Massaro, Lemarié, Goossens, Maison Michel, and others), securing the Métiers d'Art.
+  - year: 2019
+    text: Lagerfeld dies in February; <strong>Virginie Viard</strong>, his long-time studio director, succeeds him.
+  - year: 2024
+    text: Viard departs after five years.
+  - year: 2025
+    text: <strong>Matthieu Blazy</strong>, formerly of Bottega Veneta, is named creative director of fashion.
+
+creativeDirector: |
+  Creative director of fashion: <strong>Matthieu Blazy</strong>,
+  since 2025. Chanel remains privately held by the
+  <strong>Wertheimer family</strong> — brothers Alain and
+  Gérard Wertheimer, grandsons of Coco Chanel's original
+  business partner Pierre Wertheimer.
+
+volatileNote: Volatile fields — verify creative-director and ownership lines against fresh sources before publishing.
+
+productLines:
+  - '<strong>Haute couture</strong> — presented in Paris twice yearly'
+  - "<strong>Ready-to-wear</strong> — women's and, more recently, expanded accessories-led men's"
+  - "<strong>Métiers d'Art</strong> — annual pre-fall show celebrating the in-house ateliers"
+  - '<strong>Handbags & small leather goods</strong>'
+  - '<strong>Fragrance & beauty</strong> — led by N°5, Coco, Chance, Bleu de Chanel; cosmetics and skincare'
+  - '<strong>Fine jewellery & watches</strong> — Place Vendôme high-jewellery and the J12 watch line'
+  - '<strong>Eyewear, footwear, and accessories</strong>'
+
+designDna: |
+  Tweed, jersey, and a black-and-white palette punctuated by gilt and
+  pearl. The codes are reductive and architectural — the
+  collarless cardigan jacket, the unembellished little black dress,
+  the camellia, the interlocking-C monogram, costume pearls worn
+  with day clothes, and the two-tone slingback — a vocabulary
+  built to liberate the body rather than constrain it.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Chanel Chanel.
+
+signaturePieces:
+  - name: Chanel N°5
+    year: 1921
+    figure:
+      src: ../../assets/houses/chanel/chanel-no5-bottle.jpg
+      alt: Chanel N°5 flacon
+      caption: 'The Chanel N°5 flacon · Photo: <a href="https://commons.wikimedia.org/wiki/File:CHANEL_No5_parfum.jpg" rel="noopener">Arz / Wikimedia Commons</a> · Public domain'
+    text: |
+      The aldehyde-led fragrance composed by Ernest Beaux, presented
+      in a stark rectangular flacon. The first scent to carry a
+      couturier's name and, a century on, still one of the
+      best-selling perfumes in the world.
+
+  - name: The cardigan jacket
+    year: 1925–
+    text: |
+      Collarless, braid-trimmed, weighted with a fine chain at the
+      hem so it falls cleanly — the tweed silhouette that
+      became shorthand for Parisian dressing.
+
+  - name: The little black dress
+    year: 1926
+    text: |
+      A simple long-sleeved sheath in black crêpe de Chine
+      photographed for American <em>Vogue</em>, which compared its
+      anonymity and ubiquity to Henry Ford's Model T.
+
+  - name: The 2.55 bag
+    year: 1955
+    text: |
+      A quilted leather shoulder bag with a chain strap that freed
+      the wearer's hands — named for February 1955. The
+      interlocking-C clasp came later, with Lagerfeld.
+
+  - name: The two-tone slingback
+    year: 1957
+    text: |
+      Beige body, black toe cap. The beige lengthened the leg, the
+      black cap shortened the appearance of the foot —
+      Coco's rebuke to the all-black court shoe.
+
+  - name: Costume jewellery
+    text: |
+      Coco's most durable contribution outside dressmaking: she
+      popularised non-precious <em>bijoux de fantaisie</em> —
+      glass, paste, gilt metal, simulated pearls — and brought
+      it into high fashion, establishing its aesthetic value
+      independent of intrinsic material worth. She layered ropes of
+      fake pearls with tweed in daylight and, just as deliberately,
+      mixed costume pieces with real stones so the wearer (and the
+      onlooker) could not always tell which was which. The 1932
+      <em>Bijoux de Diamants</em> collection was the calculated
+      exception that proved the rule.
+
+  - name: Métiers d'Art shows
+    year: 2002–
+    text: |
+      The annual pre-fall production conceived by Lagerfeld to
+      showcase the in-house ateliers acquired under
+      <em>Paraffection</em> — staged in cities (Edinburgh,
+      Dallas, Salzburg, Dakar, Manchester) that frame the codes
+      against new contexts.
+
+  - name: The J12 watch
+    year: 2000
+    text: |
+      A high-tech ceramic sports watch in matte black or white
+      — a rare instance of the house extending its design
+      vocabulary into hard goods on its own terms.
+
+marketPositioning: |
+  Ultra-luxury. Chanel commands the highest tier of pricing in
+  ready-to-wear and leather goods, anchored by haute couture
+  credibility and a beauty-and-fragrance business of global scale.
+
+businessScale: |
+  One of the largest privately-held luxury houses in the world, with
+  annual revenues reported on the order of nineteen to twenty
+  billion US dollars in recent years. Figures move; verify against
+  the latest published accounts before citing.
+
+culturalImpact: |
+  Coco Chanel reshaped twentieth-century womenswear by replacing
+  corsetry with jersey and tailoring borrowed from menswear; the
+  house's codes — tweed, pearls, the little black dress
+  — are among the most quoted in fashion. Under Lagerfeld,
+  Chanel became a benchmark for staged spectacle, with shows set in
+  supermarkets, casinos, rocket launches, and recreated street
+  scenes inside the Grand Palais. Recent collaborations span
+  cinema, ballet (Pharrell Williams's pieces with Paris Opéra
+  Ballet costumes), and the visual arts through the
+  Métiers d'Art programme.

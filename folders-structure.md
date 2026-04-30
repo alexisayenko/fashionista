@@ -17,19 +17,32 @@ Folders sort first (alphabetically), then files — VS Code default.
 
 ```text
 fashionista/
-├── assets/                          # static media (photographs, logos, served as-is)
-├── houses/                          # per-house pages (armani.html, chanel.html, …)
+├── public/                          # static assets served verbatim (copied to dist/ at build)
+│   ├── assets/                      # logos, wordmarks, legacy photographs (no Astro processing)
+│   ├── houses/                      # legacy hand-authored house pages (e.g. armani.html)
+│   ├── index.html                   # site entry point (legacy hand-authored)
+│   └── styles.css                   # all styling
 ├── specs/                           # internal specifications and source notes; not deployed
 │   ├── chatgpt-sessions/            # research conversations / source notes
 │   ├── compliances.md               # rights, attribution, ethics
 │   ├── technological-stack.md       # what we use and why
 │   └── ui-ux.md                     # UX/UI conventions
+├── src/                             # Astro source: pages, layouts, content data, photographs
+│   ├── assets/houses/<slug>/        # per-house photographs, optimized through Astro's <Image>
+│   ├── content/houses/              # one .yaml per house — the data backing each page
+│   ├── layouts/                     # shared templates (HouseLayout.astro)
+│   ├── pages/                       # file-based routing (houses/[slug].astro)
+│   └── content.config.ts            # Zod schema + YAML loader for content collections
+├── astro.config.mjs                 # Astro build config
 ├── CLAUDE.md                        # agent-specific guidance
 ├── folders-structure.md             # this document
-├── index.html                       # site entry point
-├── styles.css                       # all styling
-└── token_stats.md                   # Claude Code usage snapshots
+├── package-lock.json                # npm pinned versions
+├── package.json                     # npm dependencies and scripts
+├── token_stats.md                   # Claude Code usage snapshots
+└── tsconfig.json                    # TypeScript config
 ```
+
+Build output (`dist/`), `node_modules/`, and `.astro/` are gitignored.
 
 ## Departures from the template
 
@@ -41,7 +54,7 @@ intentionally absent:
 | --- | --- |
 | `<brand>-<product>-<surface>/` folder | The repo root *is* the only surface — no need to nest a single web tree inside its own folder |
 | Categorised `specs/<brand,business,milestones,products>/` subtree | Internal specs are few enough to live as flat files in `specs/` (`compliances.md`, `technological-stack.md`, `ui-ux.md`); promote to category subfolders only if one outgrows a single file |
-| `scripts/` | No build step — files served as-is (see [technological-stack.md](specs/technological-stack.md)) |
+| `scripts/` | Build commands live in `package.json` scripts (`npm run build`, `npm run dev`); no separate folder needed yet |
 | `<shared-infra>/` | No backend, no shared infrastructure |
 | `archive/` | Nothing has been superseded yet — create on first use |
 
@@ -49,10 +62,15 @@ intentionally absent:
 
 | Concern | Home |
 | --- | --- |
-| Site entry point | [index.html](index.html) |
-| Per-house pages | `houses/<house>.html` |
-| Project-wide styling | [styles.css](styles.css) |
-| Static media (photos, illustrations) | [assets/](assets/) |
+| Site entry point (legacy) | [public/index.html](public/index.html) |
+| Per-house pages (legacy hand-authored) | `public/houses/<house>.html` |
+| Per-house pages (Astro-rendered) | `src/pages/houses/[slug].astro` (one route, all houses) |
+| Per-house content data | `src/content/houses/<slug>.yaml` |
+| Project-wide styling | [public/styles.css](public/styles.css) |
+| Logos and wordmarks (no processing) | [public/assets/](public/assets/) |
+| Photographs (Astro-optimized) | `src/assets/houses/<slug>/` |
+| Layout shared by all houses | [src/layouts/HouseLayout.astro](src/layouts/HouseLayout.astro) |
+| Content schema and YAML loader | [src/content.config.ts](src/content.config.ts) |
 | UX / UI conventions | [ui-ux.md](specs/ui-ux.md) |
 | Technology choices | [technological-stack.md](specs/technological-stack.md) |
 | Compliance / rights / attribution | [compliances.md](specs/compliances.md) |
