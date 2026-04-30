@@ -124,6 +124,12 @@ spaced-caps "CHANEL", the "ARMANI" treatment).
   appearance, e.g.: *"CHANEL and the interlocking-Cs device are
   trademarks of Chanel SAS, used here for identification under
   nominative fair use."*
+- **In editorial indexes**, render logos small (~40–60 px), monochrome
+  or low-contrast, and integrate them with each entry's metadata
+  (name, location, dates, link to the article). Bare grids of large
+  color logos read as an "affiliations wall" regardless of intent;
+  small monochrome logos inside richly-captioned cards read as an
+  encyclopedic index, like Wikipedia's category pages.
 
 #### Can
 - Include a small logo or wordmark image on **that brand's own
@@ -131,11 +137,20 @@ spaced-caps "CHANEL", the "ARMANI" treatment).
   reader could think the brand endorses Fashionista.
 - Use both the figurative logo and the wordmark side-by-side on the
   brand's page when they're discussed as distinct identity assets.
+- On an **editorial index or category page**, include each entry's
+  logo or wordmark inside its own card alongside the article's
+  metadata (name, location, ownership, dates, link to the article).
+  The logo functions as identification of the article's subject, not
+  as a portfolio of affiliations — same nominative-fair-use logic as
+  Wikipedia's brand-article infoboxes and category indexes.
 
 #### Cannot
 - Use logos or wordmarks in **site navigation, headers, footers,
-  favicon, social-share preview cards, or a "brands we cover" wall** —
-  any of these reads as affiliation rather than editorial reference.
+  favicon, or social-share preview cards** — any of these reads as
+  affiliation rather than editorial reference.
+- Build a **bare grid of logos** with no editorial content per card
+  (no name, no metadata, no link to an article about the subject) —
+  bare = "affiliations wall"; richly-captioned editorial card = index.
 - **Install brand wordmark fonts** (Couture, Didot proprietary cuts,
   etc.) and re-render brand names in them — the asset is the wordmark
   *image*, not a typography we adopt.
