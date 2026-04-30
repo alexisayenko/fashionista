@@ -132,31 +132,33 @@ header.house-hero
 ├── div.hero-text
 │   ├── p.eyebrow             "Maison"                              (accent, tracked)
 │   ├── h1                    Brand name                            (serif display)
-│   └── p.house-sub           "City · Country"                      (accent, tracked)
+│   ├── p.house-sub           Flag · "City · Country · Est. YYYY"   (accent, tracked; flag via flag-icons CDN)
+│   └── p.hero-founding       Founding paragraph (year, founder(s)) (regular body text; bold names)
 └── figure.hero-portrait      single photo
     └── img + figcaption
         OR
     figure.hero-slider        multi-photo slider — see component below
 ```
 
+The **founding paragraph lives in the hero**, not in the article body — it's an establishing fact, not an editorial section. As a result, no separate "Founding" section appears below the hero.
+
 The hero is a flex row on desktop and stacks on viewports under 640 px. See [Hero photography](#hero-photography) for frame sizing and aspect-ratio rules.
 
 ### Content sections (fixed order)
 
-Each maison's article body should carry these `<section>` blocks in this order. Sections 1–5 and 7–10 are required; section 6 is **optional** and only appears on houses with a strongly codified visual identity worth showing as reference. The ordering exists so readers can scan houses against one another without hunting for fields.
+Each maison's article body should carry these `<section>` blocks in this order. Sections 2–9 are required; section 1 is **optional** and only appears on houses with a strongly codified visual identity worth showing as reference. (Founding lives in the hero — see above.) The ordering exists so readers can scan houses against one another without hunting for fields, and so the visual identity (when present) opens the article body as the establishing reference block — the museum-catalog "object → identification → discussion" pattern.
 
 | # | Section heading | Typical markup | Notes |
 | --- | --- | --- | --- |
-| 1 | **Founding** | `<p>` | Year, founder(s); bold names with `<strong>`. |
+| 1 | **Visual identity** *(optional, no visible h2)* | `<section class="visual-identity">` containing `<div class="identity-marks">` (logo + wordmark figures) and `<ul class="palette-swatches">` and `<p class="trademark-notice">` | Logo + wordmark images and the house's palette as reference assets. The section opens the article body without a visible heading — the assets self-identify. (No `<h2>` in markup.) **The palette is about the brand's aesthetic — the colors that define the house's clothing, accessories, and design DNA — not the logo's own colors.** Examples: Chanel = black + white + beige + gold (the LBD, the cardigan trim, the 2.55's metalwork); Armani = greige + black + ivory + midnight navy (the unstructured-tailoring palette he invented). Source logo files from Wikimedia Commons / Wikipedia (PD-textlogo / PD-shape) and self-host in `assets/`. Always close with a `<p class="trademark-notice">` crediting source files and stating nominative-fair-use intent. See [compliances.md §2b–2c](compliances.md). Keep marks at the CSS-imposed `max-height: 80px`; do not stylize, recolor, or distort. |
 | 2 | **Key milestones** | `<ul class="milestones">` | Each `<li>` opens with `<strong>Year or era.</strong>` followed by the event. |
 | 3 | **Creative director & ownership** | `<p>` + optional `<p class="note">` | Italic `.note` for "to be updated" / successional uncertainty. Split Men / Women lines when the house has separate creative directors, matching the index-grid convention. |
 | 4 | **Main product lines** | `<ul class="plain-list">` | Bulletless list; each `<li>` starts with `<strong>Line</strong> — description`. |
 | 5 | **Design DNA** | `<p>` | One tight paragraph on silhouette, palette, philosophy. |
-| 6 | **Visual identity** *(optional)* | `<section class="visual-identity">` containing `<div class="identity-marks">` (logo + wordmark figures) and `<ul class="palette-swatches">` and `<p class="trademark-notice">` | Logo + wordmark images and a small palette of brand colors as reference assets. Source logo files from Wikimedia Commons / Wikipedia (PD-textlogo / PD-shape) and self-host in `assets/`. Always close with a `<p class="trademark-notice">` crediting source files and stating nominative-fair-use intent. See [compliances.md §2b–2c](compliances.md). Keep marks at the CSS-imposed `max-height: 80px`; do not stylize, recolor, or distort. |
-| 7 | **Beyond the timeline** | `<p class="section-intro">` + `<ul class="signature-pieces">` | Iconic pieces, motifs, and conventions that defined the house — chosen for cultural weight, not chronology. Italic lead reframing the section. Each piece = `<strong>` name, optional `<span class="piece-year">` (year or era; omit for timeless contributions), `<p>` body of one short paragraph. |
-| 8 | **Market positioning** | `<p>` | Segment (accessible / premium / ultra-luxury) and breadth. |
-| 9 | **Business scale** | `<p>` | Revenue order of magnitude; note the valuation date if cited. |
-| 10 | **Cultural impact & collaborations** | `<p>` | Influence on dress codes, notable collaborations across film, sport, architecture. |
+| 6 | **Beyond the timeline** | `<p class="section-intro">` + `<ul class="signature-pieces">` | Iconic pieces, motifs, and conventions that defined the house — chosen for cultural weight, not chronology. Italic lead reframing the section. Each piece = `<strong>` name, optional `<span class="piece-year">` (year or era; omit for timeless contributions), `<p>` body of one short paragraph. |
+| 7 | **Market positioning** | `<p>` | Segment (accessible / premium / ultra-luxury) and breadth. |
+| 8 | **Business scale** | `<p>` | Revenue order of magnitude; note the valuation date if cited. |
+| 9 | **Cultural impact & collaborations** | `<p>` | Influence on dress codes, notable collaborations across film, sport, architecture. |
 
 Every `<section>` uses an `<h2>` (serif, 1.5 rem, rule underline) via `.house-page article h2`. Leave 2.75 rem between sections — handled automatically by `.house-page article section`.
 
@@ -170,7 +172,7 @@ Every `<section>` uses an `<h2>` (serif, 1.5 rem, rule underline) via `.house-pa
 | `.section-intro` | Italic `#555` lead paragraph inside a section | [styles.css](styles.css) |
 | `.signature-pieces` + `.piece-year` | Ruled list of iconic pieces with a tracked year tag | [styles.css](styles.css) |
 | `.visual-identity` + `.identity-marks` + `.identity-mark` | Wrapper / row / figure for the optional logo + wordmark display in the Visual identity section | [styles.css](styles.css) |
-| `.palette-swatches` + `.swatch` | Inline list of color swatches with hex labels for brand palette display. Each `.swatch` carries an inline `style="background:#RRGGBB"` (per-swatch color is content, not styling, so it stays inline rather than spawning a CSS class per house) | [styles.css](styles.css) |
+| `.palette-swatches` + `.swatch` | Inline list of color swatches with hex labels for the house's *aesthetic* palette (clothing, accessories, design DNA — see §2 in the section table for the rule on what colors belong here, not the logo's colors). Each `.swatch` carries an inline `style="background:#RRGGBB"` (per-swatch color is content, not styling, so it stays inline rather than spawning a CSS class per house) | [styles.css](styles.css) |
 | `.trademark-notice` | Small italic notice citing logo source + license + nominative-fair-use intent | [styles.css](styles.css) |
 | `.piece-figure` + `.piece-figure-trigger` + `.piece-credit` | Optional figure inside a `.signature-pieces` `<li>` — small thumbnail (~220 px) wrapped in a `<button>` that opens an `.image-dialog` lightbox; `figcaption` carries the `.piece-credit` line with photographer + license link | [styles.css](styles.css) |
 | `.image-dialog` + `.image-dialog-close` + `.image-dialog-caption` | Native `<dialog>` lightbox for full-size view of a `.piece-figure` image, with close button and credit caption. Wired up by an IIFE at the bottom of the page that calls `dialog.showModal()` and closes on backdrop click or close-button click | [styles.css](styles.css) |

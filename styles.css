@@ -491,8 +491,13 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 .trademark-notice a:hover { color: var(--accent); }
 
 .piece-figure {
-  margin: 1rem 0 0;
-  max-width: 220px;
+  margin: 0.4rem 1.25rem 0.6rem 0;
+  max-width: 110px;
+  float: left;
+}
+
+.signature-pieces li {
+  display: flow-root;
 }
 
 .piece-figure-trigger {
@@ -520,11 +525,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 }
 
 .piece-figure figcaption {
-  font-size: 0.78rem;
-  color: #777;
-  margin-top: 0.45rem;
-  font-style: italic;
-  line-height: 1.4;
+  display: none;
 }
 
 .piece-credit {
@@ -796,10 +797,8 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 body.dev-boxed .house-page article section {
   border: 1px solid var(--accent);
   border-radius: 8px;
-  padding: 1.4rem 1.5rem 1rem;
-  margin-top: 3.25rem;
-  margin-bottom: 0;
-  position: relative;
+  padding: 1.25rem 1.75rem;
+  margin: 3.25rem 0 0;
 }
 
 body.dev-boxed .house-page article > section:first-of-type {
@@ -807,16 +806,56 @@ body.dev-boxed .house-page article > section:first-of-type {
 }
 
 body.dev-boxed .house-page article section h2 {
-  display: inline-block;
-  background: var(--paper);
-  padding: 0 0.7rem;
-  margin: -2.6rem 0 1.25rem;
+  display: block;
+  background: transparent;
+  padding: 0;
+  margin: -3rem 0 0;
   border-bottom: none;
-  position: relative;
 }
 
 body.dev-stripe .house-page article section {
   border-left: 4px dashed var(--accent);
   padding-left: 1.5rem;
   margin-bottom: 2.75rem;
+}
+
+body.dev-tint .house-page article section {
+  margin: 6.5rem 0 0;
+  position: relative;
+}
+
+body.dev-tint .house-page article > section:first-of-type {
+  margin-top: 1.5rem;
+}
+
+body.dev-tint .house-page article section > h2 {
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background: rgba(17, 17, 17, 0.04);
+  padding: 0.25rem 1.25rem;
+  border-bottom: none;
+  border-radius: 4px;
+  display: block;
+}
+
+body.dev-tint .house-page article section.visual-identity {
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 1.25rem 1.75rem;
+  margin-top: 1.5rem;
+}
+
+body.dev-tint .house-page article section.visual-identity > h2 {
+  display: none;
+}
+
+.hero-founding {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.6;
+  margin: 1rem 0 0;
+  max-width: 32rem;
 }

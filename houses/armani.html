@@ -4,9 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Armani &mdash; Fashionista</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7/css/flag-icons.min.css" />
     <link rel="stylesheet" href="../styles.css" />
   </head>
-  <body class="dev-stripe">
+  <body class="dev-tint">
     <header class="site-header">
       <div class="brand"><a href="../index.html">Fashionista</a></div>
       <nav>
@@ -21,7 +22,12 @@
           <div class="hero-text">
             <p class="eyebrow">Maison</p>
             <h1>Armani</h1>
-            <p class="house-sub">Milan &middot; Italy</p>
+            <p class="house-sub"><span class="fi fi-it" aria-label="Italy" title="Italy"></span> Milan &middot; Italy &middot; Est. 1975</p>
+            <p class="hero-founding">
+              Founded in 1975 in Milan by
+              <strong>Giorgio Armani</strong> (1934&ndash;2025) and his partner
+              <strong>Sergio Galeotti</strong>.
+            </p>
           </div>
           <figure class="hero-slider" data-index="0" aria-roledescription="carousel" aria-label="Giorgio Armani through the years">
             <div class="slider-viewport">
@@ -84,12 +90,29 @@
           </figure>
         </header>
 
-        <section>
-          <h2>Founding</h2>
-          <p>
-            Founded in 1975 in Milan by
-            <strong>Giorgio Armani</strong> (1934&ndash;2025) and his partner
-            <strong>Sergio Galeotti</strong>.
+        <section class="visual-identity">
+          <div class="identity-marks">
+            <figure class="identity-mark">
+              <img src="../assets/armani-logo.svg" alt="Giorgio Armani wordmark — the spaced-caps treatment of the designer's name" />
+              <figcaption>Wordmark</figcaption>
+            </figure>
+          </div>
+          <ul class="palette-swatches">
+            <li><span class="swatch" style="background:#B8ADA0"></span><strong>Greige</strong> <code>#B8ADA0</code></li>
+            <li><span class="swatch" style="background:#000000"></span><strong>Black</strong> <code>#000000</code></li>
+            <li><span class="swatch" style="background:#F4EADE"></span><strong>Ivory</strong> <code>#F4EADE</code></li>
+            <li><span class="swatch" style="background:#1C2331"></span><strong>Midnight navy</strong> <code>#1C2331</code></li>
+          </ul>
+          <p class="trademark-notice">
+            GIORGIO ARMANI is a trademark of Giorgio Armani S.p.A., used here
+            for identification under nominative fair use. Source file via
+            Wikimedia &mdash;
+            <a href="https://commons.wikimedia.org/wiki/File:Giorgio_Armani.svg">wordmark</a>
+            (PD-textlogo, Wikimedia Commons). The eagle emblem associated with
+            the Emporio Armani diffusion line is omitted here as it does not
+            represent the Giorgio Armani house mark. Hex values are
+            approximations for editorial illustration; no Pantone licensing
+            implied.
           </p>
         </section>
 
