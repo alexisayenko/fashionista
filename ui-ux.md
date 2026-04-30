@@ -170,8 +170,10 @@ Every `<section>` uses an `<h2>` (serif, 1.5 rem, rule underline) via `.house-pa
 | `.section-intro` | Italic `#555` lead paragraph inside a section | [styles.css](styles.css) |
 | `.signature-pieces` + `.piece-year` | Ruled list of iconic pieces with a tracked year tag | [styles.css](styles.css) |
 | `.visual-identity` + `.identity-marks` + `.identity-mark` | Wrapper / row / figure for the optional logo + wordmark display in the Visual identity section | [styles.css](styles.css) |
-| `.palette-swatches` + `.swatch` | Inline list of color swatches with hex labels for brand palette display | [styles.css](styles.css) |
+| `.palette-swatches` + `.swatch` | Inline list of color swatches with hex labels for brand palette display. Each `.swatch` carries an inline `style="background:#RRGGBB"` (per-swatch color is content, not styling, so it stays inline rather than spawning a CSS class per house) | [styles.css](styles.css) |
 | `.trademark-notice` | Small italic notice citing logo source + license + nominative-fair-use intent | [styles.css](styles.css) |
+| `.piece-figure` + `.piece-figure-trigger` + `.piece-credit` | Optional figure inside a `.signature-pieces` `<li>` — small thumbnail (~220 px) wrapped in a `<button>` that opens an `.image-dialog` lightbox; `figcaption` carries the `.piece-credit` line with photographer + license link | [styles.css](styles.css) |
+| `.image-dialog` + `.image-dialog-close` + `.image-dialog-caption` | Native `<dialog>` lightbox for full-size view of a `.piece-figure` image, with close button and credit caption. Wired up by an IIFE at the bottom of the page that calls `dialog.showModal()` and closes on backdrop click or close-button click | [styles.css](styles.css) |
 | `.note` | Muted italic caveat (e.g. "to be updated") | [styles.css](styles.css) |
 | `.back-link` | Uppercase return link with top rule and padding | [styles.css](styles.css) |
 

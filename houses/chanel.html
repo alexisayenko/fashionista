@@ -252,6 +252,20 @@
                 couturier's name and, a century on, still one of the
                 best-selling perfumes in the world.
               </p>
+              <figure class="piece-figure">
+                <button type="button" class="piece-figure-trigger" aria-label="Enlarge photograph of the Chanel N&deg;5 flacon" data-target="dialog-chanel-no5">
+                  <img src="../assets/chanel-no5-bottle.jpg" alt="Chanel N&deg;5 flacon" loading="lazy" />
+                </button>
+                <figcaption>
+                  The Chanel N&deg;5 flacon
+                  <span class="piece-credit">
+                    Photo by
+                    <a href="https://commons.wikimedia.org/wiki/File:Chanel_N%C2%B05.jpg" rel="noopener">Lily</a>
+                    &middot;
+                    <a href="https://creativecommons.org/licenses/by/2.0/" rel="license noopener">CC&nbsp;BY&nbsp;2.0</a>
+                  </span>
+                </figcaption>
+              </figure>
             </li>
             <li>
               <strong>The cardigan jacket</strong>
@@ -370,6 +384,17 @@
       <p>&copy; 2026 Fashionista.</p>
     </footer>
 
+    <dialog id="dialog-chanel-no5" class="image-dialog" aria-label="Chanel N&deg;5 flacon, full size">
+      <button type="button" class="image-dialog-close" aria-label="Close">&times;</button>
+      <img src="../assets/chanel-no5-bottle.jpg" alt="Chanel N&deg;5 flacon, full size view" />
+      <p class="image-dialog-caption">
+        Chanel N&deg;5 flacon. Photo by
+        <a href="https://commons.wikimedia.org/wiki/File:Chanel_N%C2%B05.jpg" rel="noopener">Lily</a>
+        via Wikimedia Commons,
+        <a href="https://creativecommons.org/licenses/by/2.0/" rel="license noopener">CC&nbsp;BY&nbsp;2.0</a>.
+      </p>
+    </dialog>
+
     <script>
       (function () {
         const slider = document.querySelector('.hero-slider');
@@ -401,6 +426,21 @@
           else if (e.key === 'ArrowRight') { go(index + 1); e.preventDefault(); }
         });
         slider.tabIndex = 0;
+      })();
+
+      (function () {
+        const triggers = document.querySelectorAll('.piece-figure-trigger');
+        triggers.forEach((trigger) => {
+          const targetId = trigger.dataset.target;
+          const dialog = document.getElementById(targetId);
+          if (!dialog || typeof dialog.showModal !== 'function') return;
+          trigger.addEventListener('click', () => dialog.showModal());
+          const closeBtn = dialog.querySelector('.image-dialog-close');
+          if (closeBtn) closeBtn.addEventListener('click', () => dialog.close());
+          dialog.addEventListener('click', (e) => {
+            if (e.target === dialog) dialog.close();
+          });
+        });
       })();
     </script>
   </body>

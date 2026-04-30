@@ -490,6 +490,114 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 
 .trademark-notice a:hover { color: var(--accent); }
 
+.piece-figure {
+  margin: 1rem 0 0;
+  max-width: 220px;
+}
+
+.piece-figure-trigger {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: zoom-in;
+  display: block;
+  width: 100%;
+}
+
+.piece-figure-trigger img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  transition: opacity 0.2s ease;
+}
+
+.piece-figure-trigger:hover img { opacity: 0.85; }
+
+.piece-figure-trigger:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.piece-figure figcaption {
+  font-size: 0.78rem;
+  color: #777;
+  margin-top: 0.45rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.piece-credit {
+  display: block;
+  font-size: 0.72rem;
+  color: #999;
+  margin-top: 0.15rem;
+  font-style: normal;
+}
+
+.piece-credit a {
+  color: #999;
+  text-decoration: underline;
+}
+
+.piece-credit a:hover { color: var(--accent); }
+
+.image-dialog {
+  border: none;
+  padding: 1.25rem;
+  background: rgba(0, 0, 0, 0.94);
+  color: #fff;
+  max-width: 90vw;
+  max-height: 90vh;
+  position: relative;
+}
+
+.image-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.78);
+}
+
+.image-dialog img {
+  display: block;
+  max-width: 100%;
+  max-height: 78vh;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.image-dialog-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  width: 2.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.image-dialog-close:hover { background: rgba(255, 255, 255, 0.2); }
+
+.image-dialog-caption {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85rem;
+  text-align: center;
+  margin: 0.85rem 0 0;
+  line-height: 1.5;
+}
+
+.image-dialog-caption a {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: underline;
+}
+
 .back-link {
   margin-top: 3rem;
   padding-top: 2rem;
