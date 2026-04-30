@@ -7,19 +7,38 @@ import path from 'node:path';
 function yamlLoader(opts: { dir: string }): Loader {
   return {
     name: 'yaml-loader',
-    async load({ store, parseData, generateDigest }) {
+    async load({ store, parseData, generateDigest, watcher, logger }) {
       const absDir = path.resolve(opts.dir);
       const files = await fs.readdir(absDir);
       for (const filename of files) {
         if (!/\.ya?ml$/.test(filename)) continue;
         const id = filename.replace(/\.ya?ml$/, '');
         const filePath = path.join(opts.dir, filename);
-        const text = await fs.readFile(path.join(absDir, filename), 'utf-8');
+        const absPath = path.join(absDir, filename);
+        const text = await fs.readFile(absPath, 'utf-8');
         const raw = yaml.load(text) as Record<string, unknown>;
         const data = await parseData({ id, data: raw, filePath });
         const digest = generateDigest(data);
         store.set({ id, data, digest, filePath });
+        watcher?.add(absPath);
       }
+      watcher?.on('change', async (changedPath) => {
+        if (!/\.ya?ml$/.test(changedPath)) return;
+        const filename = path.basename(changedPath);
+        if (!filename) return;
+        try {
+          const id = filename.replace(/\.ya?ml$/, '');
+          const filePath = path.join(opts.dir, filename);
+          const text = await fs.readFile(changedPath, 'utf-8');
+          const raw = yaml.load(text) as Record<string, unknown>;
+          const data = await parseData({ id, data: raw, filePath });
+          const digest = generateDigest(data);
+          store.set({ id, data, digest, filePath });
+          logger.info(`Reloaded ${filename}`);
+        } catch (err) {
+          logger.error(`Failed to reload ${filename}: ${err}`);
+        }
+      });
     },
   };
 }
