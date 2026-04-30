@@ -23,8 +23,78 @@
             <h1>Chanel</h1>
             <p class="house-sub">Paris &middot; France</p>
           </div>
-          <!-- TODO: add a Wikimedia-licensed Coco Chanel or 31 rue Cambon portrait
-               at assets/chanel.jpg, then re-introduce the hero-portrait figure. -->
+          <figure class="hero-slider" data-index="0" aria-roledescription="carousel" aria-label="Coco Chanel through the years">
+            <div class="slider-viewport">
+              <div class="slider-track">
+                <div class="slide" aria-hidden="false">
+                  <img src="../assets/chanel-coco-1928-mariniere.jpg" alt="Coco Chanel in a striped marinière, 1928." />
+                </div>
+                <div class="slide" aria-hidden="true">
+                  <img src="../assets/chanel-coco-1931-la.jpg" alt="Coco Chanel during her Hollywood / Goldwyn-contract trip, Los Angeles, 1931." />
+                </div>
+                <div class="slide" aria-hidden="true">
+                  <img src="../assets/chanel-coco-1925-aintree.jpg" alt="Coco Chanel with Hugh Grosvenor, Duke of Westminster, at Aintree racecourse, 1925." />
+                </div>
+                <div class="slide" aria-hidden="true">
+                  <img src="../assets/chanel-coco-1920.jpg" alt="Bust portrait of Coco Chanel, c. 1920." />
+                </div>
+              </div>
+              <button type="button" class="slider-arrow prev" aria-label="Previous photo">
+                <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false">
+                  <path d="M15 4 L7 12 L15 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+              <button type="button" class="slider-arrow next" aria-label="Next photo">
+                <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false">
+                  <path d="M9 4 L17 12 L9 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="slider-captions">
+              <figcaption class="slide-caption is-active">
+                Coco Chanel in marinière, 1928
+                <span class="credit">
+                  Photographer unknown &middot;
+                  <a href="https://commons.wikimedia.org/wiki/File:Gabrielle_Chanel_en_marini%C3%A8re.jpg" rel="noopener">Wikimedia Commons</a>
+                  &middot;
+                  <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>
+                </span>
+              </figcaption>
+              <figcaption class="slide-caption">
+                Coco Chanel, Los Angeles, 1931
+                <span class="credit">
+                  Photo by
+                  <a href="https://commons.wikimedia.org/wiki/File:Coco_Chanel_in_Los_Angeles,_1931.jpg" rel="noopener">Los Angeles Times / UCLA Library</a>
+                  &middot;
+                  <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC&nbsp;BY&nbsp;4.0</a>
+                </span>
+              </figcaption>
+              <figcaption class="slide-caption">
+                Coco Chanel with the Duke of Westminster, Aintree, 1925
+                <span class="credit">
+                  Radio Times Hulton Picture Library &middot;
+                  <a href="https://commons.wikimedia.org/wiki/File:Hugh_Grosvenor,_Duke_of_Westminster_und_Coco_Chanel.jpg" rel="noopener">Wikimedia Commons</a>
+                  &middot;
+                  <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>
+                </span>
+              </figcaption>
+              <figcaption class="slide-caption">
+                Coco Chanel, c. 1920
+                <span class="credit">
+                  Photographer unknown &middot;
+                  <a href="https://commons.wikimedia.org/wiki/File:Coco_Chanel,_ca_1920.jpg" rel="noopener">Wikimedia Commons</a>
+                  &middot;
+                  <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>
+                </span>
+              </figcaption>
+            </div>
+            <div class="slider-dots" role="tablist" aria-label="Select photo">
+              <button type="button" class="slider-dot is-active" data-slide="0" aria-label="Photo 1 of 4 (marinière, 1928)"></button>
+              <button type="button" class="slider-dot" data-slide="1" aria-label="Photo 2 of 4 (Los Angeles, 1931)"></button>
+              <button type="button" class="slider-dot" data-slide="2" aria-label="Photo 3 of 4 (Aintree, 1925)"></button>
+              <button type="button" class="slider-dot" data-slide="3" aria-label="Photo 4 of 4 (c. 1920)"></button>
+            </div>
+          </figure>
         </header>
 
         <section>
@@ -299,5 +369,39 @@
     <footer class="site-footer">
       <p>&copy; 2026 Fashionista.</p>
     </footer>
+
+    <script>
+      (function () {
+        const slider = document.querySelector('.hero-slider');
+        if (!slider) return;
+        const track = slider.querySelector('.slider-track');
+        const slides = track.querySelectorAll('.slide');
+        const captions = slider.querySelectorAll('.slide-caption');
+        const dots = slider.querySelectorAll('.slider-dot');
+        const prev = slider.querySelector('.slider-arrow.prev');
+        const next = slider.querySelector('.slider-arrow.next');
+        const total = slides.length;
+        let index = 0;
+
+        function go(i) {
+          index = (i + total) % total;
+          track.style.transform = 'translateX(-' + (index * 100) + '%)';
+          slides.forEach((s, k) => s.setAttribute('aria-hidden', k === index ? 'false' : 'true'));
+          captions.forEach((c, k) => c.classList.toggle('is-active', k === index));
+          dots.forEach((d, k) => d.classList.toggle('is-active', k === index));
+          slider.setAttribute('data-index', String(index));
+        }
+
+        prev.addEventListener('click', () => go(index - 1));
+        next.addEventListener('click', () => go(index + 1));
+        dots.forEach((d, k) => d.addEventListener('click', () => go(k)));
+
+        slider.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowLeft') { go(index - 1); e.preventDefault(); }
+          else if (e.key === 'ArrowRight') { go(index + 1); e.preventDefault(); }
+        });
+        slider.tabIndex = 0;
+      })();
+    </script>
   </body>
 </html>
