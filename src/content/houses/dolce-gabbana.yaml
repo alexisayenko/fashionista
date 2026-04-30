@@ -1,0 +1,175 @@
+name: Dolce & Gabbana
+city: Milan
+country: Italy
+countryCode: it
+founded: 1985
+
+founding: |
+  Founded in 1985 in Milan by <strong>Domenico Dolce</strong>
+  (b. 1958, Polizzi Generosa, Sicily) and <strong>Stefano Gabbana</strong>
+  (b. 1962, Milan), who met working as assistants in a Milanese
+  atelier. The pair presented their first runway show as part of
+  the <em>Nuovi Talenti</em> group at Milan Fashion Week in
+  October 1985 and showed their first solo women's collection the
+  following year.
+
+identityMarks:
+  - src: /assets/dolce-gabbana-logo.svg
+    alt: Dolce & Gabbana wordmark — the spaced-caps treatment of the two founders' surnames joined by an ampersand
+    caption: Wordmark
+
+palette:
+  - { name: Jet black,       hex: '#0A0A0A' }
+  - { name: Burgundy,        hex: '#5C1A1B' }
+  - { name: Antique gold,    hex: '#B8860B' }
+  - { name: Leopard tawny,   hex: '#8C5A2B' }
+
+trademarkNotice: |
+  DOLCE & GABBANA is a trademark of Dolce & Gabbana S.r.l., used
+  here for identification under nominative fair use. Source file via
+  Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Dolce_%26_Gabbana_logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). Hex values are approximations
+  for editorial illustration; no Pantone licensing implied.
+
+milestones:
+  - year: 1985
+    text: Debut as part of the <em>Nuovi Talenti</em> showcase at Milan Fashion Week — the founding moment of the house.
+  - year: 1986
+    text: First solo women's collection, <em>Real Women</em>, presented in Milan.
+  - year: 1989
+    text: Launch of the women's lingerie line, foregrounding the corsetry that would become a signature.
+  - year: 1990
+    text: First menswear collection, extending the Sicilian tailoring vocabulary to men's ready-to-wear.
+  - year: 1992
+    text: Launch of the debut women's fragrance, <em>Dolce & Gabbana Pour Femme</em>.
+  - year: 1993
+    text: <strong>Madonna</strong> commissions about 1,500 pieces for her <em>Girlie Show</em> world tour, cementing the house's relationship with the singer and its presence on the international stage.
+  - year: 1994
+    text: Launch of the <em>D&G</em> diffusion line, aimed at a younger and more accessible audience.
+  - year: 2001
+    text: <em>Light Blue</em> women's fragrance is introduced; it becomes one of the best-selling perfumes of the 2000s.
+  - year: 2011
+    text: The D&G diffusion line is discontinued and folded back into the main Dolce & Gabbana label.
+  - year: 2012
+    text: Launch of <strong>Alta Moda</strong>, the house's haute couture programme for women, presented in evolving Italian locations (Taormina, Portofino, Venice, Syracuse).
+  - year: 2013
+    text: Launch of <strong>Alta Sartoria</strong>, the men's couture counterpart, foregrounding hand-tailored Italian menswear.
+  - year: 2018
+    text: A promotional campaign released ahead of a planned Shanghai show, together with private messages attributed to Stefano Gabbana, prompted widespread criticism in China; the show was cancelled and the brand's commercial position in the Chinese market was significantly affected.
+  - year: 2025
+    text: Domenico Dolce and Stefano Gabbana remain co-creative directors and joint owners — an unusually stable founder-led arrangement among large Italian luxury houses.
+
+creativeDirector: |
+  Co-creative directors and co-owners: <strong>Domenico Dolce</strong>
+  and <strong>Stefano Gabbana</strong>, since founding in 1985. The
+  two have remained jointly at the creative helm continuously,
+  through and beyond the end of their personal partnership in 2005
+  — an unusually stable creative-director situation by the
+  standards of contemporary luxury fashion.
+
+volatileNote: Volatile fields — verify ownership structure and any succession announcements against fresh sources before publishing.
+
+productLines:
+  - '<strong>Dolce & Gabbana</strong> — women''s and men''s ready-to-wear'
+  - '<strong>Alta Moda</strong> — women''s haute couture, presented in Italian locations since 2012'
+  - '<strong>Alta Sartoria</strong> — men''s hand-tailored couture, since 2013'
+  - '<strong>D&G</strong> — diffusion line launched in 1994 and discontinued in 2011'
+  - '<strong>Fragrance & beauty</strong> — including <em>Light Blue</em>, <em>The One</em>, and <em>Dolce</em>'
+  - '<strong>Eyewear, footwear, accessories, and leather goods</strong> — including the <em>Sicily</em> bag'
+  - '<strong>Children''s wear and home</strong>'
+
+designDna: |
+  Sicilian sensuality reframed as luxury: the black-lace
+  widow's dress, the corseted slip, leopard print used as a neutral,
+  baroque ornament drawn from Italian Catholic iconography —
+  saints, gilded altarpieces, votive imagery — and a tailoring
+  vocabulary rooted in mid-century Italian cinema. The codes are
+  ornamental and overtly feminine where Armani's are reductive,
+  and unapologetically rooted in a single regional culture.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Dolce & Gabbana Dolce & Gabbana.
+
+signaturePieces:
+  - name: The Sicilian black-lace dress
+    year: 1986–
+    text: |
+      The slip-cut black-lace dress, often paired with a black
+      headscarf and rosary — the founders' transposition of the
+      Sicilian widow's mourning wardrobe into eveningwear, and the
+      single image most associated with the house's early identity.
+
+  - name: The corset dress
+    year: 1990s–
+    text: |
+      A boned, structured bodice married to a flowing skirt — the
+      house's reinvention of mid-century Italian glamour as
+      contemporary red-carpet eveningwear, worn by Monica Bellucci,
+      Isabella Rossellini, and a generation of actresses afterwards.
+
+  - name: Leopard print
+    text: |
+      Used as a recurring base rather than an accent — coats,
+      dresses, lingerie, accessories — leopard became, in the
+      house's hands, a Sicilian neutral on equal footing with black.
+
+  - name: <em>Light Blue</em>
+    year: 2001
+    text: |
+      The Mediterranean-accented women's fragrance composed by
+      Olivier Cresp — Sicilian lemon, apple, cedar, bellflower
+      — that became one of the best-selling perfumes of the
+      2000s and the commercial anchor of the beauty line.
+
+  - name: The Sicily bag
+    year: 2009
+    text: |
+      A trapeze-shaped top-handle bag in textured calfskin, named
+      for the founders' shared homeland — the house's
+      best-known leather-goods icon.
+
+  - name: Alta Moda
+    year: 2012–
+    text: |
+      The biannual women's couture programme, staged in evolving
+      Italian locations — Taormina, Portofino, Venice, Syracuse,
+      Alta Badia — that has become as much a tourism event as a
+      fashion one, presented to a private clientele alongside Alta
+      Sartoria menswear and Alta Gioielleria fine jewellery.
+
+  - name: Tailoring rooted in Italian cinema
+    text: |
+      Sharp men's suiting and the corseted-yet-fluid women's
+      silhouette, drawn explicitly from <em>neorealismo</em> and
+      mid-century Italian film — Visconti, Rossellini, the
+      wardrobes of Anna Magnani and Sophia Loren — translated
+      into contemporary ready-to-wear.
+
+marketPositioning: |
+  Ultra-luxury at the ornamental, maximalist end of the Italian
+  luxury spectrum — a deliberate counterweight to the Milanese
+  minimalism associated with Armani and Prada. Pricing across
+  ready-to-wear, leather goods, and Alta Moda couture sits at the
+  highest tier of the market.
+
+businessScale: |
+  The Dolce & Gabbana group generates annual revenues on the order
+  of €1.5–2 billion in recent reporting years, with a vertically
+  integrated business spanning ready-to-wear, couture, fragrance,
+  beauty, eyewear, and accessories. The group remains privately
+  held by its two founders — figures fluctuate, so verify
+  against the latest published accounts before citing.
+
+culturalImpact: |
+  Dolce & Gabbana built one of the most identifiable design
+  vocabularies in late-twentieth-century Italian fashion by
+  drawing, more openly than any peer of comparable scale, on a
+  single regional culture — Sicily. The black-lace dress, the
+  corset, the leopard print, and the baroque ornament that
+  followed entered popular culture through Madonna's <em>Girlie
+  Show</em> wardrobe in 1993 and the Hollywood red carpet
+  thereafter. The 2018 China incident remains a reference point in
+  industry discussions of brand communication and cross-cultural
+  marketing. The house's continued joint creative direction by its
+  two founders, four decades on, is among the rarest arrangements
+  in contemporary luxury.

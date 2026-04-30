@@ -1,0 +1,177 @@
+name: Balenciaga
+city: San Sebastián
+country: Spain
+countryCode: es
+founded: 1917
+
+founding: |
+  Founded in 1917 in San Sebastián by
+  <strong>Cristóbal Balenciaga</strong> (1895–1972), a Basque
+  tailor's son who opened his first house — <em>Balenciaga y
+  Compañía</em> — at the age of twenty-two. Branches followed
+  in Madrid and Barcelona; political upheaval at the end of the
+  Spanish Civil War pushed Cristóbal to relocate to Paris in
+  1937, where the maison de couture at 10 avenue George V
+  established the house's enduring identity.
+
+identityMarks:
+  - src: /assets/balenciaga-logo.svg
+    alt: Balenciaga wordmark — the spaced-caps treatment of the brand name
+    caption: Wordmark
+
+palette:
+  - { name: Black,    hex: '#000000' }
+  - { name: Charcoal, hex: '#2A2A2A' }
+  - { name: Khaki,    hex: '#7A7560' }
+  - { name: Acid yellow, hex: '#D6E000' }
+
+trademarkNotice: |
+  BALENCIAGA is a trademark of Balenciaga S.A., used here for
+  identification under nominative fair use. Source file via
+  Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Balenciaga_logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). Hex values are approximations
+  for editorial illustration; no Pantone licensing implied.
+
+milestones:
+  - year: 1917
+    text: Cristóbal Balenciaga opens his first house in San Sebastián, dressing the Spanish royal family and aristocracy.
+  - year: 1937
+    text: The house relocates to Paris, opening at 10 avenue George V — the address that would become synonymous with the maison.
+  - year: 1957
+    text: Introduction of the <em>sack</em> dress, followed by the <em>baby-doll</em> and <em>cocoon</em> silhouettes — radical liberations of the female line.
+  - year: 1968
+    text: Cristóbal closes the couture house, declaring the world that supported it — couture clients, hand-finishing, codes of dress — has ceased to exist.
+  - year: 1972
+    text: Cristóbal Balenciaga dies on 23 March in Xàbia, Spain.
+  - year: 1986
+    text: Jacques Bogart S.A. acquires the dormant name and relaunches ready-to-wear, beginning the modern commercial chapter.
+  - year: 1997
+    text: <strong>Nicolas Ghesquière</strong> is named creative director, restoring critical credibility through a sharp, technically minded modernism over fifteen years.
+  - year: 2001
+    text: The Gucci Group (later <strong>Kering</strong>) acquires Balenciaga, embedding the house in a multi-brand luxury portfolio.
+  - year: 2012
+    text: <strong>Alexander Wang</strong> succeeds Ghesquière for a three-year tenure.
+  - year: 2015
+    text: <strong>Demna</strong> (then styled Demna Gvasalia) is named artistic director, redirecting the house toward provocative streetwear-luxury and conceptual show staging.
+  - year: 2022
+    text: A November holiday campaign featuring children with plush bear-bag accessories triggers a public crisis; the house apologises, withdraws the imagery, and revises internal review processes.
+  - year: 2025
+    text: Demna departs to head Gucci; <strong>Pierpaolo Piccioli</strong>, formerly of Valentino, is announced as the new artistic director (per company communications, 2025 — verify before publishing).
+
+creativeDirector: |
+  Artistic director: <strong>Pierpaolo Piccioli</strong>, announced
+  in 2025 as successor to Demna. Balenciaga has been owned by
+  <strong>Kering</strong> (formerly PPR / Gucci Group) since 2001.
+
+volatileNote: Volatile fields — the Demna→Piccioli transition is recent; verify creative-leadership wording and effective dates against fresh sources before publishing.
+
+productLines:
+  - "<strong>Women's ready-to-wear</strong> — the house's primary runway expression"
+  - "<strong>Men's ready-to-wear</strong> — integrated with the women's collections under a single artistic direction"
+  - '<strong>Couture</strong> — re-established in July 2021 after a fifty-three-year hiatus'
+  - '<strong>Handbags & leather goods</strong> — anchored by the City, Hourglass, and Le Cagole bags'
+  - '<strong>Footwear</strong> — including the Triple S, Speed sock-trainer, and Track sneakers'
+  - '<strong>Eyewear, jewellery, and accessories</strong>'
+  - '<strong>Fragrance</strong> — under Coty licence in recent years'
+
+designDna: |
+  Two design grammars in one house. Under Cristóbal: sculptural
+  couture cut from the body outward — the cocoon coat, the
+  balloon hem, the stand-away collar — engineered through
+  mastery of cloth and a famously austere palette. Under Demna:
+  the silhouette pushed to confrontation — exaggerated
+  shoulders, distressed and oversized streetwear, dystopian show
+  staging, and the deliberate erosion of the line between high
+  fashion and the everyday. The throughline is volume as argument.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Balenciaga Balenciaga.
+
+signaturePieces:
+  - name: The sack dress
+    year: 1957
+    text: |
+      Cristóbal's straight, semi-fitted shift that abolished the
+      waist — a quiet rebuke to Dior's hourglass <em>New Look</em>
+      and a foundational template for the loose silhouettes that
+      followed in the 1960s.
+
+  - name: The cocoon coat
+    year: 1950s
+    text: |
+      Rounded at the back, narrow at the hem, cut so the wearer
+      moved inside the garment rather than wearing it close —
+      among the clearest statements of the house's sculptural
+      approach to volume.
+
+  - name: The City bag
+    year: 2001
+    text: |
+      The slouched, motorcycle-zippered shoulder bag designed under
+      Nicolas Ghesquière — the defining "It bag" of the early
+      2000s and the commercial engine that funded the house's
+      runway ambitions.
+
+  - name: The Triple S sneaker
+    year: 2017
+    text: |
+      The chunky, layered-sole trainer that helped codify the
+      "ugly sneaker" wave — a lightning rod for the early-Demna
+      era and one of the decade's most-copied silhouettes.
+
+  - name: The Speed trainer
+    year: 2017
+    text: |
+      A sock-knit pull-on with a contoured rubber sole — a
+      runway shoe engineered to read as athletic infrastructure
+      and price as luxury hardware.
+
+  - name: The Hourglass bag
+    year: 2019
+    text: |
+      A curved-bottom top-handle in shiny calfskin, named for its
+      silhouette — Demna's most successful house-coded leather
+      good and a deliberate reset of the bag conversation away from
+      the City.
+
+  - name: Couture, restored
+    year: 2021
+    text: |
+      The 50th couture collection presented in July 2021 — the
+      first since Cristóbal closed the salon in 1968. Staged at
+      10 avenue George V, with hand-finished tailoring and gowns
+      framed as a re-engagement with the house's founding craft.
+
+  - name: Dystopian show staging
+    year: 2020–
+    text: |
+      Mud-pit runways, snow-globe boxes, simulated war zones, and
+      red-carpet stunts — under Demna, the show became as much
+      argument as collection, drawing both critical acclaim and
+      sustained controversy.
+
+marketPositioning: |
+  Ultra-luxury, with an unusually wide aperture — couture and
+  hand-finished leather goods at one end, viral footwear and
+  graphic merchandise at the other. The strategy concentrates
+  cultural attention; the criticism it draws is the price of that
+  concentration.
+
+businessScale: |
+  A flagship house within Kering's luxury portfolio. Kering does
+  not break out Balenciaga revenue separately in its consolidated
+  accounts; trade-press estimates have placed the brand on the
+  order of one to two billion euros in annual revenue in recent
+  years (per analyst reconstructions, treat as estimates).
+
+culturalImpact: |
+  Cristóbal was called <em>"the master of us all"</em> by Christian
+  Dior — his sculptural cutting shaped the work of Givenchy,
+  Courrèges, Ungaro, and a generation beyond. The modern house,
+  through Ghesquière and then Demna, became a defining force in
+  the 21st-century collapse of the boundary between streetwear and
+  luxury, with collaborations and stunts (the Crocs platform, the
+  IKEA-bag tote, simulated red-carpet incursions) that read as
+  often as performance art as commerce. The 2022 holiday-campaign
+  crisis remains the most-discussed reputational event in recent
+  Kering history.

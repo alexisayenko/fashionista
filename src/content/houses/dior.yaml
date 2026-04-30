@@ -1,0 +1,186 @@
+name: Dior
+city: Paris
+country: France
+countryCode: fr
+founded: 1946
+
+founding: |
+  Founded in December 1946 at <strong>30 avenue Montaigne</strong>,
+  Paris, by <strong>Christian Dior</strong> (1905–1957), with
+  financial backing from textile industrialist
+  <strong>Marcel Boussac</strong>. The first collection — shown on
+  12 February 1947 — was christened the <em>New Look</em> by
+  <em>Harper's Bazaar</em> editor Carmel Snow and reset the
+  silhouette of post-war womenswear almost overnight.
+
+identityMarks:
+  - src: /assets/dior-logo.svg
+    alt: Dior wordmark — the serif treatment of the house name
+    caption: Wordmark
+
+palette:
+  - { name: Dior gray, hex: '#8E8C89' }
+  - { name: Ivory,     hex: '#F4EADE' }
+  - { name: Black,     hex: '#000000' }
+  - { name: Gold,      hex: '#C9A961' }
+
+trademarkNotice: |
+  DIOR and CHRISTIAN DIOR are trademarks of Christian Dior Couture
+  S.A., used here for identification under nominative fair use.
+  Source file via Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Dior_Logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). Hex values are approximations
+  for editorial illustration; no Pantone licensing implied.
+
+milestones:
+  - year: 1947
+    text: The debut collection — soon known as the <em>New Look</em> — introduces the <em>Bar</em> suit, with its rounded shoulders, nipped waist, and full calf-length skirt, in calculated rebuke to wartime austerity.
+  - year: 1948
+    text: Christian Dior Parfums is established; <em>Miss Dior</em>, launched the previous year, anchors a fragrance arm that becomes central to the house's economics.
+  - year: 1957
+    text: Christian Dior dies suddenly on 24 October at Montecatini, aged 52; the twenty-one-year-old <strong>Yves Saint Laurent</strong>, his hand-picked assistant, is named successor.
+  - year: 1960
+    text: <strong>Marc Bohan</strong> takes over after Saint Laurent's military conscription, beginning a steadying twenty-nine-year tenure.
+  - year: 1989
+    text: <strong>Gianfranco Ferré</strong> succeeds Bohan, bringing an Italian architect's discipline to the house's couture line.
+  - year: 1996
+    text: <strong>John Galliano</strong> is appointed creative director, ushering in a decade of theatrical, historicist couture and the bag- and logo-led commercial expansion of the 2000s.
+  - year: 2011
+    text: Galliano is dismissed in March following an antisemitic tirade caught on video in a Paris café; <strong>Bill Gaytten</strong> steers the studio in the interim.
+  - year: 2012
+    text: <strong>Raf Simons</strong> arrives from Jil Sander and pares the house back to a minimalist, modernist register — chronicled in the documentary <em>Dior and I</em>.
+  - year: 2016
+    text: <strong>Maria Grazia Chiuri</strong> is named the first woman to lead Dior womenswear, opening her debut collection with the slogan tee <em>"We Should All Be Feminists."</em>
+  - year: 2018
+    text: <strong>Kim Jones</strong> launches Dior Men, recasting the menswear line through streetwear, art collaborations, and a tighter tailoring proposition.
+  - year: 2025
+    text: <strong>Jonathan Anderson</strong>, formerly of Loewe, is appointed creative director — first of Dior Men in April, then of womenswear and couture as well in June, becoming the first designer since Christian Dior himself to oversee both.
+
+creativeDirector: |
+  Creative director (women's, men's, and couture):
+  <strong>Jonathan Anderson</strong>, since June 2025, succeeding
+  <strong>Maria Grazia Chiuri</strong> on the women's side and
+  <strong>Kim Jones</strong> on men's. The house is owned by
+  <strong>Christian Dior SE</strong>, the family holding company of
+  <strong>Bernard Arnault</strong>, which controls
+  <strong>LVMH Moët Hennessy Louis Vuitton</strong>; Christian Dior
+  Couture sits inside the LVMH Fashion & Leather Goods division.
+
+volatileNote: Volatile fields — Anderson's joint womenswear-and-menswear remit was announced in 2025 and the studio organisation is still bedding in; verify creative-director and ownership lines against fresh sources before publishing.
+
+productLines:
+  - '<strong>Haute couture</strong> — presented in Paris twice yearly'
+  - "<strong>Ready-to-wear</strong> — women's (Dior) and men's (Dior Men)"
+  - '<strong>Handbags & small leather goods</strong> — anchored by the Lady Dior, Saddle, Book Tote, and Bobby'
+  - '<strong>Parfums Christian Dior</strong> — fragrance, makeup, and skincare, including J''adore, Miss Dior, Sauvage, and Rouge Dior'
+  - '<strong>Fine jewellery & watches</strong> — Victoire de Castellane''s Dior Joaillerie and the Grand Bal / Grand Soir watches'
+  - '<strong>Baby Dior & Dior Maison</strong> — childrenswear and home'
+
+designDna: |
+  An architectural femininity inherited from the founder — the
+  cinched waist, the rounded shoulder, the bell-skirt and the
+  pencil-line. Codes recur across decades: the <em>cannage</em>
+  caning motif lifted from the Napoleon III chairs of the Avenue
+  Montaigne salon; lily-of-the-valley as the founder's lucky
+  flower; gris Dior, ivory, and a couture black; toile de Jouy
+  reissued in successive variations; and a long romance with the
+  <em>tailleur Bar</em> as the silhouette every successor must
+  reckon with.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Dior Dior.
+
+signaturePieces:
+  - name: The Bar suit
+    year: 1947
+    text: |
+      The cream shantung jacket with rounded, padded hips over a
+      pleated black wool skirt — the founding gesture of the
+      <em>New Look</em> and the silhouette every later creative
+      director has had to reinterpret. <em>Harper's Bazaar</em>'s
+      Carmel Snow supplied the name on the spot: <em>"It's such a
+      new look."</em>
+
+  - name: Miss Dior
+    year: 1947
+    text: |
+      The house's first fragrance, a green chypre composed by Jean
+      Carles and Paul Vacher, named after the founder's sister
+      Catherine — a Resistance fighter deported to Ravensbrück.
+      The scent has been reformulated and rebottled across decades
+      while keeping its place as a Dior cornerstone.
+
+  - name: J'adore
+    year: 1999
+    text: |
+      The amber-floral fragrance composed by Calice Becker in a
+      gold-collared amphora flacon — the commercial juggernaut
+      that, with successive Charlize Theron campaigns, became one
+      of the best-selling women's perfumes in the world.
+
+  - name: Lady Dior bag
+    year: 1995
+    text: |
+      The <em>cannage</em>-quilted top-handle bag — originally
+      called the <em>Chouchou</em> — gifted to the
+      <strong>Princess of Wales</strong> by Bernadette Chirac and
+      so closely associated with her that the house renamed it in
+      her honour in 1996. Its charm-strung "D-I-O-R" letters and
+      structured silhouette made it the template for the modern
+      It-bag.
+
+  - name: Saddle bag
+    year: 1999
+    text: |
+      Galliano's asymmetric, stirrup-clasped shoulder bag —
+      retired in the late 2000s, then reissued by Maria Grazia
+      Chiuri in 2018 to a generation that had only known it from
+      <em>Sex and the City</em> reruns.
+
+  - name: Book Tote
+    year: 2018
+    text: |
+      Chiuri's oversized canvas tote, rendered in successive
+      embroidered toile de Jouy, monogram, and cannage variations
+      — a workaday silhouette absorbed into the couture
+      vocabulary.
+
+  - name: Sauvage
+    year: 2015
+    text: |
+      The men's fragrance composed by François Demachy and
+      fronted by Johnny Depp — the commercial anchor of the
+      Parfums Christian Dior business in the 2010s and 2020s.
+
+  - name: <em>Dior and I</em>
+    year: 2014
+    text: |
+      Frédéric Tcheng's documentary on Raf Simons's first couture
+      collection — a rare on-record portrait of the
+      petites mains and the eight-week compression of an haute
+      couture studio at work.
+
+marketPositioning: |
+  Ultra-luxury. Dior sits at the apex of LVMH's fashion and
+  leather goods portfolio alongside Louis Vuitton, with pricing
+  and distribution calibrated to couture-house credibility and a
+  global fragrance-and-beauty business of exceptional scale.
+
+businessScale: |
+  Christian Dior Couture reported revenues of approximately
+  €9.5 billion in recent years (per LVMH-published segment figures,
+  2023–2024); Parfums Christian Dior is one of the largest selective
+  fragrance and beauty businesses in the world. Figures move; verify
+  against LVMH's latest published accounts before citing.
+
+culturalImpact: |
+  The <em>New Look</em> is the most-cited single collection in
+  twentieth-century fashion — the moment a designer is widely
+  credited with restoring Paris's post-war centrality. Dior's
+  successors made the house a generational stage: Saint Laurent's
+  Trapèze, Bohan's long stewardship of bourgeois elegance,
+  Galliano's historicist couture, Simons's modernist reset, and
+  Chiuri's reframing of the codes through an explicitly feminist
+  lens. The house has anchored cinema, dance, and contemporary art
+  collaborations through the <em>Lady Dior As Seen By</em> and
+  <em>Dior Lady Art</em> programmes, and remains a fixture of red-
+  carpet and royal dressing on both sides of the Atlantic.

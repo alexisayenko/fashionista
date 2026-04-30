@@ -1,0 +1,170 @@
+name: Bottega Veneta
+city: Vicenza
+country: Italy
+countryCode: it
+founded: 1966
+
+founding: |
+  Founded in 1966 in Vicenza, in the Veneto region of north-eastern
+  Italy, by <strong>Michele Taddei</strong> and
+  <strong>Renzo Zengiaro</strong>. The atelier began as a leather-goods
+  workshop drawing on the region's long tradition of artisanal
+  tanning and weaving — its name translates simply as "Venetian
+  workshop."
+
+identityMarks:
+  - src: /assets/bottega-veneta-logo.svg
+    alt: Bottega Veneta wordmark — the slim sans-serif treatment of the brand name
+    caption: Wordmark
+
+palette:
+  - { name: Bottega Green,  hex: '#2F6B3D' }
+  - { name: Chocolate,      hex: '#3B2A20' }
+  - { name: Black,          hex: '#000000' }
+  - { name: Fondant,        hex: '#E8D9C4' }
+
+trademarkNotice: |
+  BOTTEGA VENETA is a trademark of Bottega Veneta S.r.l.
+  (Kering group), used here for identification under nominative
+  fair use. The house's <em>intrecciato</em> woven leather is a
+  protected element of its trade dress and is therefore
+  <strong>not visually replicated</strong> on this page — it is
+  named and described in prose only. Hex values are
+  approximations for editorial illustration; no Pantone
+  licensing implied.
+
+milestones:
+  - year: 1966
+    text: Bottega Veneta is founded in Vicenza by Michele Taddei and Renzo Zengiaro as a small leather-goods atelier.
+  - year: 1970s
+    text: Introduction of the <em>intrecciato</em> — strips of supple leather hand-woven on a frame — born of a practical solution to the limits of the workshop's sewing machines and quickly adopted as the house signature.
+  - year: 1980s
+    text: The tagline <em>"When your own initials are enough"</em> articulates the no-logo, recognise-it-by-the-weave positioning that distinguishes the brand from its monogrammed peers.
+  - year: 2001
+    text: Acquired by the Gucci Group (today <strong>Kering</strong>); <strong>Tomas Maier</strong> is appointed creative director.
+  - year: 2001–2018
+    text: Maier consolidates the codes — <em>intrecciato</em>, restrained palette, an aesthetic of deliberate quietness — and grows the house into a globally distributed luxury business.
+  - year: 2018
+    text: <strong>Daniel Lee</strong>, formerly of Céline under Phoebe Philo, succeeds Maier as creative director.
+  - year: 2019
+    text: A sweep at the British Fashion Awards — Brand of the Year, Designer of the Year, Womenswear Designer, and Accessories Designer — marks Lee's reset of the house silhouette.
+  - year: 2021
+    text: Lee departs; <strong>Matthieu Blazy</strong> is named creative director.
+  - year: 2022–2024
+    text: Blazy's collections — most famously the trompe-l'œil leather "denim" and flannel — extend the craft argument into ready-to-wear and earn broad critical acclaim.
+  - year: 2024
+    text: Blazy departs to lead Chanel; in December, <strong>Louise Trotter</strong> is announced as the next creative director of Bottega Veneta.
+
+creativeDirector: |
+  Creative director: <strong>Louise Trotter</strong>, announced
+  in December 2024 as the successor to Matthieu Blazy. The house
+  has been part of <strong>Kering</strong> since 2001.
+
+volatileNote: Volatile fields — verify the creative-director line and Kering-group structure against fresh sources before publishing.
+
+productLines:
+  - '<strong>Handbags & small leather goods</strong> — the commercial centre of the house'
+  - '<strong>Ready-to-wear</strong> — women''s and men''s'
+  - '<strong>Footwear</strong> — including the woven mules and Lido sandal'
+  - '<strong>Fine jewellery</strong>'
+  - '<strong>Eyewear, fragrance, and home accessories</strong>'
+
+designDna: |
+  Quiet luxury before the term existed: a deliberate refusal of
+  visible logos, an emphasis on hand-craftsmanship, and a leather
+  vocabulary anchored by the <em>intrecciato</em> weave. The
+  palette skews to chocolate, black, parakeet green, and the
+  fondant creams of the Veneto — colour used architecturally,
+  not decoratively. Recognition is meant to come from the hand and
+  the eye, not from a monogram.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Bottega Veneta Bottega Veneta.
+
+signaturePieces:
+  - name: The <em>intrecciato</em> weave
+    year: 1970s–
+    text: |
+      Narrow strips of nappa leather hand-woven on a wooden frame
+      to produce a supple, structured surface that needs no
+      hardware to identify it. The technique remains the house's
+      defining craft — taught and practised at the
+      <em>Scuola della Pelletteria</em> at the Montebello
+      atelier, and the source from which most other signature
+      pieces descend.
+
+  - name: The Cabat
+    year: 2001
+    text: |
+      A reversible, unlined open tote introduced under Tomas Maier
+      and constructed entirely of <em>intrecciato</em> — no
+      seams, no hardware, the bag's structure carried by the
+      weave alone. Long the house's quiet flagship.
+
+  - name: The Veneta hobo
+    text: |
+      A soft, slouchy shoulder bag with a single curved strap and
+      a body of finely woven nappa — for two decades the most
+      recognisable Bottega silhouette and a fixture of the
+      celebrity-photographer archive of the 2000s.
+
+  - name: The Knot clutch
+    text: |
+      A minaudière with a sculptural double-knot closure in
+      precious metal, made in <em>intrecciato</em> nappa, satin,
+      and exotic skins — the house's evening signature.
+
+  - name: The Pouch
+    year: 2019
+    text: |
+      Daniel Lee's debut hit: an oversized, unstructured clutch
+      gathered to look as though it had been crumpled in the
+      hand. Widely copied across the contemporary market within
+      a season.
+
+  - name: The Cassette
+    year: 2020
+    text: |
+      A small, padded shoulder bag built from chunky woven leather
+      — the <em>intrecciato</em> maxi-scale — that became
+      the most photographed Bottega bag of Lee's tenure.
+
+  - name: The Lido sandal
+    year: 2020
+    text: |
+      A flat leather sandal whose upper is a single fat woven
+      band across the foot — quoted across the high-street
+      market almost immediately on release.
+
+  - name: Trompe-l'œil leather tailoring
+    year: 2022–
+    text: |
+      Matthieu Blazy's calling card: a pair of "jeans" and a
+      flannel shirt, hand-printed and tooled from leather to
+      pass at a glance for cotton — a craft argument made on
+      the runway, not in the press notes.
+
+marketPositioning: |
+  Ultra-luxury, with the highest price points concentrated in
+  leather goods rather than ready-to-wear. The house sits in the
+  upper tier of the Kering portfolio alongside Gucci, Saint
+  Laurent, and Balenciaga, and competes directly with Hermès on
+  craft-led, no-logo positioning.
+
+businessScale: |
+  Reported by Kering as a roughly €1.6–1.8 billion annual revenue
+  business in recent years, with growth led by leather goods.
+  Figures move with each Kering interim; verify against the most
+  recent group results before citing.
+
+culturalImpact: |
+  Bottega Veneta is the reference point for the contemporary
+  "quiet luxury" argument — that recognition can be earned by
+  craft rather than by logo. The <em>intrecciato</em> weave is
+  among the most-cited examples of protectable trade dress in
+  fashion, and the house's tagline of the 1980s —
+  <em>"When your own initials are enough"</em> — anticipated
+  by four decades the anti-monogram mood that swept luxury in the
+  2020s. Under Daniel Lee and Matthieu Blazy in succession, the
+  house also became one of the most-discussed runway propositions
+  of its generation, with Blazy's leather-as-denim experiments
+  cited well outside the trade press.

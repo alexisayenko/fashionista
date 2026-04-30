@@ -1,0 +1,187 @@
+name: Givenchy
+city: Paris
+country: France
+countryCode: fr
+founded: 1952
+
+founding: |
+  Founded in February 1952 in Paris by
+  <strong>Hubert de Givenchy</strong> (1927–2018), an
+  aristocrat-turned-couturier who had trained under Jacques Fath,
+  Robert Piguet, Lucien Lelong, and Elsa Schiaparelli before opening
+  his own house at 8 rue Alfred de Vigny at the age of twenty-four.
+
+identityMarks:
+  - src: /assets/givenchy-logo.svg
+    alt: Givenchy wordmark — the spaced-caps treatment of the house name
+    caption: Wordmark
+
+palette:
+  - { name: Jet black,   hex: '#0A0A0A' }
+  - { name: Ivory white, hex: '#F5EFE6' }
+  - { name: Gold,        hex: '#C9A961' }
+  - { name: Sleek navy,  hex: '#1A2238' }
+
+trademarkNotice: |
+  GIVENCHY is a trademark of Givenchy S.A., a subsidiary of the
+  LVMH group, used here for identification under nominative fair
+  use. Hex values are approximations for editorial illustration;
+  no Pantone licensing implied.
+
+milestones:
+  - year: 1952
+    text: Debut collection in Paris introduces the <em>Bettina</em> blouse — a white shirting piece with ruffled broderie-anglaise sleeves, named for the model Bettina Graziani — which becomes the season's most-copied silhouette.
+  - year: 1953
+    text: First meeting with <strong>Audrey Hepburn</strong> on the set of <em>Sabrina</em>; the encounter begins a four-decade collaboration and friendship that defines the house's public image.
+  - year: 1957
+    text: Launch of <em>L'Interdit</em>, reportedly created for Hepburn — among the earliest fragrances expressly tied to a single muse.
+  - year: 1961
+    text: Hepburn wears the floor-length black sheath designed by Givenchy in the opening sequence of <em>Breakfast at Tiffany's</em> — a little black dress that becomes the most-cited LBD of the second half of the twentieth century.
+  - year: 1988
+    text: <strong>LVMH</strong> acquires the house, ending Hubert de Givenchy's independent ownership while he remains in charge of design.
+  - year: 1995
+    text: Hubert de Givenchy retires; <strong>John Galliano</strong> is appointed creative director for a single year before moving to Dior.
+  - year: 1996–2001
+    text: <strong>Alexander McQueen</strong> directs the house, including its haute couture, bringing a darker, more confrontational vocabulary that sits uneasily alongside the founder's restraint.
+  - year: 2005–2017
+    text: <strong>Riccardo Tisci</strong>'s twelve-year tenure reorients Givenchy toward streetwear-luxe, religious iconography, and a celebrated menswear practice — the Rottweiler tee and the studded sneakers among its commercial signatures.
+  - year: 2017–2020
+    text: <strong>Clare Waight Keller</strong> is creative director; in May 2018 she designs the wedding gown of <strong>Meghan Markle, Duchess of Sussex</strong>, returning the house to global front-page visibility.
+  - year: 2020–2024
+    text: <strong>Matthew M. Williams</strong> leads the house, importing a hardware-forward streetwear sensibility from his label 1017 ALYX 9SM.
+  - year: 2018
+    text: Hubert de Givenchy dies on 10 March, aged 91.
+  - year: 2024
+    text: <strong>Sarah Burton</strong>, formerly of Alexander McQueen, is announced as creative director, with her debut collection presented in Paris in March 2025.
+
+creativeDirector: |
+  Creative director: <strong>Sarah Burton</strong>, appointed in
+  September 2024 (verify against fresh sources before publishing).
+  The house has been owned by <strong>LVMH Moët Hennessy Louis
+  Vuitton</strong> since 1988.
+
+volatileNote: Volatile fields — verify creative-director line and any post-2024 collection details against fresh sources before publishing.
+
+productLines:
+  - '<strong>Haute couture</strong> — Paris-presented, intermittent across recent directors'
+  - "<strong>Ready-to-wear</strong> — women's and men's"
+  - '<strong>Handbags & small leather goods</strong> — anchored by the Antigona and Pandora silhouettes'
+  - '<strong>Footwear</strong> — including the studded sneaker line popularised under Tisci'
+  - '<strong>Fragrance & beauty</strong> — Parfums Givenchy, including <em>L''Interdit</em>, <em>Gentleman</em>, and the Le Rouge lipstick line'
+  - '<strong>Accessories & eyewear</strong>'
+
+designDna: |
+  A Parisian elegance grounded in Hubert de Givenchy's clean
+  architectural line — the sack dress, the chemise, the
+  three-quarter sleeve — extended by Audrey Hepburn into the
+  popular imagination as the silhouette of postwar chic. Successive
+  directors have pulled the house in sharply different directions:
+  <strong>McQueen</strong> and <strong>Tisci</strong> introduced a
+  darker, more transgressive register — gothic tailoring, religious
+  iconography, streetwear hybrids — while
+  <strong>Waight Keller</strong> returned it briefly to crisp
+  ceremonial restraint. Under <strong>Burton</strong> the house is
+  expected to push back toward couture-grade construction with a
+  contemporary, directional edge.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Givenchy Givenchy.
+
+signaturePieces:
+  - name: The Bettina blouse
+    year: 1952
+    text: |
+      The white shirting blouse with ruffled broderie-anglaise sleeves
+      from the debut collection, named for the model
+      <strong>Bettina Graziani</strong>. Photographed,
+      copied, and adapted across the decade — the piece that
+      announced the house and its appetite for separates over the
+      then-dominant New Look hourglass.
+
+  - name: The Audrey Hepburn wardrobe
+    year: 1953–1979
+    text: |
+      A four-decade collaboration that produced the costumes (or
+      personal wardrobe) for <em>Sabrina</em>, <em>Funny Face</em>,
+      <em>Love in the Afternoon</em>, <em>Charade</em>, and
+      <em>How to Steal a Million</em>, among others. Givenchy and
+      Hepburn referred to one another as creative collaborators
+      rather than designer and client; the partnership is among the
+      most documented in twentieth-century fashion.
+
+  - name: The <em>Breakfast at Tiffany's</em> little black dress
+    year: 1961
+    text: |
+      The floor-length black satin sheath worn by Hepburn as Holly
+      Golightly in the film's opening sequence — sleeveless, with
+      a low cut-away back and pearl rope. Repeatedly cited as the
+      most recognisable LBD of the twentieth century; an alternate
+      version sold at Christie's in 2006 for several hundred
+      thousand pounds in aid of charity.
+
+  - name: <em>L'Interdit</em>
+    year: 1957
+    text: |
+      The aldehyde-floral fragrance long described as the first
+      perfume created for a specific muse — Hepburn — though
+      historians have since complicated that origin story. Reissued
+      and reformulated several times; a contemporary edition relaunched
+      in 2018.
+
+  - name: The Antigona bag
+    year: 2010
+    text: |
+      Tisci's geometric, trapezoidal top-handle introduced as a
+      structured counterpoint to the slouchier handbag silhouettes
+      then dominant. Carried in smooth and grained leathers, it became
+      the house's defining bag of the 2010s.
+
+  - name: The Pandora bag
+    year: 2011
+    text: |
+      A softer, slouching saddle-shaped shoulder bag launched alongside
+      the Antigona; together the two anchored Givenchy's leather
+      goods business through the Tisci era.
+
+  - name: Tisci-era menswear
+    year: 2008–2017
+    text: |
+      The Rottweiler-print T-shirts, religious-iconography sweatshirts,
+      kilted skirts on men, and high-top studded sneakers that drew a
+      new audience to the house and helped legitimise the
+      luxury-streetwear hybrid that defined the decade that followed.
+
+  - name: The Meghan Markle wedding gown
+    year: 2018
+    text: |
+      Designed by Clare Waight Keller for the wedding of
+      <strong>Meghan Markle</strong> to Prince Harry on 19 May 2018 —
+      a bateau-neckline silk-cady gown with a five-metre veil
+      embroidered with the flora of the Commonwealth nations. Watched
+      by an estimated global audience in the hundreds of millions.
+
+marketPositioning: |
+  Ultra-luxury Parisian house. Givenchy occupies the upper tier of
+  ready-to-wear and leather-goods pricing within the LVMH portfolio,
+  with haute couture credibility maintained intermittently across
+  recent directors. The house has historically traded on its founder
+  legacy and its cinematic associations rather than on commercial
+  scale alone.
+
+businessScale: |
+  A mid-sized house within LVMH's Fashion & Leather Goods division;
+  group reporting does not break out Givenchy's revenue line,
+  so any specific figure circulating in the trade press is an
+  estimate rather than a published number. Verify against fresh
+  reporting before citing.
+
+culturalImpact: |
+  Givenchy's most durable contribution is the Hepburn collaboration
+  — the postwar argument that a film star and a couturier could
+  dress one another into the cultural record together — and the
+  little black dress that came out of it. Under Tisci the house
+  helped pull luxury fashion into proximity with streetwear,
+  hip-hop, and religious imagery in ways that reshaped the wider
+  industry through the 2010s. Waight Keller's royal-wedding gown
+  briefly returned the house to a register of public ceremony its
+  founder would have recognised. The arrival of Sarah Burton in
+  2024 sets up a return to construction-led couture sensibility.

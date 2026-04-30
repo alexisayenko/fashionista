@@ -1,0 +1,190 @@
+name: Gucci
+city: Florence
+country: Italy
+countryCode: it
+founded: 1921
+
+founding: |
+  Founded in 1921 in Florence by <strong>Guccio Gucci</strong>
+  (1881–1953), who opened a small leather-goods shop on
+  Via della Vigna Nuova after a stint as a porter at London's Savoy
+  Hotel — an exposure to the luggage of well-travelled clientele
+  said to have shaped his eye for refined saddlery and fine
+  craftsmanship. The atelier built its reputation on
+  equestrian-inflected leather goods through the 1930s and expanded
+  internationally after the Second World War.
+
+identityMarks:
+  - src: /assets/gucci-logo.svg
+    alt: Gucci wordmark — the serifed treatment of the brand name
+    caption: Wordmark
+  - src: /assets/gucci-monogram.svg
+    alt: Gucci interlocking-GG monogram
+    caption: Interlocking-GG monogram
+
+palette:
+  - { name: Gucci green,  hex: '#0F5A3C' }
+  - { name: Gucci red,    hex: '#B5121B' }
+  - { name: Saddle brown, hex: '#6B4423' }
+  - { name: Antique gold, hex: '#C9A961' }
+
+trademarkNotice: |
+  GUCCI and the interlocking-GG monogram are trademarks of
+  Guccio Gucci S.p.A., used here for identification under
+  nominative fair use. Source files via Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Gucci_Logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons) and
+  <a href="https://commons.wikimedia.org/wiki/File:1933_Gucci_Logo.svg">monogram</a>
+  (PD-shape, Wikimedia Commons). Hex values are approximations
+  for editorial illustration; no Pantone licensing implied.
+
+milestones:
+  - year: 1921
+    text: Guccio Gucci opens his leather-goods shop in Florence, anchored in equestrian craftsmanship.
+  - year: 1947
+    text: Introduction of the <em>Bamboo bag</em>, its curved handle a response to wartime material shortages and an enduring house signature.
+  - year: 1953
+    text: Founder's death, weeks after the opening of the New York flagship; sons Aldo, Vasco, Ugo, and Rodolfo inherit the business.
+  - year: 1953
+    text: Debut of the <em>Horsebit loafer</em>, a flat-bottom moccasin trimmed with a snaffle-bit ornament that becomes a permanent fixture of menswear.
+  - year: 1960s
+    text: Adoption of the green-red-green webbing — drawn from the saddle girth — and the interlocking-GG monogram as house insignia.
+  - year: 1961
+    text: Launch of the <em>Jackie</em> hobo bag, later named for Jacqueline Kennedy Onassis, who carried it through the decade.
+  - year: 1990s
+    text: <strong>Tom Ford</strong>, appointed creative director in 1994, repositions the house around overt sensuality and modern glamour, restoring its commercial fortunes.
+  - year: 2004
+    text: Ford and chief executive Domenico De Sole exit; <strong>Frida Giannini</strong> later assumes creative direction across the house.
+  - year: 2015
+    text: <strong>Alessandro Michele</strong> is named creative director, ushering in a maximalist, gender-fluid, romantic register that defines the brand for nearly a decade.
+  - year: 2023
+    text: <strong>Sabato De Sarno</strong>, formerly of Valentino, succeeds Michele with a stripped-back, sensual minimalism debuted in his <em>Gucci Ancora</em> collection.
+  - year: 2025
+    text: De Sarno departs after roughly two years; <strong>Demna</strong>, formerly of Balenciaga, is announced as artistic director.
+
+creativeDirector: |
+  Artistic director: <strong>Demna</strong>, announced in 2025.
+  Gucci is the flagship house of <strong>Kering</strong>, the
+  Paris-listed luxury group controlled by the Pinault family
+  through Artémis.
+
+volatileNote: Volatile fields — verify creative-director and ownership lines against fresh sources before publishing.
+
+productLines:
+  - '<strong>Ready-to-wear</strong> — women''s and men''s collections shown in Milan'
+  - '<strong>Handbags & small leather goods</strong> — anchored by the Bamboo, Jackie, Horsebit 1955, Dionysus, and GG Marmont families'
+  - '<strong>Footwear</strong> — led by the Horsebit loafer and Princetown slipper'
+  - '<strong>Fragrance & beauty</strong> — operated under licence by Coty, with cosmetics brought in-house in recent years'
+  - '<strong>Fine jewellery & watches</strong> — including the <em>Gucci High Jewelry</em> and Hortus Deliciarum lines'
+  - '<strong>Eyewear</strong> — produced by Kering Eyewear'
+  - '<strong>Gucci Décor & lifestyle</strong> — homeware, luggage, and the Osteria restaurants'
+
+designDna: |
+  Equestrian heritage translated into modern luxury: the
+  green-red-green webbing, the snaffle bit, the interlocking-GG
+  monogram, and the diamond-pattern Diamante canvas form a
+  vocabulary built around saddlery, travel, and Florentine leather
+  craft. The house oscillates between two registers — pared,
+  sensual minimalism and ornate, eclectic maximalism — and its
+  most resonant eras (Ford, Michele, De Sarno) have each pushed
+  one register to its limit before the pendulum swings back.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Gucci Gucci.
+
+signaturePieces:
+  - name: The Bamboo bag
+    year: 1947
+    text: |
+      A structured leather handbag with a single curved handle of
+      heat-bent bamboo — a postwar improvisation born of leather
+      and metal shortages that became one of the house's enduring
+      silhouettes. Reissued continuously since.
+
+  - name: The Horsebit loafer
+    year: 1953
+    text: |
+      A flat-bottom moccasin trimmed with a gilt snaffle-bit
+      ornament — the explicit equestrian reference that
+      transformed a casual shoe into a global menswear staple,
+      worn by bankers, film stars, and, eventually, the Museum of
+      Modern Art's permanent collection.
+
+  - name: The green-red-green web
+    year: 1960s–
+    text: |
+      A flat woven stripe drawn from the saddle girth, applied to
+      luggage, belts, sneakers, and ready-to-wear. Among the most
+      recognisable pieces of trade dress in fashion — and a
+      shorthand the house has periodically restrained, then
+      revived, with each new creative direction.
+
+  - name: The Jackie bag
+    year: 1961
+    text: |
+      A soft, slouchy hobo with a piston closure, originally sold
+      as the <em>Constance</em> and renamed after Jacqueline
+      Kennedy Onassis was repeatedly photographed carrying it.
+      Reissued under Ford, Giannini, Michele, and again under
+      De Sarno.
+
+  - name: The Flora print
+    year: 1966
+    text: |
+      A floral silk-twill scarf reportedly commissioned by Rodolfo
+      Gucci for Princess Grace of Monaco, designed by the Roman
+      illustrator Vittorio Accornero. The motif — densely
+      botanical, faintly art-nouveau — has migrated across
+      scarves, ready-to-wear, and leather goods ever since.
+
+  - name: Tom Ford's velvet suit
+    year: 1995–2004
+    text: |
+      The hip-slung trousers, satin shirts, and jewel-toned velvet
+      tailoring of Ford's late-1990s collections — a distilled
+      vision of grown-up sex appeal that pulled the house out of
+      a commercial slump and reset the template for the modern
+      luxury creative director.
+
+  - name: Michele's geek-chic wardrobe
+    year: 2015–2022
+    text: |
+      Pussy-bow blouses, oversized pearl-encrusted spectacles,
+      embroidered bombers, kitten heels, and the GG Marmont bag —
+      a romantic, gender-fluid, magpie aesthetic that drew on
+      vintage and bibliographic sources and made Gucci, briefly,
+      the most-quoted house in fashion.
+
+  - name: <em>Gucci Ancora</em>
+    year: 2023
+    text: |
+      Sabato De Sarno's debut collection — pared shift dresses,
+      shorts suits, and a saturated burgundy he named
+      <em>Rosso Ancora</em> — a deliberate counter-swing from
+      Michele's maximalism toward quiet, sensual minimalism.
+
+marketPositioning: |
+  Ultra-luxury, with a mass-luxury reach unusual in the segment.
+  Gucci spans entry-price small leather goods and fragrance through
+  high jewellery and made-to-measure, and is consistently among the
+  most valuable brands in global rankings.
+
+businessScale: |
+  Gucci is the largest brand in the Kering group, generating annual
+  revenues on the order of seven to ten billion euros in recent
+  years — a band that has narrowed sharply since the 2022 peak.
+  Figures move; verify against Kering's latest published accounts
+  before citing.
+
+culturalImpact: |
+  Few houses have ridden the cycle between minimalism and maximalism
+  as visibly as Gucci. Tom Ford's late-1990s tenure rewrote the
+  rules of luxury marketing and creative direction; Alessandro
+  Michele's 2015–2022 run made the house a touchstone for a
+  generation that came of age on Instagram, with collaborations
+  spanning <em>The North Face</em>, Balenciaga (the
+  <em>Hacker Project</em>), Adidas, and Disney. The house's
+  cultural footprint extends through cinema (Ridley Scott's
+  <em>House of Gucci</em>, 2021), music (Harry Styles's tailoring,
+  Jared Leto's red-carpet appearances), and a thicket of
+  watch-store, sneaker, and streetwear scandals that continue to
+  shape how luxury is debated online.

@@ -1,0 +1,184 @@
+name: Prada
+city: Milan
+country: Italy
+countryCode: it
+founded: 1913
+
+founding: |
+  Founded in 1913 in Milan by brothers
+  <strong>Mario Prada</strong> and <strong>Martino Prada</strong>,
+  who opened <em>Fratelli Prada</em> as a leather-goods boutique in
+  the <em>Galleria Vittorio Emanuele II</em>. The shop sold trunks,
+  handbags, and travel accessories to a Milanese clientele and held
+  an early royal warrant from the House of Savoy. Mario's
+  granddaughter <strong>Miuccia Prada</strong> took over in 1978
+  and, with her future husband <strong>Patrizio Bertelli</strong>,
+  rebuilt the family firm as a global ready-to-wear house through
+  the 1980s and 1990s.
+
+identityMarks:
+  - src: /assets/prada-logo.svg
+    alt: Prada wordmark — the spaced-caps treatment of the brand name
+    caption: Wordmark
+
+palette:
+  - { name: Prada black,   hex: '#000000' }
+  - { name: Pomone red,    hex: '#9B1B1F' }
+  - { name: Ivory,         hex: '#F2ECDF' }
+  - { name: Industrial grey, hex: '#6E6E6E' }
+
+trademarkNotice: |
+  PRADA and the triangular plaque device are trademarks of Prada
+  S.p.A., used here for identification under nominative fair use.
+  Source file via Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Prada-Logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). Hex values are approximations
+  for editorial illustration; no Pantone licensing implied.
+
+milestones:
+  - year: 1913
+    text: <em>Fratelli Prada</em> opens in the Galleria Vittorio Emanuele II in Milan, selling leather trunks and travel goods.
+  - year: 1919
+    text: Appointed official supplier to the Italian royal house, gaining the right to display the House of Savoy coat of arms.
+  - year: 1978
+    text: <strong>Miuccia Prada</strong> assumes leadership of the family firm; <strong>Patrizio Bertelli</strong> joins as business partner and, later, chief executive.
+  - year: 1984
+    text: Launch of the black <em>Pocone</em> nylon backpack, cut from a parachute-grade industrial fabric — the piece that turned a leather house into a ready-to-wear contender.
+  - year: 1988
+    text: First women's ready-to-wear runway collection, presented in Milan.
+  - year: 1993
+    text: Launch of <strong>Miu Miu</strong>, Miuccia's namesake sister label, addressing a younger and more eclectic register.
+  - year: 1995
+    text: Launch of Prada menswear.
+  - year: 1996
+    text: Foundation of <em>Fondazione Prada</em>, the contemporary-art and culture arm later expanded under architect Rem Koolhaas.
+  - year: 2003
+    text: Opening of the Rem Koolhaas–designed <em>Prada Epicenter</em> on Broadway, New York — a benchmark in the early-2000s flagship-as-architecture moment.
+  - year: 2011
+    text: Listed on the Hong Kong Stock Exchange, retaining majority ownership in the Prada and Bertelli families.
+  - year: 2020
+    text: <strong>Raf Simons</strong> joins as co-creative director alongside Miuccia Prada — an unusual shared-authorship arrangement at the top of a major house.
+  - year: 2025
+    text: Prada Group agrees to acquire <strong>Versace</strong> from Capri Holdings, consolidating two major Italian houses under one ownership.
+
+creativeDirector: |
+  Co-creative directors of Prada: <strong>Miuccia Prada</strong>
+  and <strong>Raf Simons</strong>, since 2020 — a formally
+  shared authorship rather than a hand-over. <strong>Patrizio
+  Bertelli</strong> chairs the Prada Group; the Prada and Bertelli
+  families retain majority control of the Hong Kong–listed group,
+  with their son <strong>Lorenzo Bertelli</strong> increasingly
+  prominent as marketing director and heir apparent.
+
+productLines:
+  - '<strong>Prada</strong> — women''s and men''s ready-to-wear and footwear'
+  - '<strong>Miu Miu</strong> — Miuccia Prada''s sister label, launched 1993'
+  - '<strong>Handbags & small leather goods</strong> — including the Pocone-nylon and Saffiano-leather lines'
+  - '<strong>Footwear</strong> — most visibly the brushed-leather and rubber-soled <em>Monolith</em> family'
+  - '<strong>Eyewear, fragrance, and beauty</strong> — fragrance historically licensed; beauty relaunched in-house from the early 2020s'
+  - '<strong>Linea Rossa</strong> — the technical-sport line revived in 2018'
+
+designDna: |
+  An intellectual, deliberately uneasy take on luxury — Miuccia
+  Prada has built the house's aesthetic on what she has called
+  <em>ugly chic</em>: clashing prints, muddied colors, plastics and
+  industrial nylon promoted to the rank of luxury, and a mid-century
+  Milanese austerity cut with subversive prettiness. The codes are
+  a black nylon weave, the inverted-triangle metal plaque, Saffiano
+  cross-hatched leather, mid-calf hemlines, and a recurring
+  conversation between librarian propriety and 1970s suburban kitsch.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Prada Prada.
+
+signaturePieces:
+  - name: The Pocone nylon backpack
+    year: 1984
+    text: |
+      A black backpack cut from <em>Pocone</em>, an industrial
+      parachute-grade nylon already used by the house for garment
+      bags. The piece read as anti-status when it appeared —
+      a luxury object made from a workwear material — and became
+      one of the most copied bags of the late twentieth century.
+
+  - name: The 1988 ready-to-wear debut
+    year: 1988
+    text: |
+      Miuccia Prada's first women's runway collection in Milan:
+      narrow skirts, plain shoes, restrained palette — a corrective
+      to the maximalism of mid-1980s Milanese fashion and the
+      foundation of what would later be called <em>quiet luxury</em>.
+
+  - name: The Spring/Summer 1996 "ugly" collection
+    year: 1996
+    text: |
+      Mustards, browns, and acid greens in geometric prints and
+      polyester-feeling fabrics. Widely received as deliberately
+      unflattering at the time, the collection became the locus of
+      <em>ugly chic</em> and is regularly cited among the most
+      influential ready-to-wear shows of the decade.
+
+  - name: Miu Miu
+    year: 1993
+    text: |
+      Miuccia's sister label — younger, more eccentric, and willing
+      to push proportions and references that would feel discordant
+      under the parent name. By the 2020s Miu Miu had become the
+      group's fastest-growing brand and a critical darling on the
+      Paris runway calendar.
+
+  - name: The Saffiano leather goods
+    text: |
+      A cross-hatched, wax-finished calfskin developed by Mario
+      Prada in the early twentieth century and trademarked by the
+      house — durable, scratch-resistant, and instantly recognisable
+      as Prada at the touch.
+
+  - name: The Rem Koolhaas Epicenters
+    year: 2001–2003
+    text: |
+      The Prada flagships in New York (Broadway), Los Angeles, and
+      Tokyo (Aoyama) — designed by <strong>Rem Koolhaas / OMA</strong>
+      and <strong>Herzog & de Meuron</strong> in Tokyo — that recast
+      the luxury store as cultural infrastructure rather than retail
+      furniture.
+
+  - name: The Monolith shoe
+    year: 2019–
+    text: |
+      A heavy, brushed-leather lace-up on a deep lugged rubber sole
+      — a literal-minded take on the sensible school shoe, and one
+      of the defining luxury silhouettes of the early 2020s.
+
+  - name: The triangle plaque
+    text: |
+      The inverted enameled-metal triangle stamped <em>Prada Milano</em>,
+      applied to bags, footwear, and outerwear. Originally a discreet
+      identifier on the nylon line, it has become — alongside the
+      logo itself — the most legible piece of brand iconography in
+      the house's vocabulary.
+
+marketPositioning: |
+  Upper-luxury. Prada anchors a group that pairs the Prada main
+  line — premium-priced ready-to-wear, leather goods, and footwear
+  — with Miu Miu's sharper youth-cultural pull, and is consolidating
+  further upward following the 2025 agreement to acquire Versace.
+
+businessScale: |
+  Listed on the Hong Kong Stock Exchange since 2011, the Prada
+  Group reports annual revenues on the order of five to six billion
+  euros in recent years, with Miu Miu among the fastest-growing
+  units in the wider luxury sector. Figures move; verify against
+  the latest published accounts before citing.
+
+culturalImpact: |
+  Miuccia Prada's <em>ugly chic</em> reframed what a luxury house
+  could look like — prizing intellectual provocation over
+  prettiness — and her conversation with art and architecture
+  through <em>Fondazione Prada</em> set a template the rest of the
+  industry has followed. The house dressed Anne Hathaway's character
+  in <em>The Devil Wears Prada</em> (2006), adapted from
+  Lauren Weisberger's novel, in a rare instance of a brand becoming
+  the title of a mass-market film. The 2020 appointment of Raf
+  Simons as co-creative director — a formal sharing of authorship
+  at the top of a major house — was without obvious precedent in
+  twentieth-century fashion.

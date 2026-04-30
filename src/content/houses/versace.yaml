@@ -1,0 +1,195 @@
+name: Versace
+city: Milan
+country: Italy
+countryCode: it
+founded: 1978
+
+founding: |
+  Founded in 1978 in Milan by <strong>Gianni Versace</strong>
+  (1946–1997), with his elder brother <strong>Santo Versace</strong>
+  steering the business and his younger sister
+  <strong>Donatella Versace</strong> joining as muse, image
+  director, and eventual heir. Gianni presented his first
+  women's collection under his own name in March 1978 at the
+  Palazzo della Permanente in Milan.
+
+identityMarks:
+  - src: /assets/versace-logo.svg
+    alt: Versace wordmark — the spaced-caps treatment of the brand name
+    caption: Wordmark
+
+palette:
+  - { name: Gold,           hex: '#C9A961' }
+  - { name: Jet black,      hex: '#0A0A0A' }
+  - { name: Baroque crimson, hex: '#A4243B' }
+  - { name: Ivory,          hex: '#F4EADE' }
+
+trademarkNotice: |
+  VERSACE is a trademark of Gianni Versace S.r.l., used here for
+  identification under nominative fair use. Source file via Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Versace_logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). The figurative <em>Medusa</em>
+  head device — the house's most recognised emblem — is omitted
+  here because it is an original artistic mark that does not fall
+  under PD-textlogo or PD-shape and is not in the public domain.
+  Hex values are approximations for editorial illustration; no
+  Pantone licensing implied.
+
+milestones:
+  - year: 1978
+    text: Gianni Versace presents his debut women's collection in Milan; Santo handles the business and Donatella joins as muse and image director.
+  - year: 1982
+    text: Launch of the metal-mesh fabric <em>Oroton</em>, a chain-mail-like material that becomes a house signature for evening dresses.
+  - year: 1992
+    text: The <em>Miss S&amp;M</em> autumn–winter collection — bondage harnesses, leather, and gilt buckles — fuses couture craft with overt eroticism.
+  - year: 1994
+    text: Elizabeth Hurley wears the black silk-and-Lycra <em>safety-pin dress</em> to the London premiere of <em>Four Weddings and a Funeral</em>, generating worldwide press.
+  - year: 1997
+    text: Gianni Versace is murdered on 15 July outside his Miami Beach residence; <strong>Donatella Versace</strong> takes over as creative director, with Santo as chief executive.
+  - year: 2000
+    text: Jennifer Lopez wears the green silk-chiffon <em>jungle-print dress</em> to the Grammy Awards; the search volume it generates is widely credited with prompting the creation of Google Images.
+  - year: 2018
+    text: <strong>Capri Holdings</strong> (then Michael Kors Holdings) agrees to acquire Versace for approximately US$2.1 billion, closing later that year.
+  - year: 2025
+    text: <strong>Prada Group</strong> agrees to acquire Versace from Capri Holdings for approximately €1.25 billion (announced April 2025); <strong>Donatella Versace</strong> steps down as creative director in March, moving to a chief brand ambassador role, and <strong>Dario Vitale</strong> — formerly of Miu Miu — is named chief creative officer.
+
+creativeDirector: |
+  Chief creative officer: <strong>Dario Vitale</strong>, since
+  2025, succeeding <strong>Donatella Versace</strong>, who held
+  the creative-director role from 1997 to early 2025 and now
+  serves as chief brand ambassador. Ownership is transitioning
+  from <strong>Capri Holdings</strong> (owner since 2018) to the
+  <strong>Prada Group</strong> under the deal agreed in April 2025
+  — verify completion status against fresh sources before
+  publishing.
+
+volatileNote: Volatile fields — creative leadership and ownership are mid-transition (Vitale appointment 2025, Prada Group acquisition agreed April 2025). Re-verify both lines and the closing status of the Prada deal before publishing.
+
+productLines:
+  - '<strong>Versace</strong> — women''s and men''s ready-to-wear and haute couture (<em>Atelier Versace</em>)'
+  - '<strong>Versace Jeans Couture</strong> — denim-led contemporary line'
+  - '<strong>Handbags &amp; small leather goods</strong> — anchored by the <em>La Medusa</em> and <em>Virtus</em> families'
+  - '<strong>Footwear</strong> — including the <em>Medusa</em> chain and <em>Palazzo</em> heels'
+  - '<strong>Fragrance &amp; beauty</strong> — including <em>Bright Crystal</em>, <em>Eros</em>, and the original <em>Blonde</em> and <em>Red Jeans</em>'
+  - '<strong>Home &amp; lifestyle</strong> — <em>Versace Home</em> furniture, porcelain, and textiles'
+  - '<strong>Eyewear, watches, and accessories</strong>'
+
+designDna: |
+  Maximalist, baroque, and unapologetically sexual. Where Milanese
+  contemporaries pursued restraint, Gianni built a vocabulary of
+  gilt scrollwork, Greek-key borders, classical heads, and
+  saturated print — Pop-art portraits, jungle foliage, baroque
+  cartouches — anchored by the <strong>Medusa</strong> head as
+  the house emblem. Hardware reads loud: gold buckles, chain mail,
+  studded leather. The cut is body-conscious, often built around
+  the bust and hip, with metal-mesh <em>Oroton</em>, silk crêpe,
+  and stretch jersey doing the structural work where another
+  house would use canvas and boning.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Versace Versace.
+
+signaturePieces:
+  - name: The Medusa emblem
+    year: 1993
+    text: |
+      Adopted by Gianni as the house's figurative mark — a
+      classical Medusa head ringed by a Greek-key border. Drawn
+      from the floor mosaics of his childhood in Reggio Calabria,
+      it became shorthand for the brand's fusion of antiquity and
+      excess and now anchors hardware, prints, and store signage
+      worldwide.
+
+  - name: <em>Oroton</em> metal mesh
+    year: 1982
+    text: |
+      A fine aluminium chain-mail fabric Gianni developed with an
+      Italian mill, draped like silk but pouring like liquid metal.
+      It became the substrate for the house's most recognisable
+      eveningwear and remains a technical signature few rivals have
+      matched.
+
+  - name: The bondage / <em>Miss S&amp;M</em> collection
+    year: 1992
+    text: |
+      Autumn–winter womenswear built around leather harnesses,
+      buckles, and corsetry — a calculated provocation that
+      moved fetish vocabulary onto the runway and into mainstream
+      luxury, presaging a decade of fashion's flirtation with the
+      same codes.
+
+  - name: The safety-pin dress
+    year: 1994
+    text: |
+      A black silk-and-Lycra column slashed at the side and held
+      together by oversized gilt safety pins. Worn by
+      <strong>Elizabeth Hurley</strong> to the London premiere of
+      <em>Four Weddings and a Funeral</em>, it produced the
+      single most-photographed red-carpet image of the decade and
+      consolidated the house's hold on celebrity dressing.
+
+  - name: The jungle-print dress
+    year: 2000
+    text: |
+      A plunging green silk-chiffon gown in a tropical-foliage
+      print, worn by <strong>Jennifer Lopez</strong> to the
+      42nd Grammy Awards. The volume of online searches it
+      generated is widely credited as a prompt for the creation of
+      Google Images, a claim Eric Schmidt has repeated publicly.
+      Lopez reprised the print on the Versace runway in 2019.
+
+  - name: Pop-art and supermodel prints
+    year: 1991
+    text: |
+      The autumn–winter 1991 womenswear show, scored to George
+      Michael's <em>Freedom! '90</em> and walked by Naomi Campbell,
+      Linda Evangelista, Christy Turlington, and Cindy Crawford,
+      crystallised the supermodel era. Gianni followed with
+      Warhol-derived Marilyn-and-James-Dean print silk shirts that
+      remain among the house's most reissued pieces.
+
+  - name: Atelier Versace
+    year: 1989–
+    text: |
+      The Paris-presented haute couture line, launched by Gianni
+      in 1989 and continued by Donatella — the house's vehicle
+      for red-carpet eveningwear and a steady fixture on the Oscars
+      and Cannes circuits.
+
+  - name: <em>La Medusa</em> bag
+    year: 2021
+    text: |
+      A structured top-handle bag with an enamelled Medusa medallion
+      at the front — the house's most successful contemporary
+      leather-goods family and the centre of its accessories
+      business under the Capri ownership.
+
+marketPositioning: |
+  Premium to ultra-luxury, with a deliberately louder register than
+  most Milanese peers. Versace trades on red-carpet visibility,
+  print-driven ready-to-wear, and accessories — and, since 2018,
+  on integration with Capri Holdings' wider luxury portfolio. The
+  pending Prada Group acquisition (agreed April 2025) is expected
+  to reposition the house alongside Prada and Miu Miu under a
+  single Italian-owned group.
+
+businessScale: |
+  Mid-scale by luxury standards — Capri Holdings reported Versace
+  revenues on the order of US$1 billion in recent fiscal years,
+  well below the conglomerate-owned mega-houses but with
+  outsized cultural footprint relative to its size. Figures move;
+  verify against the latest published Capri filings, and against
+  Prada Group disclosures once the acquisition closes.
+
+culturalImpact: |
+  Versace effectively invented the <em>supermodel</em> as a
+  marketing institution — the 1991 runway lineup of Campbell,
+  Evangelista, Turlington, and Crawford reset the economics of
+  modelling — and built the modern celebrity-and-fashion
+  feedback loop through Hurley's safety-pin dress and Lopez's
+  jungle print. The Medusa, the Greek-key border, and the
+  baroque-print silk shirt are among the most counterfeited
+  motifs in fashion, a backhanded measure of cultural reach. The
+  house has crossed into music (a long association with hip-hop
+  from the 1990s onward, including Notorious B.I.G.'s
+  <em>Versace</em>-laden styling), film, and, through
+  <em>Versace Home</em>, hospitality and interiors.

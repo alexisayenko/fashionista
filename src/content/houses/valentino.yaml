@@ -1,0 +1,175 @@
+name: Valentino
+city: Rome
+country: Italy
+countryCode: it
+founded: 1960
+
+founding: |
+  Founded in 1960 in Rome by <strong>Valentino Garavani</strong>
+  (b. 1932) with his business and life partner
+  <strong>Giancarlo Giammetti</strong>. Garavani had trained in
+  Paris under Jean Dessès and Guy Laroche before opening the
+  atelier on via Condotti, anchoring the house from the start in
+  the language of Roman haute couture.
+
+identityMarks:
+  - src: /assets/valentino-logo.svg
+    alt: Valentino wordmark — the serif treatment of the house name
+    caption: Wordmark
+
+palette:
+  - { name: Rosso Valentino, hex: '#BC1E2D' }
+  - { name: Ivory,           hex: '#F4EADE' }
+  - { name: Black,           hex: '#000000' }
+  - { name: Gold,            hex: '#C9A961' }
+
+trademarkNotice: |
+  VALENTINO and the V-logo device are trademarks of
+  Valentino S.p.A., used here for identification under nominative
+  fair use. Source files via Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Valentino_logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). Hex values are approximations
+  for editorial illustration; no Pantone licensing implied.
+
+milestones:
+  - year: 1962
+    text: Florence debut at the Sala Bianca of Palazzo Pitti establishes Valentino on the international fashion circuit.
+  - year: 1968
+    text: The <em>Collezione Bianca</em> — an entirely white spring couture collection — becomes the house's most quoted statement and the template for its bridal vocabulary.
+  - year: 1968
+    text: Jacqueline Kennedy marries Aristotle Onassis on Skorpios in a Valentino dress, sealing the house's transatlantic celebrity reach.
+  - year: 1970s
+    text: The <em>rosso Valentino</em> — a saturated couture red — emerges as the house's signature shade and a recurring runway leitmotif.
+  - year: 1985
+    text: Introduction of the <strong>V-logo</strong>, which becomes one of the house's most-recognised identity marks.
+  - year: 2007
+    text: Valentino Garavani retires after a forty-five-year career, marked by a three-day Rome retrospective.
+  - year: 2008
+    text: <strong>Maria Grazia Chiuri</strong> and <strong>Pierpaolo Piccioli</strong>, long-time accessories designers at the house, are named co-creative directors.
+  - year: 2014
+    text: Launch of the <em>Rockstud</em> family of pyramid-studded bags and shoes under Chiuri and Piccioli — the house's defining commercial accessory of the 2010s.
+  - year: 2016
+    text: Chiuri leaves for Dior; <strong>Pierpaolo Piccioli</strong> continues as sole creative director and recentres the house on couture craft and chromatic boldness.
+  - year: 2023
+    text: Mayhoola, the Qatari investment vehicle that has owned Valentino since 2012, agrees to sell a thirty-per-cent stake to <strong>Kering</strong>, with an option for the French group to take full control by 2028.
+  - year: 2024
+    text: Piccioli departs in March after sixteen years at the house; <strong>Alessandro Michele</strong>, formerly of Gucci, is named creative director shortly after.
+  - year: 2025
+    text: Michele's first full ready-to-wear collections for the house arrive, applying his maximalist vocabulary to the Valentino archive.
+
+creativeDirector: |
+  Creative director: <strong>Alessandro Michele</strong>, since
+  March 2024, after sixteen years at the helm of Gucci. Valentino
+  is majority-owned by <strong>Mayhoola for Investments</strong>
+  (Qatar), with <strong>Kering</strong> holding a thirty-per-cent
+  minority stake under a 2023 agreement that includes an option
+  for full acquisition by 2028.
+
+volatileNote: Volatile fields — verify creative-director and ownership lines against fresh sources before publishing; Michele's tenure and the Kering option are recent and still settling.
+
+productLines:
+  - '<strong>Valentino Haute Couture</strong> — presented in Paris twice yearly, anchored in Rome'
+  - "<strong>Ready-to-wear</strong> — women's and men's collections"
+  - '<strong>Handbags & small leather goods</strong> — anchored by the Rockstud, Roman Stud, and VLogo families'
+  - '<strong>Footwear</strong> — including the Rockstud pump and flat'
+  - '<strong>Fragrance & beauty</strong> — operated under licence and, more recently, brought partly in-house'
+  - '<strong>Eyewear and accessories</strong>'
+
+designDna: |
+  An Italian-couture sensibility built on the dialogue between
+  <em>rosso Valentino</em> and ivory, between cinematic glamour
+  and Roman craft. Garavani's vocabulary — sculptural draping,
+  ruffled <em>volants</em>, lace, and hand-applied embellishment —
+  was reframed under Piccioli into a language of saturated colour
+  and modern proportion, then reframed again under Michele as an
+  eclectic, archive-mining maximalism. The V-logo and the
+  pyramid-studded Rockstud function as the house's most
+  recognisable hard-good signatures.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Valentino Valentino.
+
+signaturePieces:
+  - name: The <em>Collezione Bianca</em>
+    year: 1968
+    text: |
+      An entirely white spring couture collection — coats, day
+      dresses, and evening gowns rendered in ivory, cream, and
+      bone. The show became the house's most-quoted statement and
+      the foundation of its enduring bridal vocabulary.
+
+  - name: <em>Rosso Valentino</em>
+    year: 1959–
+    text: |
+      The saturated couture red Garavani has described as fixed
+      from a single early epiphany at the opera in Barcelona. It
+      is less a Pantone reference than a recurring runway
+      leitmotif — the colour the house finishes a couture show on,
+      worn by Jackie Onassis, Julia Roberts, and the better part
+      of three generations of Oscar attendees.
+
+  - name: The V-logo
+    year: 1985–
+    text: |
+      A geometric serif <em>V</em> introduced in the mid-1980s and
+      since extended across hardware, buckles, and full-coverage
+      monogram canvases — one of the most-recognised identity
+      marks in Italian luxury.
+
+  - name: The Rockstud
+    year: 2010–
+    text: |
+      Pyramid metal studs bordering bags, pumps, ballerinas, and
+      sandals — the Chiuri-and-Piccioli accessory that became
+      shorthand for a certain 2010s wardrobe and, briefly, the
+      house's commercial centre of gravity.
+
+  - name: The Roman Stud
+    year: 2020–
+    text: |
+      Piccioli's larger, softer evolution of the Rockstud — a
+      maxi-stud quilted-leather shoulder bag introduced under his
+      solo direction.
+
+  - name: Piccioli's chromatic couture
+    year: 2017–2024
+    text: |
+      The Pierpaolo Piccioli era is most legible in the
+      monochrome-saturated couture shows — pinks, oranges,
+      acid greens, and cobalt staged against unadorned
+      backdrops — that recentred the house on colour as a
+      structural element rather than a finishing touch.
+
+  - name: Valentino Garavani retrospective
+    year: 2007
+    text: |
+      A three-day Rome celebration around Garavani's retirement,
+      including a couture show at the Temple of Venus and a
+      retrospective exhibition at the Ara Pacis — closing the
+      designer's forty-five-year tenure as a public spectacle in
+      his adopted city.
+
+marketPositioning: |
+  Ultra-luxury. Valentino sits in the top tier of Italian houses
+  alongside Prada and Gucci, with haute-couture credibility
+  anchoring a ready-to-wear and accessories business priced at
+  the upper end of the segment.
+
+businessScale: |
+  Annual revenues on the order of one-and-a-half billion euros in
+  recent years (per Mayhoola-released figures, 2023), with a
+  global retail network and growing direct-operated presence.
+  Figures move; verify against the latest published accounts
+  before citing.
+
+culturalImpact: |
+  Valentino Garavani's wardrobe has dressed the post-war public
+  imagination of glamorous European femininity — from Jackie
+  Kennedy's wedding to Skorpios in 1968 to decades of red-carpet
+  appearances in <em>rosso Valentino</em>. Under Piccioli the
+  house became a benchmark for the contemporary couture show as a
+  chromatic statement and for an inclusive casting practice that
+  reframed a heritage Roman maison for a younger audience. The
+  Michele appointment, announced in March 2024, places one of
+  the most stylistically distinctive directors of the previous
+  decade at the head of the house — its working-out is still
+  in progress.

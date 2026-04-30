@@ -1,0 +1,181 @@
+name: Saint Laurent
+city: Paris
+country: France
+countryCode: fr
+founded: 1961
+
+founding: |
+  Founded in 1961 in Paris by <strong>Yves Saint Laurent</strong>
+  (1936–2008) and his partner <strong>Pierre Bergé</strong>
+  (1930–2017), shortly after Saint Laurent's departure from the
+  House of Dior. The first couture collection was shown in
+  January 1962 at 30 bis rue Spontini.
+
+identityMarks:
+  - src: /assets/saint-laurent-logo.svg
+    alt: Saint Laurent wordmark — the spaced-caps treatment used since the 2012 reset under Hedi Slimane
+    caption: Wordmark
+
+palette:
+  - { name: Jet black,     hex: '#0A0A0A' }
+  - { name: Tuxedo white,  hex: '#F5F1E8' }
+  - { name: Signature gold, hex: '#B8862F' }
+  - { name: Bordeaux,      hex: '#5C1F2A' }
+
+trademarkNotice: |
+  SAINT LAURENT is a trademark of Yves Saint Laurent SAS, used
+  here for identification under nominative fair use. Source file
+  via Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Saint_Laurent_logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). The historic
+  <em>YSL</em> monogram — Cassandre's interlocking-Y-S-L
+  device of 1961 — is <strong>not</strong> reproduced here, as
+  it remains under copyright protection. Hex values are
+  approximations for editorial illustration; no Pantone licensing
+  implied.
+
+milestones:
+  - year: 1962
+    text: First couture collection presented at 30 bis rue Spontini, Paris.
+  - year: 1965
+    text: The <em>Mondrian</em> dress — wool-jersey shifts blocked in primary colours after Piet Mondrian's grids — defines the autumn collection.
+  - year: 1966
+    text: <em>Le Smoking</em> — a tuxedo cut for women — debuts, recasting menswear tailoring as eveningwear for women.
+  - year: 1966
+    text: Launch of <em>Saint Laurent Rive Gauche</em>, one of the earliest designer ready-to-wear lines, opening on rue de Tournon.
+  - year: 1968
+    text: The see-through chiffon blouse and the safari jacket establish the house's sensual, utility-borrowed vocabulary.
+  - year: 1983
+    text: The Metropolitan Museum of Art mounts a retrospective of Saint Laurent's work — the first such honour for a living designer.
+  - year: 1999
+    text: The Gucci Group (later PPR, now Kering) acquires Yves Saint Laurent; <strong>Tom Ford</strong> takes over ready-to-wear while Saint Laurent retains couture.
+  - year: 2002
+    text: Yves Saint Laurent retires; the couture house closes with a January farewell show at the Centre Pompidou.
+  - year: 2004–2012
+    text: <strong>Stefano Pilati</strong> leads ready-to-wear, drawing on the archive with a softer, more architectural hand.
+  - year: 2012
+    text: <strong>Hedi Slimane</strong> takes creative control, renames the ready-to-wear line <em>Saint Laurent</em> (dropping "Yves" for fashion only), and resets the visual identity around a rock'n'roll Parisian silhouette.
+  - year: 2016
+    text: <strong>Anthony Vaccarello</strong> succeeds Slimane as creative director.
+  - year: 2017
+    text: Pierre Bergé dies on 8 September; the Fondation Pierre Bergé–Yves Saint Laurent opens museums devoted to the archive in Paris and Marrakech.
+
+creativeDirector: |
+  Creative director: <strong>Anthony Vaccarello</strong>, since
+  April 2016. The house is owned by <strong>Kering</strong>, the
+  French luxury group, which acquired it as part of Gucci Group in
+  1999.
+
+volatileNote: Volatile fields — verify creative-director and ownership lines against fresh sources before publishing.
+
+productLines:
+  - '<strong>Ready-to-wear</strong> — women''s and men''s, shown in Paris'
+  - '<strong>Handbags & small leather goods</strong> — Sac de Jour, Loulou, Kate, Niki, and the chain-shoulder archive'
+  - '<strong>Footwear</strong> — Tribute sandals, Opyum heels, and the house''s pointed-toe boots'
+  - '<strong>Eyewear and accessories</strong>'
+  - '<strong>Fragrance & beauty</strong> — Opium, Black Opium, Libre, and the YSL Beauté cosmetics line, licensed to L''Oréal'
+  - '<strong>Fine jewellery and watches</strong>'
+
+designDna: |
+  <em>Le smoking</em> and the sharp shoulder — a rock'n'roll
+  Parisian language built on borrowed menswear, transparent black,
+  and the long, lean leg. Tailoring is precise and sexual rather
+  than soft; eveningwear leans on jet, sequin, and the cut of a
+  tuxedo lapel. The codes are reductive — black, white, gold —
+  punctuated by the bourgeois colour-blocks of the founder's
+  archive (<em>Mondrian</em>, the Russian collection, the
+  ballet-inspired pieces).
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Saint Laurent Saint Laurent.
+
+signaturePieces:
+  - name: Le Smoking
+    year: 1966
+    text: |
+      The women's tuxedo — a black wool-and-satin dinner suit
+      cut to the female body. Helmut Newton's 1975 photograph of
+      a model smoking on a Paris street, shot for French
+      <em>Vogue</em>, fixed it in the cultural imagination as a
+      study in androgyny, power, and Parisian cool.
+
+  - name: The Mondrian dress
+    year: 1965
+    text: |
+      Sleeveless wool-jersey shifts colour-blocked after Piet
+      Mondrian's <em>Composition</em> grids — primary red, blue,
+      yellow, and white separated by black bands. The seams hide
+      the construction so the painting reads cleanly across the
+      body.
+
+  - name: The safari jacket
+    year: 1968
+    text: |
+      A four-pocket bush jacket in cotton gabardine with a corded
+      belt — utility wear pulled out of its colonial context and
+      cut for the boulevard.
+
+  - name: The see-through blouse
+    year: 1968
+    text: |
+      A long-sleeved blouse in transparent black chiffon, worn
+      with a black skirt and an ostrich-feather belt — among the
+      most-cited single garments of the late 1960s for its
+      uncovered upper body.
+
+  - name: The peasant collection
+    year: 1976
+    text: |
+      The autumn-winter <em>Opéra–Ballets Russes</em> collection
+      — full skirts, gold braid, embroidered boleros — that
+      <em>The New York Times</em> called a revolution. The opulent
+      counterpoint to the tuxedo.
+
+  - name: Opium
+    year: 1977
+    text: |
+      The spice-and-resin oriental fragrance whose orientalist
+      name and launch campaign provoked controversy on release —
+      and went on to become one of the bestselling perfumes of
+      its decade.
+
+  - name: The Sac de Jour
+    year: 2013
+    text: |
+      A structured, top-handle calfskin tote introduced under Hedi
+      Slimane — clean lines, padlock detail, an assertive
+      silhouette built to anchor the house's reset leather-goods
+      vocabulary.
+
+  - name: The Tribute sandal
+    year: 2008
+    text: |
+      A platform sandal with crossed leather straps that became,
+      across two creative directors, a fixture of red-carpet
+      dressing and the most enduring Saint Laurent shoe of the
+      twenty-first century.
+
+marketPositioning: |
+  Ultra-luxury. Saint Laurent sits at the top of Kering's fashion
+  portfolio alongside Gucci and Bottega Veneta, with leather goods,
+  ready-to-wear, and footwear priced into the upper luxury tier
+  and a beauty-and-fragrance business licensed to L'Oréal.
+
+businessScale: |
+  Saint Laurent is one of Kering's largest brands by revenue,
+  reporting on the order of three billion euros in recent years,
+  with strong growth through the Vaccarello era. Figures move;
+  verify against Kering's latest published accounts before citing.
+
+culturalImpact: |
+  Yves Saint Laurent is widely credited with translating
+  twentieth-century menswear — the tuxedo, the safari jacket,
+  the trench, the pea coat — into a women's wardrobe, and with
+  legitimising ready-to-wear as a designer category through
+  <em>Rive Gauche</em>. He was among the first couturiers to cast
+  women of colour on the Paris runway and to draw openly on
+  non-Western visual traditions, a body of work the
+  Fondation Pierre Bergé–Yves Saint Laurent now stewards through
+  museums in Paris and Marrakech. Under Slimane and Vaccarello,
+  the house has become a defining reference for contemporary
+  rock'n'roll tailoring and a fixture of red-carpet and music-led
+  cultural moments.

@@ -1,0 +1,192 @@
+name: Burberry
+city: Basingstoke
+country: United Kingdom
+countryCode: gb
+founded: 1856
+
+founding: |
+  Founded in 1856 in Basingstoke, Hampshire by
+  <strong>Thomas Burberry</strong> (1835–1926), a 21-year-old
+  draper's apprentice. The shop opened as an outfitter specialising in
+  outdoor and sporting dress, and would later relocate its headquarters
+  to the Haymarket in London as the business expanded.
+
+identityMarks:
+  - src: /assets/burberry-logo.svg
+    alt: Burberry wordmark — the contemporary sans-serif treatment of the brand name
+    caption: Wordmark
+
+palette:
+  - { name: Camel,  hex: '#C19A6B' }
+  - { name: Black,  hex: '#000000' }
+  - { name: Red,    hex: '#A6192E' }
+  - { name: White,  hex: '#FFFFFF' }
+
+trademarkNotice: |
+  BURBERRY is a trademark of Burberry Limited, used here for
+  identification under nominative fair use. The
+  <em>Equestrian Knight</em> figurative mark — the armoured rider
+  carrying a lance with the legend <em>Prorsum</em> — is omitted,
+  as it is not in the public domain and falls outside the
+  PD-textlogo / PD-shape thresholds that cover plain wordmarks. The
+  house's checked trade dress is likewise referenced in prose only;
+  no recognisable check pattern is rendered on the page. Hex values
+  are approximations for editorial illustration; no Pantone licensing
+  implied.
+
+milestones:
+  - year: 1879
+    text: Thomas Burberry invents <em>gabardine</em> — a tightly woven, weatherproofed worsted that breathes where rubberised mackintosh does not. Patented 1888.
+  - year: 1891
+    text: Opening of the Haymarket shop in London, which remains the house's flagship address.
+  - year: 1901
+    text: Adoption of the <em>Equestrian Knight</em> figurative mark, with the Latin motto <em>Prorsum</em> ("forwards"), following a public design competition.
+  - year: 1912
+    text: Patent of the <em>Tielocken</em>, the precursor to the trench coat — a belted, double-breasted gabardine officer's coat without buttons at the front.
+  - year: 1914–1918
+    text: The trench coat proper is developed and supplied to British officers during the First World War; D-rings, storm flap, gun flap, and epaulettes are introduced as functional details.
+  - year: c.1924
+    text: The camel-black-red-white check is introduced as a coat lining and only later migrates outwards to become a recognised house signature.
+  - year: 1955
+    text: Royal Warrant granted by Queen Elizabeth II as outfitters; a second Warrant from the Prince of Wales follows in 1989.
+  - year: 2001–2018
+    text: <strong>Christopher Bailey</strong>'s tenure — first as design director, then chief creative officer and briefly chief executive — repositions the house as a global luxury brand and pioneers the live-streamed runway.
+  - year: 2018–2022
+    text: <strong>Riccardo Tisci</strong> serves as chief creative officer, introducing a new monogram and a sharper, streetwear-inflected silhouette.
+  - year: 2022
+    text: <strong>Daniel Lee</strong>, formerly of Bottega Veneta, is named chief creative officer and shows his first collection in February 2023, returning the house to its British outerwear and equestrian codes.
+  - year: 2024
+    text: <strong>Joshua Schulman</strong> is appointed chief executive in July, succeeding Jonathan Akeroyd amid a strategic reset toward classic Burberry codes.
+
+creativeDirector: |
+  Chief creative officer: <strong>Daniel Lee</strong>, since
+  October 2022. Chief executive: <strong>Joshua Schulman</strong>,
+  since July 2024 (succeeding Jonathan Akeroyd). Burberry Group plc
+  is publicly listed on the London Stock Exchange (ticker BRBY) and
+  is a constituent of the FTSE indices. Verify current
+  appointments — figures correct as of late 2025.
+
+volatileNote: Volatile fields — verify creative-director, CEO, and listing details against fresh sources before publishing; Burberry's leadership has changed several times in recent seasons.
+
+productLines:
+  - '<strong>Outerwear</strong> — trench coats, car coats, parkas, capes; the commercial and creative core'
+  - '<strong>Ready-to-wear</strong> — women''s and men''s tailoring, knitwear, and dress'
+  - '<strong>Leather goods</strong> — handbags, small leather goods, luggage'
+  - '<strong>Footwear & accessories</strong> — including the iconic gabardine scarf and equestrian-inflected hardware'
+  - '<strong>Beauty & fragrance</strong> — operated under licence at various points; brought back in-house in recent years'
+  - '<strong>Childrenswear and home</strong> — selectively distributed lifestyle extensions'
+
+designDna: |
+  British heritage outerwear, gabardine mastery, and a vocabulary
+  rooted in weather, country pursuits, and military tailoring. The
+  trench coat is the keystone; the camel-black-red-white check is
+  the inherited trade dress; the equestrian knight is the figurative
+  emblem. Fabric leads silhouette — twill weight, water resistance,
+  and tactile finish remain the house's first design decisions.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Burberry Burberry.
+
+signaturePieces:
+  - name: Gabardine
+    year: 1879
+    text: |
+      Thomas Burberry's tightly woven, lanolin-treated worsted —
+      breathable, hard-wearing, and water-repellent without the
+      stifling rubber lining of earlier waterproofs. The fabric
+      underwrote everything that followed: it was specified by Roald
+      Amundsen for the 1911 South Pole expedition, by Ernest
+      Shackleton for the <em>Endurance</em>, and by George Mallory on
+      Everest in 1924. Gabardine is the house's true patent.
+
+  - name: The Tielocken
+    year: 1912
+    text: |
+      The double-breasted, belted gabardine officer's coat — no
+      buttons at the front, closed by a single strap and
+      buckle — patented as a forerunner to the trench. The
+      template for nearly every weatherproof coat the house has
+      cut since.
+
+  - name: The trench coat
+    year: 1914–
+    text: |
+      Engineered for British officers in the First World War and
+      refined through the inter-war years into a civilian piece of
+      near-universal currency. Its details are functional artefacts:
+      D-rings (originally for map cases or grenades), storm flap and
+      gun flap (to shed rain off the shoulder), epaulettes, throat
+      latch, raglan sleeves, and a back yoke that vents at the
+      shoulder. Worn on screen by Humphrey Bogart in
+      <em>Casablanca</em>, Audrey Hepburn in
+      <em>Breakfast at Tiffany's</em>, and Peter Sellers as Inspector
+      Clouseau, it is the single garment most associated with the
+      house.
+
+  - name: The Nova Check
+    year: 'c.1924–'
+    text: |
+      The camel-ground check banded in black, white, and red,
+      originally introduced as a discreet trench-coat lining and
+      only later released as outer trade dress. It is among the most
+      enforced check trade dresses in fashion; it is referenced here
+      in prose only, and no recognisable check pattern is reproduced
+      on this page.
+
+  - name: The Equestrian Knight
+    year: 1901
+    text: |
+      The armoured rider carrying a lance with the legend
+      <em>Prorsum</em> ("forwards"), adopted following a public design
+      competition and registered as the house's figurative mark. The
+      mark is referenced editorially and not reproduced on this page,
+      as it is not in the public domain.
+
+  - name: The duffle coat
+    text: |
+      The toggle-fastened wool overcoat with rope-and-horn closures
+      and a hood — a British military export that Burberry has
+      cut and recut as part of its outerwear vocabulary alongside the
+      trench, the car coat, and the field jacket.
+
+  - name: The gabardine scarf
+    text: |
+      Long, fringed, and woven in the house's check, the cashmere
+      scarf has functioned as the most accessible point of entry to
+      Burberry for decades — and, in the early 2000s, the
+      collateral casualty of the brand's over-distribution problem
+      that Christopher Bailey was hired to repair.
+
+  - name: The Heritage trench programme
+    year: 2010–
+    text: |
+      A re-engineering of the trench coat under Bailey — Kensington,
+      Chelsea, Westminster, Sandringham fits, named for London
+      addresses — that codified the house's archetypes for online
+      retail and made the trench, once again, the house's commercial
+      anchor.
+
+marketPositioning: |
+  Aspirational luxury with a heritage-British identity. Burberry sits
+  in the upper-premium to entry-luxury segment — priced below the
+  Parisian ultra-luxury houses but above contemporary designer brands
+  — and trades on outerwear authority, royal-warrant provenance, and
+  a defined visual lexicon (trench, check, knight).
+
+businessScale: |
+  Burberry Group plc is publicly listed on the London Stock Exchange
+  and reported revenues on the order of £2.5–3 billion in recent
+  fiscal years, with figures softening in 2024–2025 amid a strategic
+  reset and a global luxury slowdown. Verify against the latest
+  published accounts before citing.
+
+culturalImpact: |
+  Burberry's influence on twentieth-century dress is concentrated in
+  a single garment — the trench coat — which the house effectively
+  invented and which has since been adopted, copied, and reinterpreted
+  across the entire industry. The brand also offers a textbook case
+  study in luxury management: from the late-1990s "chav check"
+  over-distribution crisis through Christopher Bailey's heritage-led
+  rebuild, the digital-first shows of the 2010s, Riccardo Tisci's
+  monogram-era reset, and Daniel Lee's return to British outerwear
+  codes — each turn debated in business schools and in the trade
+  press as much as on the runway.

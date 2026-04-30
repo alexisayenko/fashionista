@@ -1,0 +1,200 @@
+name: Louis Vuitton
+city: Paris
+country: France
+countryCode: fr
+founded: 1854
+
+founding: |
+  Founded in 1854 in Paris by <strong>Louis Vuitton</strong>
+  (1821–1892), a layetier-emballeur who had spent years packing
+  trunks for Empress Eugénie before opening his own workshop on
+  rue Neuve-des-Capucines. His innovation was structural —
+  flat-topped, canvas-covered trunks that stacked on the new steam
+  liners and railway carriages, replacing the domed leather chests
+  of an earlier age.
+
+identityMarks:
+  - src: /assets/louis-vuitton-logo.svg
+    alt: Louis Vuitton wordmark — the spaced-caps treatment of the brand name
+    caption: Wordmark
+  - src: /assets/louis-vuitton-monogram.svg
+    alt: 'Louis Vuitton interlocking LV monogram glyph, designed by Georges Vuitton in 1896'
+    caption: LV monogram
+
+palette:
+  - { name: Toile brown, hex: '#5C4023' }
+  - { name: Tan canvas,  hex: '#B6914B' }
+  - { name: Black,       hex: '#000000' }
+  - { name: Gold brass,  hex: '#C9A961' }
+
+trademarkNotice: |
+  LOUIS VUITTON, the LV monogram, and the Toile Monogram canvas
+  are trademarks of Louis Vuitton Malletier, used here for
+  identification under nominative fair use. Source files via
+  Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Louis_Vuitton_logo_and_wordmark.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons) and
+  <a href="https://commons.wikimedia.org/wiki/File:Louis_Vuitton_Monogram.svg">LV monogram</a>
+  (PD-shape, Wikimedia Commons). The full Toile Monogram canvas
+  pattern is omitted here as protected trade dress. Hex values are
+  approximations for editorial illustration; no Pantone licensing
+  implied.
+
+milestones:
+  - year: 1858
+    text: Introduction of the flat-topped <em>Trianon</em> trunk in grey waterproofed canvas — light, stackable, and the template for modern luggage.
+  - year: 1872
+    text: 'Launch of the red-and-beige striped canvas, an early counter to the Trianon copyists.'
+  - year: 1888
+    text: 'Introduction of the <em>Damier</em> chequerboard canvas, registered as a trademark to defend against widespread imitation.'
+  - year: 1896
+    text: '<strong>Georges Vuitton</strong> creates the <em>Toile Monogram</em> — interlocking LV initials with quatrefoils and flowers — explicitly as an anti-counterfeiting device.'
+  - year: 1924
+    text: Launch of the <em>Keepall</em>, a soft, foldable weekend bag that anticipated the era of air travel.
+  - year: 1932
+    text: Launch of the <em>Noé</em>, originally designed to carry five champagne bottles upright.
+  - year: 1987
+    text: Merger with Moët Hennessy to form <strong>LVMH</strong> — the holding company that would consolidate much of the modern luxury industry.
+  - year: 1997
+    text: '<strong>Marc Jacobs</strong> appointed artistic director, launching the house''s first ready-to-wear and pulling Vuitton into the contemporary art conversation.'
+  - year: 2001
+    text: Stephen Sprouse graffiti-printed monogram bags — the first of many art collaborations (Murakami 2003, Richard Prince 2008, Yayoi Kusama 2012 and 2023).
+  - year: 2013
+    text: '<strong>Nicolas Ghesquière</strong> succeeds Jacobs as artistic director of women''s collections.'
+  - year: 2018
+    text: '<strong>Virgil Abloh</strong> becomes artistic director of menswear — the first Black designer to lead the men''s line at the house — until his death in November 2021.'
+  - year: 2023
+    text: '<strong>Pharrell Williams</strong> named men''s creative director, debuting on a runway built across the Pont Neuf in June.'
+
+creativeDirector: |
+  As of 2026, women's collections are led by
+  <strong>Nicolas Ghesquière</strong> (artistic director since
+  2013) and men's collections by <strong>Pharrell Williams</strong>
+  (creative director of menswear since 2023). The house is the
+  flagship maison of <strong>LVMH Moët Hennessy Louis Vuitton</strong>,
+  controlled by the <strong>Arnault family</strong>; chairman and
+  CEO Bernard Arnault has overseen the group since 1989.
+
+productLines:
+  - '<strong>Hard-sided trunks & travel</strong> — the founding business, still produced at the Asnières atelier'
+  - '<strong>Handbags & soft-sided leather goods</strong> — the commercial centre of gravity'
+  - "<strong>Ready-to-wear</strong> — women's under Ghesquière, men's under Williams"
+  - '<strong>Footwear, eyewear, and accessories</strong>'
+  - '<strong>Fragrance</strong> — Les Parfums Louis Vuitton, launched in 2016 under master perfumer Jacques Cavallier-Belletrud'
+  - '<strong>Fine jewellery & watches</strong> — including the Tambour watch and high-jewellery pieces from Place Vendôme'
+  - '<strong>Trophy trunks & special orders</strong> — the bespoke commissions of the Asnières workshop'
+
+designDna: |
+  A house built on the trunk-maker's logic of structure, hardware,
+  and surface. The vocabulary is canvas before leather — the
+  <em>Toile Monogram</em>, the <em>Damier</em>, the Epi grain —
+  paired with brass corners, vachetta-leather trim that ages with
+  use, and the brand-name lock developed by Georges Vuitton in
+  1890. Under successive designers the silhouette has shifted, but
+  the iconography has remained: monogram and travel, repeated as
+  the through-line from steamer trunk to runway.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Louis Vuitton Louis Vuitton.
+
+signaturePieces:
+  - name: The flat-topped Trianon trunk
+    year: 1858
+    text: |
+      Louis Vuitton's founding object. By replacing the domed lid
+      of the traditional travel chest with a flat top in grey
+      waterproofed canvas, he made the trunk stackable in a ship's
+      hold or a train carriage — and obsolesced an entire
+      generation of luggage in the process.
+
+  - name: The Toile Monogram canvas
+    year: 1896
+    text: |
+      Designed by <strong>Georges Vuitton</strong> as an
+      anti-counterfeiting device, the LV-and-quatrefoil pattern
+      borrowed motifs from the Japonisme then current in Paris and
+      registered them as trademarks. The irony is well-rehearsed —
+      the most counterfeited mark in luxury was conceived to stop
+      counterfeiting — but the canvas remains the visual anchor
+      of the house and the platform on which decades of
+      collaborations have been staged.
+
+  - name: The Keepall
+    year: 1924
+    text: |
+      A soft, foldable weekend bag introduced as air travel began
+      to reshape what people carried. Its proportions and double
+      handles became the default for the modern duffel.
+
+  - name: The Noé
+    year: 1932
+    text: |
+      Commissioned, the story goes, by a champagne maison that
+      needed to carry five bottles upright; the bucket silhouette
+      with a drawstring closure became one of the house's
+      enduring shapes.
+
+  - name: The Speedy
+    year: 1930
+    text: |
+      Originally the <em>Express</em> — a smaller, hand-held
+      version of the Keepall. Audrey Hepburn requested a
+      25-centimetre version in 1965; the <em>Speedy 25</em> has
+      been continuously produced ever since.
+
+  - name: The Marc Jacobs collaborations
+    year: 2001–2013
+    text: |
+      Stephen Sprouse's graffiti, Takashi Murakami's
+      Multicolore and Cherry Blossom, Richard Prince's Joke
+      bags, Yayoi Kusama's polka dots — Jacobs treated the
+      monogram canvas as a surface for contemporary art, and in
+      doing so rewrote what a heritage luxury house could be in the
+      twenty-first century.
+
+  - name: The Capucines
+    year: 2013
+    text: |
+      A structured top-handle bag in plain leather, named for the
+      street of the original 1854 store — Ghesquière's
+      first signature handbag and a deliberate counterweight to
+      the monogram.
+
+  - name: The Pont Neuf show
+    year: 2023
+    text: |
+      <strong>Pharrell Williams</strong>'s debut menswear
+      collection, presented on a runway built across the Pont Neuf
+      with a gold-plated <em>Damoflage</em> camouflage and a Jay-Z
+      and Beyoncé performance — the most-watched men's show
+      in the house's history, and a statement about the cultural
+      ambit of luxury menswear in the streetwear era.
+
+marketPositioning: |
+  Ultra-luxury, mass-distributed. Louis Vuitton sits at the top
+  tier of pricing while operating a global retail network on a
+  scale matched by few rivals — a hybrid that has defined the
+  house's commercial model for three decades.
+
+businessScale: |
+  By common reckoning the largest single luxury brand in the
+  world by revenue. The Fashion & Leather Goods division of LVMH,
+  of which Vuitton is the dominant contributor, reported revenues
+  on the order of forty billion euros in recent years
+  (per LVMH-released figures, 2023–2024); the house does not
+  publish standalone accounts, so figures are estimates derived
+  from group disclosures. Verify against the latest published
+  reporting before citing.
+
+culturalImpact: |
+  Louis Vuitton's monogram canvas is among the most globally
+  recognised pieces of design in any category — clothing, art,
+  or industrial — and the house has used that recognition as a
+  platform for sustained engagement with contemporary art (Sprouse,
+  Murakami, Prince, Kusama, Jeff Koons), architecture (the Frank
+  Gehry-designed Fondation Louis Vuitton in Paris, opened 2014),
+  cinema, music, and sport (the <em>Trophy Trunk</em> commissions
+  for the FIFA World Cup, the America's Cup, and Roland-Garros).
+  Under the LVMH umbrella, the maison has also become a case study
+  in how a nineteenth-century craft business can scale into a
+  twenty-first-century cultural institution without — its
+  defenders argue — losing the workshop logic of the founder.

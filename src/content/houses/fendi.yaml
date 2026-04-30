@@ -1,0 +1,176 @@
+name: Fendi
+city: Rome
+country: Italy
+countryCode: it
+founded: 1925
+
+founding: |
+  Founded in 1925 in Rome by <strong>Adele Casagrande</strong>
+  (1897–1978) and her husband <strong>Edoardo Fendi</strong>
+  (1888–1954) as a small fur-and-leather atelier and shop on Via del
+  Plebiscito. Their five daughters — Paola, Anna, Franca, Carla, and
+  Alda — entered the business through the 1940s and 1950s and ran
+  the house collectively for the better part of half a century.
+
+identityMarks:
+  - src: /assets/fendi-logo.svg
+    alt: Fendi wordmark — the slab-serif treatment of the brand name
+    caption: Wordmark
+
+palette:
+  - { name: FF brown,        hex: '#5C3A1E' }
+  - { name: Tobacco tan,     hex: '#C8A37A' }
+  - { name: Roman terracotta, hex: '#B5523A' }
+  - { name: Black,           hex: '#000000' }
+
+trademarkNotice: |
+  FENDI and the FF (<em>Zucca</em>) monogram are trademarks of Fendi
+  S.r.l., used here for identification under nominative fair use.
+  Source file via Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Fendi_logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). Hex values are approximations
+  for editorial illustration; no Pantone licensing implied.
+
+milestones:
+  - year: 1925
+    text: Adele and Edoardo Fendi open the original fur-and-leather workshop and boutique in Rome.
+  - year: 1946
+    text: The five Fendi sisters begin entering the family business; the house's centre of gravity shifts toward modernised fur and accessories.
+  - year: 1965
+    text: <strong>Karl Lagerfeld</strong> is appointed designer of the fur and ready-to-wear collections, the start of a fifty-four-year tenure that ends only with his death.
+  - year: 1965
+    text: Lagerfeld and the sisters introduce the interlocking <strong>FF</strong> monogram — nicknamed <em>Zucca</em> — derived from the phrase <em>"Fun Furs."</em>
+  - year: 1977
+    text: Launch of the first Fendi ready-to-wear collection, extending the house beyond fur and leather goods.
+  - year: 1997
+    text: <strong>Silvia Venturini Fendi</strong>, granddaughter of the founders, designs the <em>Baguette</em> — a small shoulder bag that becomes the prototype of the modern "It-bag."
+  - year: 2001
+    text: <strong>LVMH</strong> acquires a controlling stake in Fendi alongside Prada, and by 2003 takes majority ownership; Fendi becomes part of the group's fashion-and-leather-goods division.
+  - year: 2005
+    text: The house relocates its Rome headquarters to the <em>Palazzo Fendi</em> on the Largo Goldoni; in 2015 it moves the corporate offices to the rationalist <em>Palazzo della Civiltà Italiana</em> in EUR.
+  - year: 2019
+    text: Karl Lagerfeld dies on 19 February; his final Fendi collection is shown posthumously days later in Milan.
+  - year: 2020
+    text: <strong>Kim Jones</strong> is appointed artistic director of couture and womenswear, working alongside Silvia Venturini Fendi (accessories and menswear) and Delfina Delettrez Fendi (jewellery).
+  - year: 2024
+    text: Kim Jones departs in October after roughly four years; the womenswear and couture seat is left vacant pending a successor.
+
+creativeDirector: |
+  As of early 2026, the artistic-director seat for womenswear and
+  couture remains <strong>vacant</strong> following Kim Jones's exit
+  in October 2024. <strong>Silvia Venturini Fendi</strong> continues
+  to lead accessories and menswear, and <strong>Delfina Delettrez
+  Fendi</strong> oversees jewellery. The house is owned by
+  <strong>LVMH Moët Hennessy Louis Vuitton</strong>.
+
+volatileNote: Volatile fields — verify the womenswear / couture appointment and LVMH stake against fresh sources before publishing.
+
+productLines:
+  - '<strong>Fur & shearling</strong> — the founding craft, still designed in-house in Rome'
+  - '<strong>Leather goods & handbags</strong> — anchored by the <em>Selleria</em>, <em>Baguette</em>, and <em>Peekaboo</em> lines'
+  - "<strong>Women's ready-to-wear & haute couture</strong> — couture shown in Paris"
+  - "<strong>Men's ready-to-wear</strong>"
+  - '<strong>Fine jewellery</strong> — under Delfina Delettrez Fendi'
+  - '<strong>Eyewear, footwear, fragrance, and home (<em>Fendi Casa</em>)</strong>'
+
+designDna: |
+  A Roman house defined by the transformation of fur and leather into
+  modern luxury. The codes are the interlocking <strong>FF
+  Zucca</strong> monogram, the saddle-stitched <em>Selleria</em>
+  leather work, fur treated as a textile rather than a status symbol
+  — sheared, woven, dyed, and cut on the bias — and a colour
+  vocabulary that runs from tobacco and earth to the terracottas of
+  Rome itself.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Fendi Fendi.
+
+signaturePieces:
+  - name: The <em>Selleria</em> leather work
+    year: 1930s–
+    text: |
+      The hand-saddle-stitched leather goods that descend from the
+      house's earliest workshop output — heavy <em>cuoio Romano</em>
+      finished with the contrasting double seam that became a Fendi
+      signature long before the FF monogram existed.
+
+  - name: The FF <em>Zucca</em> monogram
+    year: 1965
+    text: |
+      Designed in Lagerfeld's first weeks at the house, the
+      interlocking double-F was drawn from the phrase <em>"Fun
+      Furs"</em> — Lagerfeld's reframing of fur as a wardrobe
+      material rather than a dynastic heirloom. Printed on canvas, it
+      became one of the most recognised monograms in luxury.
+
+  - name: The <em>Baguette</em>
+    year: 1997
+    text: |
+      Designed by Silvia Venturini Fendi and named for the way it
+      tucked under the arm like a loaf of bread. Small, soft, and
+      issued in hundreds of fabrications — beaded, sequined,
+      embroidered, in raffia and python — it is widely credited as
+      the first <em>"It-bag"</em> of the contemporary era. Carrie
+      Bradshaw's "It's not a bag, it's a Baguette" line in <em>Sex
+      and the City</em> sealed its place in the wider culture.
+
+  - name: The <em>Peekaboo</em>
+    year: 2008
+    text: |
+      A structured top-handle bag with a hinged double compartment
+      that opens to reveal a contrasting interior — the pun of the
+      name. Conceived by Silvia Venturini Fendi as a piece that
+      rewards a closer look, it became the house's principal
+      structured-leather icon of the 2010s.
+
+  - name: Fur as textile
+    year: 1965–
+    text: |
+      Lagerfeld's most consequential intervention at Fendi was
+      technical rather than decorative — he treated fur as a
+      material to be cut, sheared, dyed, woven into intarsia, and
+      reassembled in panels, rather than draped as a single pelt.
+      The sisters' workshop made the experiments possible; the
+      collections that followed redrew what a fur coat could be.
+
+  - name: The <em>Palazzo della Civiltà Italiana</em>
+    year: 2015–
+    text: |
+      The house's corporate seat in Rome's EUR district — a
+      rationalist travertine building of 1942 often called the
+      <em>Colosseo Quadrato</em>. The choice of address tied the
+      brand explicitly to Roman identity at a moment when most peers
+      were consolidating in Paris or Milan.
+
+  - name: <em>Fendi Couture</em>
+    year: 2015–
+    text: |
+      The house's haute-couture line — shown in Paris and built
+      almost entirely on fur, then progressively expanded into
+      leatherwork and embroidery. The July 2016 show staged on the
+      Trevi Fountain remains the most photographed event in the
+      programme.
+
+marketPositioning: |
+  Ultra-luxury, with a centre of gravity in leather goods and fur and
+  a couture wing positioned to anchor brand prestige. Fendi sits
+  inside the upper tier of LVMH's fashion-and-leather-goods division
+  alongside Louis Vuitton, Dior, Loewe, and Celine.
+
+businessScale: |
+  Fendi's revenues are not separately disclosed — LVMH reports the
+  house within its <strong>Fashion &amp; Leather Goods</strong>
+  segment. Trade-press estimates have placed annual sales in the
+  range of two to three billion euros in recent years; figures move,
+  and any specific number should be re-verified against the latest
+  LVMH commentary before citing.
+
+culturalImpact: |
+  Fendi turned fur — historically a static luxury — into a
+  dynamic fashion material, and turned a Roman family workshop into
+  a global house without surrendering its address. The
+  <em>Baguette</em> defined the It-bag economy of the late 1990s and
+  2000s; the FF monogram is one of the half-dozen most quoted
+  graphic marks in the industry. Through the restoration of the
+  Trevi Fountain (announced in 2013 and completed in 2015) and the
+  occupation of the <em>Palazzo della Civiltà Italiana</em>, the
+  house has bound its identity to the visible fabric of Rome.

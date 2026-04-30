@@ -1,0 +1,186 @@
+name: Hermès
+city: Paris
+country: France
+countryCode: fr
+founded: 1837
+
+founding: |
+  Founded in 1837 in Paris by <strong>Thierry Hermès</strong>
+  (1801–1878) as a harness workshop in the Grands Boulevards quarter,
+  outfitting the carriages of European nobility. The house migrated
+  from the bridle to the saddle under his son Charles-Émile, and to
+  the trunk, the bag, and the silk square under successive
+  generations — a lineage that has remained, unusually for the
+  sector, in family hands.
+
+identityMarks:
+  - src: /assets/hermes-logo.svg
+    alt: Hermès wordmark — the Duc-carriage device above the spaced-caps brand name
+    caption: Wordmark
+
+palette:
+  - { name: Hermès orange, hex: '#FF7900' }
+  - { name: Saddle tan,    hex: '#A0522D' }
+  - { name: Chocolate,     hex: '#3B2417' }
+  - { name: Cream,         hex: '#F5EBD8' }
+
+trademarkNotice: |
+  HERMÈS and the <em>Duc-carriage-and-horse</em> device are
+  trademarks of Hermès International, used here for identification
+  under nominative fair use. Source file via Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Herm%C3%A8s_logo.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). Hex values — including the
+  signature orange — are approximations for editorial illustration;
+  no Pantone licensing implied. Hermès does not hold a registered
+  single-colour trademark on the orange.
+
+milestones:
+  - year: 1837
+    text: Thierry Hermès opens a harness workshop in Paris, supplying European courts and the carriage trade.
+  - year: 1880
+    text: Charles-Émile Hermès moves the house to <em>24 rue du Faubourg Saint-Honoré</em>, still its flagship address, and pivots from harness to saddlery.
+  - year: 1922
+    text: Émile-Maurice Hermès introduces leather goods and travel articles, having brought the zipper — the <em>fermeture Hermès</em> — back from a North-American visit.
+  - year: 1937
+    text: Launch of the <em>carré</em>, the 90 × 90 cm screen-printed silk scarf that becomes a cultural object in its own right.
+  - year: 1956
+    text: Grace Kelly is photographed shielding her pregnancy with the <em>Sac à dépêches</em>; <em>Life</em> magazine's caption rebaptises it the <strong>Kelly</strong>.
+  - year: 1978
+    text: <strong>Jean-Louis Dumas</strong> takes the helm and steers the house through three decades of measured expansion without diluting its codes.
+  - year: 1984
+    text: Birth of the <strong>Birkin</strong>, named for Jane Birkin after a chance flight conversation with Dumas.
+  - year: 1993
+    text: Hermès International is listed on the Paris Bourse; the founding family retains majority control.
+  - year: 2010–2014
+    text: LVMH discloses a 17% stake built through equity swaps; after a long battle, an accord distributes the shares to family members and the holding <em>H51</em> is formed to lock in family control.
+  - year: 2014
+    text: <strong>Axel Dumas</strong> is named executive chairman, the sixth generation of the family at the helm.
+  - year: 2024
+    text: Group revenues surpass <strong>€15 billion</strong>, with operating margins among the highest in the listed luxury sector.
+
+creativeDirector: |
+  Artistic director of women's ready-to-wear:
+  <strong>Nadège Vanhée</strong>, since 2014.
+  Artistic director of men's ready-to-wear:
+  <strong>Véronique Nichanian</strong>, since 1988 — one of the
+  longest tenures in the industry. Executive chairman:
+  <strong>Axel Dumas</strong>; the Hermès family retains majority
+  control through the <em>H51</em> holding company. Verify against
+  fresh sources before publishing — leadership at this level moves
+  slowly but does move.
+
+productLines:
+  - '<strong>Leather goods & saddlery</strong> — bags, small leather goods, and the historic equestrian line'
+  - '<strong>Silk & textiles</strong> — the <em>carré</em>, ties, and printed scarves'
+  - "<strong>Ready-to-wear</strong> — women's and men's collections shown in Paris"
+  - '<strong>Fragrance & beauty</strong> — including <em>Terre d''Hermès</em>, <em>Eau d''orange verte</em>, and the <em>Rouge Hermès</em> lipstick line'
+  - '<strong>Watches, jewellery & home</strong> — La Montre Hermès, fine jewellery, tableware, and furniture'
+  - '<strong>Equestrian</strong> — saddles, bridles, and riding apparel made to commission'
+
+designDna: |
+  Materials before motifs. Hermès thinks in leather grains, silk
+  weights, and stitch tensions before it thinks in silhouettes —
+  the <em>point sellier</em> saddle stitch done by hand, the
+  <em>box</em> and <em>togo</em> calf, the heavy twill of the
+  <em>carré</em>. Colour is bold and unembarrassed (the orange, the
+  ribbon-and-box) but applied to objects designed to be inherited.
+  The luxury here is durability staged as restraint.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Hermès Hermès.
+
+signaturePieces:
+  - name: The Kelly bag
+    year: 1956
+    text: |
+      Originally the <em>Sac à dépêches</em> of 1935, a trapezoidal
+      saddle-stitched holdall with a single top handle. After Grace
+      Kelly was photographed using one to shield her pregnancy from
+      the press, the bag took her name with the family's permission —
+      a rare instance of a luxury object renamed by the public and
+      ratified by the maker.
+
+  - name: The Birkin
+    year: 1984
+    text: |
+      The story is well-rehearsed: Jane Birkin, seated next to
+      Jean-Louis Dumas on a Paris–London flight, complained that no
+      bag held what a working mother carried. The result is a softer,
+      double-handled cousin of the Kelly, sized to a working day. Long
+      waiting lists, persistent secondary-market premiums, and a
+      cultural shorthand for inaccessible luxury — the bag has
+      arguably outgrown the house.
+
+  - name: The carré
+    year: 1937
+    text: |
+      A 90 × 90 cm silk twill square, screen-printed in dozens of
+      colours from designs that pass through years of engraving and
+      colour-trial before release. Each season's catalogue draws on
+      an archive of more than two thousand designs; the medium has
+      attracted artists from <em>Hugo Grygkar</em> to contemporary
+      illustrators. Knotted, framed, or worn as a top — the
+      <em>carré</em> is a small textile essay, reissued.
+
+  - name: The saddle stitch
+    text: |
+      <em>Point sellier</em> — two needles, one waxed linen thread,
+      pulled through a single awl-pricked hole in opposite directions
+      — is the technique inherited from harness-making. Slower
+      than machine stitching and self-locking under stress, it is the
+      reason a Hermès bag can be sent back to the workshop decades
+      later and emerge intact.
+
+  - name: Terre d'Hermès
+    year: 2006
+    text: |
+      The men's fragrance composed by <strong>Jean-Claude Ellena</strong>
+      around vetiver, flint, and bitter orange — a mineral, vertical
+      composition that became the house's most commercial scent and
+      anchored its reframing of perfumery as authorship rather than
+      marketing.
+
+  - name: Hermès orange
+    text: |
+      Adopted by necessity in the 1940s — wartime cardboard supply
+      forced the switch from the prewar cream box to a brighter pulp,
+      and the colour stuck. It is now among the most recognisable
+      brand colours in any sector, used for boxes, ribbon, advertising,
+      and shopfront awnings, but never registered as a single-colour
+      trademark.
+
+  - name: Cape Cod & H-Hour watches
+    text: |
+      La Montre Hermès, the watchmaking arm based in Bienne, produces
+      mechanical watches whose case shapes — the rectangular
+      <em>H-Hour</em>, the rounded-square <em>Cape Cod</em> by
+      Henri d'Origny — read as Hermès leather goods translated into
+      steel. The strap, predictably, is treated as the equal of the
+      case.
+
+marketPositioning: |
+  The apex of the listed luxury sector. Hermès deliberately constrains
+  growth — leather-goods output is gated by trained artisans rather
+  than by demand — and the resulting scarcity is the commercial
+  engine. Pricing sits above LVMH's flagship maisons in the comparable
+  categories.
+
+businessScale: |
+  A publicly traded group (Euronext: RMS) with reported revenues of
+  approximately <strong>€15.2 billion</strong> in 2024 and operating
+  margins above 40% — among the highest in the listed luxury
+  industry. The Hermès family, through the holding <em>H51</em>,
+  retains majority control of the share capital; figures and
+  shareholding structure should be re-verified against the latest
+  published accounts before citing.
+
+culturalImpact: |
+  Hermès is the durable answer to logo-driven luxury — a house whose
+  status signals are mostly invisible to outsiders (the saddle stitch,
+  the box weight, the workshop initial inside a flap) and whose
+  cultural prestige rises in inverse proportion to its visibility.
+  The Birkin's role in popular culture, from sitcom punchlines to
+  Hollywood gifting, has made the bag an index of inaccessibility.
+  Beyond the leather, the <em>carré</em> sustains an ongoing
+  collaboration with illustrators and artists, and the in-house
+  perfumery — under Ellena and his successors — has reframed
+  what a fashion-house fragrance can be.
