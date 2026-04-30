@@ -143,7 +143,7 @@ The hero is a flex row on desktop and stacks on viewports under 640 px. See [Her
 
 ### Content sections (fixed order)
 
-Each maison's article body should carry these nine `<section>` blocks in this order. The ordering exists so readers can scan houses against one another without hunting for fields.
+Each maison's article body should carry these `<section>` blocks in this order. Sections 1–5 and 7–10 are required; section 6 is **optional** and only appears on houses with a strongly codified visual identity worth showing as reference. The ordering exists so readers can scan houses against one another without hunting for fields.
 
 | # | Section heading | Typical markup | Notes |
 | --- | --- | --- | --- |
@@ -152,10 +152,11 @@ Each maison's article body should carry these nine `<section>` blocks in this or
 | 3 | **Creative director & ownership** | `<p>` + optional `<p class="note">` | Italic `.note` for "to be updated" / successional uncertainty. Split Men / Women lines when the house has separate creative directors, matching the index-grid convention. |
 | 4 | **Main product lines** | `<ul class="plain-list">` | Bulletless list; each `<li>` starts with `<strong>Line</strong> — description`. |
 | 5 | **Design DNA** | `<p>` | One tight paragraph on silhouette, palette, philosophy. |
-| 6 | **Beyond the timeline** | `<p class="section-intro">` + `<ul class="signature-pieces">` | Italic lead; each piece = `<strong>` name, optional `<span class="piece-year">`, `<p>` body. |
-| 7 | **Market positioning** | `<p>` | Segment (accessible / premium / ultra-luxury) and breadth. |
-| 8 | **Business scale** | `<p>` | Revenue order of magnitude; note the valuation date if cited. |
-| 9 | **Cultural impact & collaborations** | `<p>` | Influence on dress codes, notable collaborations across film, sport, architecture. |
+| 6 | **Visual identity** *(optional)* | `<section class="visual-identity">` containing `<div class="identity-marks">` (logo + wordmark figures) and `<ul class="palette-swatches">` and `<p class="trademark-notice">` | Logo + wordmark images and a small palette of brand colors as reference assets. Source logo files from Wikimedia Commons / Wikipedia (PD-textlogo / PD-shape) and self-host in `assets/`. Always close with a `<p class="trademark-notice">` crediting source files and stating nominative-fair-use intent. See [compliances.md §2b–2c](compliances.md). Keep marks at the CSS-imposed `max-height: 80px`; do not stylize, recolor, or distort. |
+| 7 | **Beyond the timeline** | `<p class="section-intro">` + `<ul class="signature-pieces">` | Iconic pieces, motifs, and conventions that defined the house — chosen for cultural weight, not chronology. Italic lead reframing the section. Each piece = `<strong>` name, optional `<span class="piece-year">` (year or era; omit for timeless contributions), `<p>` body of one short paragraph. |
+| 8 | **Market positioning** | `<p>` | Segment (accessible / premium / ultra-luxury) and breadth. |
+| 9 | **Business scale** | `<p>` | Revenue order of magnitude; note the valuation date if cited. |
+| 10 | **Cultural impact & collaborations** | `<p>` | Influence on dress codes, notable collaborations across film, sport, architecture. |
 
 Every `<section>` uses an `<h2>` (serif, 1.5 rem, rule underline) via `.house-page article h2`. Leave 2.75 rem between sections — handled automatically by `.house-page article section`.
 
@@ -168,6 +169,9 @@ Every `<section>` uses an `<h2>` (serif, 1.5 rem, rule underline) via `.house-pa
 | `.plain-list` | Unstyled list with 0.35 rem vertical padding per item | [styles.css](styles.css) |
 | `.section-intro` | Italic `#555` lead paragraph inside a section | [styles.css](styles.css) |
 | `.signature-pieces` + `.piece-year` | Ruled list of iconic pieces with a tracked year tag | [styles.css](styles.css) |
+| `.visual-identity` + `.identity-marks` + `.identity-mark` | Wrapper / row / figure for the optional logo + wordmark display in the Visual identity section | [styles.css](styles.css) |
+| `.palette-swatches` + `.swatch` | Inline list of color swatches with hex labels for brand palette display | [styles.css](styles.css) |
+| `.trademark-notice` | Small italic notice citing logo source + license + nominative-fair-use intent | [styles.css](styles.css) |
 | `.note` | Muted italic caveat (e.g. "to be updated") | [styles.css](styles.css) |
 | `.back-link` | Uppercase return link with top rule and padding | [styles.css](styles.css) |
 

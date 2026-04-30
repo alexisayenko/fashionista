@@ -35,6 +35,9 @@ System font stacks only — no web fonts / Google Fonts loaded.
 
 - **Wikimedia Commons** — freely-licensed photography
   - Current Armani portrait: [File:Giorgio Armani 1997.jpg](https://commons.wikimedia.org/wiki/File:Giorgio_Armani_1997.jpg) by GianAngelo Pistoia, CC BY-SA 4.0
+- **Wikimedia Commons / Wikipedia** — brand logo & wordmark files (PD-textlogo / PD-shape, below US copyright threshold of originality per Compendium §906; trademarks remain). See [compliances.md §2b](compliances.md) for usage rules.
+  - Chanel wordmark: [File:Chanel_logo.svg](https://commons.wikimedia.org/wiki/File:Chanel_logo.svg) — PD-textlogo, Wikimedia Commons; downloaded 2026-04-30; stored at `assets/chanel-wordmark.svg`
+  - Chanel interlocking-Cs device: [File:Chanel_logo_interlocking_cs.svg](https://en.wikipedia.org/wiki/File:Chanel_logo_interlocking_cs.svg) — PD-shape, English Wikipedia (en.wp-only because Wikimedia treats it as possibly non-free in France; clears US §906); downloaded 2026-04-30; stored at `assets/chanel-logo-cc.svg`
 
 ## Version control
 
