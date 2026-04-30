@@ -12,4 +12,6 @@ Note on brand spellings (canonical forms): **Dolce & Gabbana**, **Chanel**, **Pr
 
 ## Repository status
 
-The repository is currently empty — no source code, build tooling, tests, or configuration exist yet. Build/lint/test commands and architecture notes will be added here once the codebase is scaffolded.
+A static-site project for documenting luxury fashion houses, **migrating to Astro**. Target layout: site source under `src/` (pages, layouts, components, content collections); built static HTML in `dist/` (gitignored, deployed to GitHub Pages via Actions); media split between `public/assets/` (logos and SVGs, served verbatim) and `src/assets/houses/<slug>/` (photographs, optimized via Astro's `<Image>`).
+
+Internal specifications live in [specs/](specs/) — start with [folders-structure.md](folders-structure.md) for the repo layout, [specs/technological-stack.md](specs/technological-stack.md) for the full stack inventory, and [specs/ui-ux.md](specs/ui-ux.md) for the content schema and brand-page rules.

@@ -162,6 +162,62 @@ Each maison's article body should carry these `<section>` blocks in this order. 
 
 Every `<section>` uses an `<h2>` (serif, 1.5 rem, rule underline) via `.house-page article h2`. Leave 2.75 rem between sections — handled automatically by `.house-page article section`.
 
+The order above is enforced by `HouseLayout.astro` (in `src/layouts/`), not by per-page authoring discipline. To change the section ordering for every house at once, edit the layout.
+
+### Content schema
+
+Each maison's content lives in `src/content/houses/<slug>.yaml`, validated at build time by the Zod schema in `src/content/config.ts`. The fields below are the canonical shape — every house file must follow it; deviations are caught as build errors before deploy.
+
+| Field | Type | Required | Maps to |
+| --- | --- | --- | --- |
+| `name` | string | yes | Hero `<h1>` |
+| `city` | string | yes | Hero `.house-sub` |
+| `country` | string | yes | Hero `.house-sub` |
+| `countryCode` | ISO-3166 alpha-2, lowercase (e.g. `fr`, `it`) | yes | Hero flag glyph (`fi-${countryCode}`) |
+| `founded` | integer (year) | yes | Hero `.house-sub` (`Est. {founded}`) |
+| `founding` | string (HTML allowed) | yes | Hero `.hero-founding` paragraph |
+| `heroSlides` | array of `{ src, alt, caption, credit }` | optional | Hero slider component (when present, renders `.hero-slider`) |
+| `heroPortrait` | `{ src, alt, caption, credit }` | optional | Hero static portrait (alternative to `heroSlides`) |
+| `identityMarks` | array of `{ src, alt, caption }` | optional | Visual identity section, `.identity-marks` |
+| `palette` | array of `{ name, hex }` | optional (required if `identityMarks` present) | `.palette-swatches` |
+| `trademarkNotice` | string (HTML allowed) | optional | `.trademark-notice` |
+| `milestones` | array of `{ year, text }` | yes | Key milestones list (`.milestones`) |
+| `creativeDirector` | string (HTML allowed) | yes | Creative director & ownership paragraph |
+| `volatileNote` | string | optional | `.note` italic caveat in the Creative director section |
+| `productLines` | array of strings (HTML allowed) | yes | Main product lines list (`.plain-list`) |
+| `designDna` | string (HTML allowed) | yes | Design DNA paragraph |
+| `signatureIntro` | string | yes | Beyond the timeline italic lead (`.section-intro`) |
+| `signaturePieces` | array of piece objects (see below) | yes | Beyond the timeline list (`.signature-pieces`) |
+| `marketPositioning` | string (HTML allowed) | yes | Market positioning paragraph |
+| `businessScale` | string (HTML allowed) | yes | Business scale paragraph |
+| `culturalImpact` | string (HTML allowed) | yes | Cultural impact paragraph |
+
+**Object shapes:**
+
+```yaml
+# heroSlides[] / heroPortrait
+src: /assets/chanel-coco-1928-mariniere.jpg
+alt: Coco Chanel in a striped marinière, 1928.
+caption: Coco Chanel in marinière, 1928
+credit: 'Photographer unknown · <a href="…">Wikimedia Commons</a> · Public domain'
+
+# signaturePieces[]
+name: Chanel N°5
+year: 1921                       # optional — string, integer, or year-range like "1925–"
+text: |
+  The aldehyde-led fragrance composed by Ernest Beaux…
+figure:                          # optional — only when the piece has a lightbox-enlargeable image
+  src: /assets/chanel-no5-bottle.jpg
+  alt: Chanel N°5 flacon
+  caption: 'The Chanel N°5 flacon · Photo: <a href="…">Arz / Wikimedia Commons</a> · Public domain'
+```
+
+**Conventions:**
+
+- Fields tagged "(HTML allowed)" let you keep inline `<strong>`, `<em>`, `<a>` markup that already lives in the source prose — the layout passes those through unchanged via Astro's `set:html`. Plain-text fields (`name`, `city`, `country`, etc.) are escaped automatically.
+- Image paths follow the [Content storage](technological-stack.md#content-storage) split: `/assets/...` URLs for SVGs served from `public/assets/`, and imported references for photographs in `src/assets/houses/<slug>/` that go through Astro's `<Image>`.
+- A single house file is the only thing that needs to change when factual content updates — no markup edits, no per-page HTML to keep in sync. Schema mismatches (missing required field, wrong type) fail the build with a pointed error.
+
 ### Utility classes used on brand pages
 
 | Class | Purpose | Defined in |

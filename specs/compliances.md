@@ -341,8 +341,10 @@ services.
 
 - **Record every third-party dependency** in [technological-stack.md](technological-stack.md)
   with name, version, license, and source URL.
-- **Pin versions** in CDN URLs (e.g. `flag-icons@7`) — a floating
-  version is a supply-chain risk.
+- **Pin versions** explicitly. For npm packages, commit
+  `package-lock.json` and avoid floating ranges (`^`, `~`) on
+  critical deps. For CDN URLs, include a major-version (e.g.
+  `flag-icons@7`). A floating version is a supply-chain risk.
 - **Prefer permissive licenses** (MIT, Apache 2.0, BSD, ISC, OFL for
   fonts) so we never have to re-license our own work.
 - **Honor each dependency's attribution requirement** in any required
@@ -351,15 +353,21 @@ services.
 ### Can
 
 - Use MIT / Apache 2.0 / BSD / ISC / OFL libraries and fonts.
+- Install npm packages with permissive licenses, pinned via
+  `package-lock.json`. This is the primary delivery channel after
+  the Astro migration.
 - Use jsDelivr, unpkg, and similar CDNs to deliver pinned versions of
-  open-source assets.
-- Self-host a third-party asset (preferred long-term) when the CDN
+  open-source assets when not bundled via npm.
+- Self-host a third-party asset (preferred long-term) when a CDN
   becomes a reliability or privacy concern.
 
 ### Cannot
 
 - Use **GPL** or **AGPL** code in this project — copyleft would
-  cascade to the rest of the repo.
+  cascade to the rest of the repo. This applies to **transitive npm
+  dependencies** as well; check `npm ls` before committing a new
+  package, since the immediate package's license does not cover
+  what it pulls in.
 - Use commercial fonts (Adobe Fonts, Monotype) without an active
   license keyed to the published domain.
 - Hotlink images, scripts, or fonts from third-party sites that don't

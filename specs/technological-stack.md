@@ -1,16 +1,23 @@
 # Technological stack
 
-Inventory of technologies, services, and external resources the Fashionista project currently uses.
+Inventory of technologies, services, and external resources the Fashionista project uses.
+
+> **Status:** This document describes the project's stack as of the in-progress migration to **Astro**. The `src/`, `dist/`, `package.json` layout below is the canonical target; differences between the current working tree and this document represent in-progress migration work.
 
 ## Frontend
 
-- **HTML5** — static pages, hand-authored ([index.html](../index.html), [houses/armani.html](../houses/armani.html))
-- **CSS3** — vanilla, hand-authored ([styles.css](../styles.css)); no preprocessor, no framework, no build step
-- **JavaScript** — none (pure static site)
+- **[Astro](https://astro.build/)** — static-site framework. Pages live as `.astro` components in `src/pages/`; per-house content is data, not markup, in `src/content/houses/*.yaml` validated against a Zod schema in `src/content/config.ts`. A single layout (`src/layouts/HouseLayout.astro`) renders every house from the same template — see [ui-ux.md → Content schema](ui-ux.md#content-schema) for the field shape.
+- **HTML5** — Astro's compiled output. We do not hand-author per-page HTML.
+- **CSS3** — vanilla, in `src/styles/site.css`, imported once by the layout. No preprocessor, no CSS framework.
+- **TypeScript** — used for the content schema (`src/content/config.ts`) and component scripts that benefit from typing. Type-checking runs at build via `astro check`.
+- **JavaScript** — minimal, scoped per-component. Hero slider and signature-piece lightbox carry over as inline IIFEs inside `.astro` components.
 
 ## Third-party libraries
 
-- **[flag-icons](https://github.com/lipis/flag-icons) v7** — country flag glyphs via CSS, loaded from the jsDelivr CDN (`https://cdn.jsdelivr.net/npm/flag-icons@7/css/flag-icons.min.css`). Used on the houses grid to mark each maison's country.
+Pinned in `package.json`; lockfile (`package-lock.json`) is committed; `node_modules/` is gitignored.
+
+- **[astro](https://astro.build/)** — site framework (see Frontend above).
+- **[flag-icons](https://github.com/lipis/flag-icons)** — country flag glyphs via CSS, used on the houses grid to mark each maison's country. Imported once by the site layout. Switched from the jsDelivr CDN to npm at the Astro migration so version provenance lives in `package-lock.json` and the bundle is self-contained.
 
 ## Typography
 
@@ -19,19 +26,31 @@ System font stacks only — no web fonts / Google Fonts loaded.
 - **Serif** — Didot → Bodoni 72 → Playfair Display → Georgia → generic serif
 - **Sans-serif** — Helvetica Neue → Arial → generic sans-serif
 
+## Content storage
+
+Per-house data lives in `src/content/houses/<slug>.yaml`, validated at build time by the Zod schema in `src/content/config.ts`. See [ui-ux.md → Content schema](ui-ux.md#content-schema) for the canonical field list and shape.
+
+Static media splits across two folders:
+
+- **`public/assets/`** — logos, wordmarks, and other SVGs. Served verbatim, untouched by the build, with stable URLs. Matches the [compliances.md §2b](compliances.md#2b-logos--wordmarks) rule against altering, recolouring, or distorting marks.
+- **`src/assets/houses/<slug>/`** — photographs (hero portraits, slider photos, signature-piece images). Imported through Astro's [`<Image>`](https://docs.astro.build/en/guides/images/) component for responsive variants, AVIF/WebP conversion, content-hashed filenames, and dimension auto-injection.
+
 ## Build & tooling
 
-- **No build pipeline** — files are served as-is
-- **No package manager** (no `package.json`, no `node_modules`)
-- **No test framework**
+- **npm** — package manager. `package.json` and `package-lock.json` are committed; `node_modules/` is gitignored.
+- **`astro build`** — produces optimized static HTML in `dist/`, which is what GitHub Pages serves. `dist/` is gitignored.
+- **`astro check`** — TypeScript and content-schema check, run as part of the build.
+- **No test framework** — content-shape correctness is enforced by the Zod schema at build; visual / editorial correctness is caught by manual review.
 
 ## Hosting & deployment
 
-- **GitHub** — repository hosting (`github.com/alexisayenko/fashionista`)
-- **GitHub Pages** — static hosting; `main` branch is the deploy source
-- **jsDelivr** — third-party CDN delivering the flag-icons stylesheet
+- **GitHub** — repository hosting (`github.com/alexisayenko/fashionista`).
+- **GitHub Pages** — static hosting. Deploys from the `gh-pages` branch, which is updated by a GitHub Action that runs `astro build` on every push to `main` and pushes `dist/` to `gh-pages`.
+- **GitHub Actions** — CI/CD. Workflow at `.github/workflows/deploy.yml`.
 
 ## Content sources
+
+Listings below cover provenance — author, license, source URL, download date — which the Astro migration does not change. For where the files physically live in the repo (the `public/assets/` vs `src/assets/houses/<slug>/` split), see [Content storage](#content-storage).
 
 - **Wikimedia Commons** — freely-licensed photography
   - Current Armani portrait: [File:Giorgio Armani 1997.jpg](https://commons.wikimedia.org/wiki/File:Giorgio_Armani_1997.jpg) by GianAngelo Pistoia, CC BY-SA 4.0
