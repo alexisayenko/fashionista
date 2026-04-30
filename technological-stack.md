@@ -47,6 +47,8 @@ System font stacks only — no web fonts / Google Fonts loaded.
     - Louis Vuitton: [File:Louis Vuitton logo and wordmark.svg](https://commons.wikimedia.org/wiki/File:Louis_Vuitton_logo_and_wordmark.svg) → `louis-vuitton-logo.svg` (combined logo + wordmark — only "combined" file in the set)
     - Hermès: [File:Hermes wordmark.svg](https://commons.wikimedia.org/wiki/File:Hermes_wordmark.svg) → `hermes-logo.svg`
     - Gucci: [File:Gucci Logo.svg](https://commons.wikimedia.org/wiki/File:Gucci_Logo.svg) → `gucci-logo.svg`
+    - Gucci interlocking-GG monogram: [File:1960s Gucci Logo.svg](https://commons.wikimedia.org/wiki/File:1960s_Gucci_Logo.svg) → `gucci-monogram.svg`
+    - Louis Vuitton interlocking-LV monogram (single glyph, NOT the tiled Toile canvas): [File:LV Monogram.svg](https://commons.wikimedia.org/wiki/File:LV_Monogram.svg) → `louis-vuitton-monogram.svg`
     - Prada: [File:Prada-Logo.svg](https://commons.wikimedia.org/wiki/File:Prada-Logo.svg) → `prada-logo.svg`
     - Dior: [File:Dior Logo.svg](https://commons.wikimedia.org/wiki/File:Dior_Logo.svg) → `dior-logo.svg`
     - Armani: [File:Giorgio Armani.svg](https://commons.wikimedia.org/wiki/File:Giorgio_Armani.svg) → `armani-logo.svg`
