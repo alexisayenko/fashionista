@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import 'flag-icons/css/flag-icons.min.css';
 
 const { house } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 <!doctype html>
 <html lang="en">
@@ -10,14 +11,14 @@ const { house } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{house.name} — Fashionista</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href={`${base}/styles.css`} />
   </head>
   <body class="dev-tint">
     <header class="site-header">
-      <div class="brand"><a href="/">Fashionista</a></div>
+      <div class="brand"><a href={`${base}/`}>Fashionista</a></div>
       <nav>
-        <a href="/#houses">Houses</a>
-        <a href="/#about">About</a>
+        <a href={`${base}/#houses`}>Houses</a>
+        <a href={`${base}/#about`}>About</a>
       </nav>
     </header>
 
@@ -87,7 +88,7 @@ const { house } = Astro.props;
             <div class="identity-marks">
               {house.identityMarks.map((mark) => (
                 <figure class="identity-mark">
-                  <img src={mark.src} alt={mark.alt} />
+                  <img src={`${base}${mark.src}`} alt={mark.alt} />
                   <figcaption>{mark.caption}</figcaption>
                 </figure>
               ))}
@@ -178,7 +179,7 @@ const { house } = Astro.props;
           <p set:html={house.culturalImpact}></p>
         </section>
 
-        <p class="back-link"><a href="/#houses">← All houses</a></p>
+        <p class="back-link"><a href={`${base}/#houses`}>← All houses</a></p>
       </article>
     </main>
 
