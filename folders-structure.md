@@ -17,17 +17,18 @@ Folders sort first (alphabetically), then files — VS Code default.
 
 ```text
 fashionista/
-├── assets/                          # static media (photographs, served as-is)
-├── chatgpt-sessions/                # research conversations / source notes
+├── assets/                          # static media (photographs, logos, served as-is)
 ├── houses/                          # per-house pages (armani.html, chanel.html, …)
-├── temp/                            # transient files; not deployed
+├── specs/                           # internal specifications and source notes; not deployed
+│   ├── chatgpt-sessions/            # research conversations / source notes
+│   ├── compliances.md               # rights, attribution, ethics
+│   ├── technological-stack.md       # what we use and why
+│   └── ui-ux.md                     # UX/UI conventions
 ├── CLAUDE.md                        # agent-specific guidance
 ├── folders-structure.md             # this document
 ├── index.html                       # site entry point
 ├── styles.css                       # all styling
-├── technological-stack.md           # what we use and why
-├── token_stats.md                   # Claude Code usage snapshots
-└── ui-ux.md                         # UX/UI conventions
+└── token_stats.md                   # Claude Code usage snapshots
 ```
 
 ## Departures from the template
@@ -39,8 +40,8 @@ intentionally absent:
 | Template element | Why it's missing today |
 | --- | --- |
 | `<brand>-<product>-<surface>/` folder | The repo root *is* the only surface — no need to nest a single web tree inside its own folder |
-| `docs/` tree | Strategy + UX notes are few enough to live as flat files at root (`technological-stack.md`, `ui-ux.md`) |
-| `scripts/` | No build step — files served as-is (see [technological-stack.md](technological-stack.md)) |
+| Categorised `specs/<brand,business,milestones,products>/` subtree | Internal specs are few enough to live as flat files in `specs/` (`compliances.md`, `technological-stack.md`, `ui-ux.md`); promote to category subfolders only if one outgrows a single file |
+| `scripts/` | No build step — files served as-is (see [technological-stack.md](specs/technological-stack.md)) |
 | `<shared-infra>/` | No backend, no shared infrastructure |
 | `archive/` | Nothing has been superseded yet — create on first use |
 
@@ -52,13 +53,13 @@ intentionally absent:
 | Per-house pages | `houses/<house>.html` |
 | Project-wide styling | [styles.css](styles.css) |
 | Static media (photos, illustrations) | [assets/](assets/) |
-| UX / UI conventions | [ui-ux.md](ui-ux.md) |
-| Technology choices | [technological-stack.md](technological-stack.md) |
+| UX / UI conventions | [ui-ux.md](specs/ui-ux.md) |
+| Technology choices | [technological-stack.md](specs/technological-stack.md) |
+| Compliance / rights / attribution | [compliances.md](specs/compliances.md) |
 | Folder structure (this doc) | [folders-structure.md](folders-structure.md) |
-| Research / source conversations | [chatgpt-sessions/](chatgpt-sessions/) |
+| Research / source conversations | [chatgpt-sessions/](specs/chatgpt-sessions/) |
 | Cost / usage tracking | [token_stats.md](token_stats.md) |
 | Agent-specific guidance | [CLAUDE.md](CLAUDE.md) |
-| Throwaway / pre-import files (not deployed) | [temp/](temp/) |
 
 ## Naming conventions
 
@@ -80,7 +81,7 @@ the full template shape:
 ```text
 fashionista/
 ├── archive/
-├── docs/
+├── specs/
 │   ├── brand/
 │   ├── business/
 │   ├── milestones/
@@ -100,17 +101,17 @@ surface or product actually lands.
 
 ## Archive convention
 
-Per the template, superseded code and docs go to `archive/` at the
-root, with a `docs/` subfolder for retired documentation. Currently
+Per the template, superseded code and specs go to `archive/` at the
+root, with a `specs/` subfolder for retired specs. Currently
 empty and not yet present; create on first use.
 
 ```text
 archive/
-├── docs/                              # superseded project-level docs
-│   └── <old-doc>.md
+├── specs/                             # superseded project-level specs
+│   └── <old-spec>.md
 └── <old-surface>/                     # superseded code (e.g. v1 prototype)
 ```
 
 A folder belongs in `archive/` when it **no longer ships**. Before
 archiving code, extract any worthwhile lessons or decisions into
-`archive/docs/` — code in archive rots; docs survive.
+`archive/specs/` — code in archive rots; specs survive.

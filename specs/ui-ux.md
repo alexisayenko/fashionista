@@ -1,10 +1,10 @@
 # UI / UX documentation
 
-Visual and interaction rules for the Fashionista site. Keep this in sync with [styles.css](styles.css), the index grid in [index.html](index.html), and the house pages under [houses/](houses/).
+Visual and interaction rules for the Fashionista site. Keep this in sync with [styles.css](../styles.css), the index grid in [index.html](../index.html), and the house pages under [houses/](../houses/).
 
 ## Index page — maison grid
 
-The site entrance at [index.html](index.html) presents every documented house as a scannable grid of "passport" cards. Each card answers the same compact set of questions — where, when, who owns it, what it makes, who designs it, and where it falls on three editorial meters — so readers can sweep across houses without re-parsing each card's structure.
+The site entrance at [index.html](../index.html) presents every documented house as a scannable grid of "passport" cards. Each card answers the same compact set of questions — where, when, who owns it, what it makes, who designs it, and where it falls on three editorial meters — so readers can sweep across houses without re-parsing each card's structure.
 
 ### Grid shell
 
@@ -93,21 +93,21 @@ Ownership churns — verify against fresh sources before publishing.
 
 | Class | Purpose | Defined in |
 | --- | --- | --- |
-| `.house-grid` | Auto-fit grid container for the cards | [styles.css](styles.css) |
-| `.house-card` | Card frame with 1 px `--ink` border and hover lift | [styles.css](styles.css) |
-| `.meta` | City · Year lockup (accent, tracked caps) | [styles.css](styles.css) |
-| `.ownership` | Ownership line (muted `#666`, tracked caps) | [styles.css](styles.css) |
-| `.timeline`, `.timeline-dot` | 1825–2025 timeline bar + accent dot | [styles.css](styles.css) |
-| `.badge-row`, `.badge`, `.badge-couture-official`, `.badge-couture-correspondent`, `.badge-specialty` | Badge row and variants | [styles.css](styles.css) |
-| `.stats`, `.stat`, `.meter`, `.meter.price`, `.meter.heat`, `.meter.ex` | Meter system | [styles.css](styles.css) |
-| `.director`, `.cd-role` | Creative director line and role label | [styles.css](styles.css) |
-| `.exclusivity-panel`, `.ex-label` | Boxed-off Exclusivity block | [styles.css](styles.css) |
-| `.legend`, `.legend-note` | Reading-legend block above the grid | [styles.css](styles.css) |
-| `.more` | "Read more" link on cards with detail pages | [styles.css](styles.css) |
+| `.house-grid` | Auto-fit grid container for the cards | [styles.css](../styles.css) |
+| `.house-card` | Card frame with 1 px `--ink` border and hover lift | [styles.css](../styles.css) |
+| `.meta` | City · Year lockup (accent, tracked caps) | [styles.css](../styles.css) |
+| `.ownership` | Ownership line (muted `#666`, tracked caps) | [styles.css](../styles.css) |
+| `.timeline`, `.timeline-dot` | 1825–2025 timeline bar + accent dot | [styles.css](../styles.css) |
+| `.badge-row`, `.badge`, `.badge-couture-official`, `.badge-couture-correspondent`, `.badge-specialty` | Badge row and variants | [styles.css](../styles.css) |
+| `.stats`, `.stat`, `.meter`, `.meter.price`, `.meter.heat`, `.meter.ex` | Meter system | [styles.css](../styles.css) |
+| `.director`, `.cd-role` | Creative director line and role label | [styles.css](../styles.css) |
+| `.exclusivity-panel`, `.ex-label` | Boxed-off Exclusivity block | [styles.css](../styles.css) |
+| `.legend`, `.legend-note` | Reading-legend block above the grid | [styles.css](../styles.css) |
+| `.more` | "Read more" link on cards with detail pages | [styles.css](../styles.css) |
 
 ## Brand page structure
 
-Every maison gets its own page under `houses/<slug>.html` (e.g. [houses/armani.html](houses/armani.html)). All brand pages share a single template and ordering so readers build the same mental model from house to house.
+Every maison gets its own page under `houses/<slug>.html` (e.g. [houses/armani.html](../houses/armani.html)). All brand pages share a single template and ordering so readers build the same mental model from house to house.
 
 ### Page shell
 
@@ -166,18 +166,18 @@ Every `<section>` uses an `<h2>` (serif, 1.5 rem, rule underline) via `.house-pa
 
 | Class | Purpose | Defined in |
 | --- | --- | --- |
-| `.eyebrow` | Accent-coloured tracked caps label above the h1 | [styles.css](styles.css) |
-| `.milestones` | Borderless list with 1 px `--rule` dividers between items | [styles.css](styles.css) |
-| `.plain-list` | Unstyled list with 0.35 rem vertical padding per item | [styles.css](styles.css) |
-| `.section-intro` | Italic `#555` lead paragraph inside a section | [styles.css](styles.css) |
-| `.signature-pieces` + `.piece-year` | Ruled list of iconic pieces with a tracked year tag | [styles.css](styles.css) |
-| `.visual-identity` + `.identity-marks` + `.identity-mark` | Wrapper / row / figure for the optional logo + wordmark display in the Visual identity section | [styles.css](styles.css) |
-| `.palette-swatches` + `.swatch` | Inline list of color swatches with hex labels for the house's *aesthetic* palette (clothing, accessories, design DNA — see §2 in the section table for the rule on what colors belong here, not the logo's colors). Each `.swatch` carries an inline `style="background:#RRGGBB"` (per-swatch color is content, not styling, so it stays inline rather than spawning a CSS class per house) | [styles.css](styles.css) |
-| `.trademark-notice` | Small italic notice citing logo source + license + nominative-fair-use intent | [styles.css](styles.css) |
-| `.piece-figure` + `.piece-figure-trigger` + `.piece-credit` | Optional figure inside a `.signature-pieces` `<li>` — small thumbnail (~220 px) wrapped in a `<button>` that opens an `.image-dialog` lightbox; `figcaption` carries the `.piece-credit` line with photographer + license link | [styles.css](styles.css) |
-| `.image-dialog` + `.image-dialog-close` + `.image-dialog-caption` | Native `<dialog>` lightbox for full-size view of a `.piece-figure` image, with close button and credit caption. Wired up by an IIFE at the bottom of the page that calls `dialog.showModal()` and closes on backdrop click or close-button click | [styles.css](styles.css) |
-| `.note` | Muted italic caveat (e.g. "to be updated") | [styles.css](styles.css) |
-| `.back-link` | Uppercase return link with top rule and padding | [styles.css](styles.css) |
+| `.eyebrow` | Accent-coloured tracked caps label above the h1 | [styles.css](../styles.css) |
+| `.milestones` | Borderless list with 1 px `--rule` dividers between items | [styles.css](../styles.css) |
+| `.plain-list` | Unstyled list with 0.35 rem vertical padding per item | [styles.css](../styles.css) |
+| `.section-intro` | Italic `#555` lead paragraph inside a section | [styles.css](../styles.css) |
+| `.signature-pieces` + `.piece-year` | Ruled list of iconic pieces with a tracked year tag | [styles.css](../styles.css) |
+| `.visual-identity` + `.identity-marks` + `.identity-mark` | Wrapper / row / figure for the optional logo + wordmark display in the Visual identity section | [styles.css](../styles.css) |
+| `.palette-swatches` + `.swatch` | Inline list of color swatches with hex labels for the house's *aesthetic* palette (clothing, accessories, design DNA — see §2 in the section table for the rule on what colors belong here, not the logo's colors). Each `.swatch` carries an inline `style="background:#RRGGBB"` (per-swatch color is content, not styling, so it stays inline rather than spawning a CSS class per house) | [styles.css](../styles.css) |
+| `.trademark-notice` | Small italic notice citing logo source + license + nominative-fair-use intent | [styles.css](../styles.css) |
+| `.piece-figure` + `.piece-figure-trigger` + `.piece-credit` | Optional figure inside a `.signature-pieces` `<li>` — small thumbnail (~220 px) wrapped in a `<button>` that opens an `.image-dialog` lightbox; `figcaption` carries the `.piece-credit` line with photographer + license link | [styles.css](../styles.css) |
+| `.image-dialog` + `.image-dialog-close` + `.image-dialog-caption` | Native `<dialog>` lightbox for full-size view of a `.piece-figure` image, with close button and credit caption. Wired up by an IIFE at the bottom of the page that calls `dialog.showModal()` and closes on backdrop click or close-button click | [styles.css](../styles.css) |
+| `.note` | Muted italic caveat (e.g. "to be updated") | [styles.css](../styles.css) |
+| `.back-link` | Uppercase return link with top rule and padding | [styles.css](../styles.css) |
 
 ### Language and spelling
 
@@ -187,7 +187,7 @@ Every `<section>` uses an `<h2>` (serif, 1.5 rem, rule underline) via `.house-pa
 
 ## Design tokens
 
-Defined on `:root` in [styles.css](styles.css):
+Defined on `:root` in [styles.css](../styles.css):
 
 | Token | Value | Purpose |
 | --- | --- | --- |
@@ -219,7 +219,7 @@ Both honour the same `--hero-photo-ratio` so there is no visible difference in f
 
 ## Hero slider component
 
-Used on house pages that carry more than one portrait (currently [houses/armani.html](houses/armani.html)).
+Used on house pages that carry more than one portrait (currently [houses/armani.html](../houses/armani.html)).
 
 ### Structure
 

@@ -82,7 +82,7 @@ sub-sections, one shared **Why**.
 
 #### Should
 - Use **canonical spellings**: Dolce & Gabbana, Chanel, Prada, Armani
-  (per [CLAUDE.md](CLAUDE.md)).
+  (per [CLAUDE.md](../CLAUDE.md)).
 - Refer to brands **nominatively** — to identify the house we are
   describing, not as a decorative or aspirational label.
 - Use brand names as **proper nouns** in running prose, not as

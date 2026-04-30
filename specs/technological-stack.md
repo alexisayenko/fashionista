@@ -4,8 +4,8 @@ Inventory of technologies, services, and external resources the Fashionista proj
 
 ## Frontend
 
-- **HTML5** — static pages, hand-authored ([index.html](index.html), [houses/armani.html](houses/armani.html))
-- **CSS3** — vanilla, hand-authored ([styles.css](styles.css)); no preprocessor, no framework, no build step
+- **HTML5** — static pages, hand-authored ([index.html](../index.html), [houses/armani.html](../houses/armani.html))
+- **CSS3** — vanilla, hand-authored ([styles.css](../styles.css)); no preprocessor, no framework, no build step
 - **JavaScript** — none (pure static site)
 
 ## Third-party libraries
