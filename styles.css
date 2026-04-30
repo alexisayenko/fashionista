@@ -787,3 +787,36 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
   font-style: italic;
   margin: 0 0 2.5rem;
 }
+
+/* ── Construction-mode visual aids ───────────────────────────────────
+   Apply via <body class="dev-boxed"> or <body class="dev-stripe"> on
+   a house page during construction; remove the body class for prod.
+   Only one mode should be active per page at a time. */
+
+body.dev-boxed .house-page article section {
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 1.4rem 1.5rem 1rem;
+  margin-top: 3.25rem;
+  margin-bottom: 0;
+  position: relative;
+}
+
+body.dev-boxed .house-page article > section:first-of-type {
+  margin-top: 1.5rem;
+}
+
+body.dev-boxed .house-page article section h2 {
+  display: inline-block;
+  background: var(--paper);
+  padding: 0 0.7rem;
+  margin: -2.6rem 0 1.25rem;
+  border-bottom: none;
+  position: relative;
+}
+
+body.dev-stripe .house-page article section {
+  border-left: 4px dashed var(--accent);
+  padding-left: 1.5rem;
+  margin-bottom: 2.75rem;
+}
