@@ -1,0 +1,150 @@
+name: Armani
+city: Milan
+country: Italy
+countryCode: it
+founded: 1975
+
+founding: |
+  Founded in 1975 in Milan by
+  <strong>Giorgio Armani</strong> (1934–2025) and his partner
+  <strong>Sergio Galeotti</strong>.
+
+heroSlides:
+  - src: ../../assets/houses/armani/armani.jpg
+    alt: Portrait of Giorgio Armani, 1997.
+    caption: Giorgio Armani, 1997
+    credit: 'Photo by <a href="https://commons.wikimedia.org/wiki/File:Giorgio_Armani_1997.jpg" rel="noopener">GianAngelo Pistoia</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a>'
+
+  - src: ../../assets/houses/armani/armani-2009.jpg
+    alt: Portrait of Giorgio Armani, 2009.
+    caption: Giorgio Armani, Moscow, 2009
+    credit: 'Photo by <a href="https://commons.wikimedia.org/wiki/File:GiorgioArmani.jpg" rel="noopener">Jan Schroeder</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener">CC BY-SA 3.0</a>'
+
+  - src: ../../assets/houses/armani/armani-2009-milan.jpg
+    alt: Giorgio Armani at Vogue Fashion's Night Out, Milan, 2009.
+    caption: Giorgio Armani, Vogue Fashion's Night Out, Milan, 2009
+    credit: 'Photo by <a href="https://commons.wikimedia.org/wiki/File:Giorgio_Armani_-_Vogue_Fashion%27s_Night_Out_Sept.10_2009_-_MILANO.jpg" rel="noopener">Bruno Cordioli</a> · <a href="https://creativecommons.org/licenses/by/2.0/" rel="license noopener">CC BY 2.0</a>'
+
+identityMarks:
+  - src: /assets/armani-logo.svg
+    alt: Giorgio Armani wordmark — the spaced-caps treatment of the designer's name
+    caption: Wordmark
+
+palette:
+  - { name: Greige,         hex: '#B8ADA0' }
+  - { name: Black,          hex: '#000000' }
+  - { name: Ivory,          hex: '#F4EADE' }
+  - { name: Midnight navy,  hex: '#1C2331' }
+
+trademarkNotice: |
+  GIORGIO ARMANI is a trademark of Giorgio Armani S.p.A., used here
+  for identification under nominative fair use. Source file via
+  Wikimedia —
+  <a href="https://commons.wikimedia.org/wiki/File:Giorgio_Armani.svg">wordmark</a>
+  (PD-textlogo, Wikimedia Commons). The eagle emblem associated with
+  the Emporio Armani diffusion line is omitted here as it does not
+  represent the Giorgio Armani house mark. Hex values are
+  approximations for editorial illustration; no Pantone licensing
+  implied.
+
+milestones:
+  - year: Late 1970s
+    text: Introduction of unstructured tailoring that would redefine modern menswear and womenswear.
+  - year: 1980s
+    text: Rapid international expansion as the house becomes a global symbol of refined Italian style.
+  - year: 1981
+    text: Launch of <em>Emporio Armani</em>, broadening the group's contemporary reach.
+  - year: 1991
+    text: Launch of <em>Armani Exchange</em>, addressing the accessible segment.
+  - year: 1990s–2000s
+    text: Extension into lifestyle sectors including cosmetics, interiors, and hospitality.
+  - year: 2025
+    text: Giorgio Armani dies on 4 September in Milan, aged 91, ending half a century at the creative and commercial helm of the house he founded.
+
+creativeDirector: |
+  The Armani Group was privately owned by Giorgio Armani, who served
+  as chairman and chief creative director of the house from its
+  founding in 1975 until his death on 4 September 2025.
+
+volatileNote: Post-succession creative leadership and ownership structure to be updated.
+
+productLines:
+  - '<strong>Giorgio Armani</strong> — high-end ready-to-wear'
+  - '<strong>Emporio Armani</strong> — contemporary fashion'
+  - '<strong>Armani Exchange</strong> — accessible segment'
+  - 'Accessories, fragrances, beauty, and home collections'
+
+designDna: |
+  Armani's design language is defined by minimalism, precise
+  tailoring, muted color palettes, fluid silhouettes, and the absence
+  of excessive ornamentation.
+
+signatureIntro: A reason to exist beyond a timeline — the pieces that made Armani Armani.
+
+signaturePieces:
+  - name: The unstructured jacket
+    year: 1975–
+    text: |
+      The foundational Armani piece: the men's blazer stripped of
+      canvassing and padding, yielding a fluid, shoulder-relaxed
+      silhouette that redrew the line of modern tailoring.
+
+  - name: <em>American Gigolo</em> wardrobe
+    year: 1980
+    text: |
+      Richard Gere's on-screen wardrobe for Paul Schrader's film,
+      including the closet-scene layout of shirts and jackets —
+      the production that launched the house internationally and made
+      Armani shorthand for cinematic style.
+
+  - name: The women's power suit
+    year: 1980s
+    text: |
+      A softened take on the men's jacket, cut for women and adopted
+      as the defining executive uniform of the decade.
+
+  - name: <em>The Untouchables</em> costumes
+    year: 1987
+    text: |
+      Brian De Palma's prohibition-era film, dressed by Armani and
+      credited with reviving the vocabulary of classical menswear on
+      screen and off.
+
+  - name: Red-carpet eveningwear
+    year: 1990–
+    text: |
+      Minimalist silk-jersey gowns worn by Michelle Pfeiffer, Jodie
+      Foster, Cate Blanchett and others — effectively the
+      template for modern celebrity dressing.
+
+  - name: Acqua di Giò
+    year: 1996
+    text: |
+      The Mediterranean-accented men's fragrance that became one of
+      the best-selling colognes ever produced.
+
+  - name: Armani Privé
+    year: 2005–
+    text: |
+      The house's Paris-based haute couture line, launched in January
+      2005 and worn almost immediately onto the Oscars red carpet.
+
+  - name: The "greige" palette
+    text: |
+      The greys, beiges and taupes that became shorthand for Armani
+      restraint — "quiet luxury" decades before the term existed.
+
+marketPositioning: |
+  Positioned across the premium to ultra-luxury segment, Armani
+  enjoys strong global brand recognition across menswear, womenswear,
+  and lifestyle categories.
+
+businessScale: |
+  The Armani Group generates annual revenues on the order of several
+  billion euros, reflecting a large-scale, vertically integrated
+  fashion business.
+
+culturalImpact: |
+  The brand has influenced modern dress codes toward relaxed
+  elegance and has engaged in collaborations across cinema, sports,
+  and architecture, reinforcing its global lifestyle identity.
