@@ -194,3 +194,17 @@ card:
   price: 4
   heat: 2
   exclusivity: 2
+
+heroSlides:
+  - src: ../../assets/houses/givenchy/givenchy-1953-heemstede.jpg
+    alt: Hubert de Givenchy with mannequins at the Flora 1953 International Flower Exhibition in Heemstede.
+    caption: 1953 · Givenchy with models at Flora exhibition, Heemstede
+    credit: 'Fotopersbureau De Boer · <a href="https://commons.wikimedia.org/wiki/File:Hubert_de_Givenchy_met_mannequins_op_de_Internationale_Bloemententoonstelling_Flora_1953_in_Heemstede_01.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener">CC0</a>'
+  - src: ../../assets/houses/givenchy/givenchy-1978-beverly-hills.jpg
+    alt: Hubert de Givenchy surveying the view in Beverly Hills, 1978.
+    caption: 1978 · Givenchy in Beverly Hills
+    credit: 'Larry Bessel, Los Angeles Times · <a href="https://commons.wikimedia.org/wiki/File:Hubert_de_Givenchy_in_Beverly_Hills,_1978.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC BY 4.0</a>'
+  - src: ../../assets/houses/givenchy/givenchy-2014-visan.jpg
+    alt: Hubert de Givenchy as guest of honour at the 2014 Visan festival.
+    caption: 2014 · Givenchy as guest of honour, Visan
+    credit: 'Castrum avisani · <a href="https://commons.wikimedia.org/wiki/File:Nicole_Trabaud_avec_l%27invit%C3%A9_d%27honneur_2014_Hubert_de_Givenchy.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a>'

@@ -194,3 +194,17 @@ card:
   price: 5
   heat: 5
   exclusivity: 5
+
+heroSlides:
+  - src: ../../assets/houses/hermes/hermes-thierry-portrait.jpg
+    alt: Portrait of Thierry Hermès, founder of the house, mid-19th century.
+    caption: c. 1850 · Thierry Hermès, founder of the harness workshop
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:ThierryHerm%C3%A8s.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/hermes/hermes-1923-illustration-ad.jpg
+    alt: 1923 Hermès advertisement for leather goods and luggage from L'Illustration.
+    caption: 1923 · Hermès advertisement in L'Illustration, saddlery to luggage
+    credit: 'Anonymous · <a href="https://commons.wikimedia.org/wiki/File:Herm%C3%A8s-1923.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/hermes/hermes-emile-maurice-henri-manuel.jpg
+    alt: Studio portrait of Émile-Maurice Hermès, grandson of the founder, by Henri Manuel.
+    caption: c. 1925 · Émile-Maurice Hermès, third-generation steward who introduced the bag and the carré
+    credit: 'Henri Manuel · <a href="https://commons.wikimedia.org/wiki/File:%C3%89mile-Maurice_Herm%C3%A8s_-_photo_Henri_Manuel.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'

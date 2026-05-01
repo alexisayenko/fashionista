@@ -191,3 +191,21 @@ card:
   price: 4
   heat: 5
   exclusivity: 2
+
+heroSlides:
+  - src: ../../assets/houses/prada/prada-roma-storefront-2006.jpg
+    alt: Prada boutique storefront in Rome, May 2006.
+    caption: 2006 · Prada boutique in Rome under Miuccia's creative direction
+    credit: 'Vyacheslav Argenberg · <a href="https://commons.wikimedia.org/wiki/File:Prada_Roma_2006.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.0/" rel="license noopener">CC BY 2.0</a>'
+  - src: ../../assets/houses/prada/miuccia-prada-2011-portrait.jpg
+    alt: Portrait of Miuccia Prada, January 2011.
+    caption: 2011 · Miuccia Prada, two decades into reshaping the house
+    credit: 'Cory M. Grenier · <a href="https://commons.wikimedia.org/wiki/File:Miuccia_Prada_(cropped).jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="license noopener">CC BY-SA 2.0</a>'
+  - src: ../../assets/houses/prada/prada-fw2017-elibeidy-dani.jpg
+    alt: Model Elibeidy Dani on the runway at Prada Fall/Winter 2017 in Milan.
+    caption: 2017 · Prada FW2017 runway, Miuccia's seventies-toned leather collection
+    credit: 'Global Fashion News · <a href="https://commons.wikimedia.org/wiki/File:Elibeidy_Dani,_Prada_FW_2017_Men%27s_%26_Women%27s.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/3.0/" rel="license noopener">CC BY 3.0</a>'
+  - src: ../../assets/houses/prada/prada-fw2019-backstage-liu-wen.jpg
+    alt: Backstage at the Prada Fall/Winter 2019 show, Fondazione Prada, Milan.
+    caption: 2019 · Backstage at Prada FW2019, Fondazione Prada, Milan
+    credit: 'Christopher Macsurak · <a href="https://commons.wikimedia.org/wiki/File:Liu_Wen_backstage_at_Prada,_February_2019.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener">CC0 1.0</a>'

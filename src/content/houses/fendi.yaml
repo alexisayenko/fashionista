@@ -184,3 +184,21 @@ card:
   price: 4
   heat: 3
   exclusivity: 2
+
+heroSlides:
+  - src: ../../assets/houses/fendi/lagerfeld-2008-berlinale.jpg
+    alt: Karl Lagerfeld at the Berlinale in 2008.
+    caption: 2008 · Karl Lagerfeld at the Berlin Film Festival, mid-tenure as Fendi creative director
+    credit: 'Siebbi · <a href="https://commons.wikimedia.org/wiki/File:Karl_Lagerfeld_Berlinale_2008.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/3.0/" rel="license noopener">CC BY 3.0</a>'
+  - src: ../../assets/houses/fendi/lagerfeld-2014-fendi-store.jpg
+    alt: Karl Lagerfeld at a Fendi store opening in 2014.
+    caption: 2014 · Karl Lagerfeld at a Fendi store opening
+    credit: 'Christopher William Adach · <a href="https://commons.wikimedia.org/wiki/File:Karl_Lagerfeld_2014.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="license noopener">CC BY-SA 2.0</a>'
+  - src: ../../assets/houses/fendi/lagerfeld-2017-berlin.jpg
+    alt: Karl Lagerfeld photographed in Berlin in 2017.
+    caption: 2017 · Karl Lagerfeld in Berlin, two years before his death
+    credit: 'Adrio · <a href="https://commons.wikimedia.org/wiki/File:Karl_Lagerfeld_Berlin_2017.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a>'
+  - src: ../../assets/houses/fendi/fendis-2026-rome.jpg
+    alt: Silvia Venturini Fendi and members of the Fendi family in Rome, 2026.
+    caption: 2026 · Silvia Venturini Fendi with the Fendi family in Rome
+    credit: 'US Embassy Italy · <a href="https://commons.wikimedia.org/wiki/File:Fertittas_and_The_Fendis_2026.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'

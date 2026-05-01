@@ -208,3 +208,13 @@ card:
   price: 4
   heat: 4
   exclusivity: 3
+
+heroSlides:
+  - src: ../../assets/houses/louis-vuitton/louis-vuitton-portrait-founder.jpg
+    alt: Studio portrait of Louis Vuitton, founder of the maison.
+    caption: c. 1880 · Louis Vuitton (1821–1892), founder and master malletier
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Portrait-Louis-Vuitton.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/louis-vuitton/louis-vuitton-family-1888.jpg
+    alt: Three generations of the Vuitton family in the courtyard of the Asnières workshops.
+    caption: c. 1888 · Louis, Georges and Gaston-Louis Vuitton at the Asnières workshops
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Famille-Vuitton_1888.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'

@@ -182,3 +182,17 @@ card:
   price: 4
   heat: 3
   exclusivity: 2
+
+heroSlides:
+  - src: ../../assets/houses/dolce-gabbana/dolce-gabbana-1991-polaroid.jpg
+    alt: Polaroid showing Domenico Dolce, Aurelio Rodríguez, Stefano Gabbana, and Steven Meisel on a Dolce & Gabbana shoot, 1991.
+    caption: 1991 · Domenico Dolce and Stefano Gabbana on a shoot with Steven Meisel
+    credit: 'Aurelio F. Rodríguez · <a href="https://commons.wikimedia.org/wiki/File:Aurelio_Rodr%C3%ADguez_with_Domenico_Dolce_and_Stefano_Gabbana,_early_1990%27s.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a>'
+  - src: ../../assets/houses/dolce-gabbana/dolce-gabbana-2016-domenico-dolce.jpg
+    alt: Portrait of Domenico Dolce, 2016.
+    caption: 2016 · Domenico Dolce, co-founder
+    credit: 'Renan Katayama · <a href="https://commons.wikimedia.org/wiki/File:Domenico_Dolce.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="license noopener">CC BY-SA 2.0</a>'
+  - src: ../../assets/houses/dolce-gabbana/dolce-gabbana-2016-stefano-gabbana.jpg
+    alt: Portrait of Stefano Gabbana, 2016.
+    caption: 2016 · Stefano Gabbana, co-founder
+    credit: 'Renan Katayama · <a href="https://commons.wikimedia.org/wiki/File:Stefano_Gabbana.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="license noopener">CC BY-SA 2.0</a>'

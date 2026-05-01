@@ -199,3 +199,21 @@ card:
   price: 3
   heat: 2
   exclusivity: 1
+
+heroSlides:
+  - src: ../../assets/houses/burberry/thomas-burberry-founder.jpg
+    alt: Portrait of Thomas Burberry, English draper and founder of the house.
+    caption: c. 1900 · Thomas Burberry, founder and inventor of gabardine
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Thomas_Burberry.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/burberry/amundsen-fur-skins-c1911.jpg
+    alt: Roald Amundsen in polar furs and gabardine outerwear.
+    caption: c. 1911 · Roald Amundsen in Burberry gabardine, South Pole era
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Amundsen_in_fur_skins.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/burberry/shackleton-1917.jpg
+    alt: Sir Ernest Shackleton photographed in 1917, after the Endurance expedition.
+    caption: 1917 · Sir Ernest Shackleton, outfitted by Burberry for the Endurance
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Sir_Ernest_Henry_Shackleton_in_1917.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/burberry/everest-expedition-1921.jpg
+    alt: Members of the 1921 British Mount Everest reconnaissance expedition.
+    caption: 1921 · British Mount Everest expedition, gabardine-clad reconnaissance team including George Mallory
+    credit: 'Sandy Wollaston · <a href="https://commons.wikimedia.org/wiki/File:1921_Mount_Everest_expedition_members.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'

@@ -183,3 +183,17 @@ card:
   price: 5
   heat: 3
   exclusivity: 3
+
+heroSlides:
+  - src: ../../assets/houses/valentino/valentino-bonomi-vanoni-1985.jpg
+    alt: Anna Bonomi Bolchini, Valentino Garavani and Ornella Vanoni at the 1985 "L'Atelier delle Illusioni" exhibition, Castello Sforzesco, Milan.
+    caption: 1985 · Valentino with Anna Bonomi Bolchini and Ornella Vanoni at "L'Atelier delle Illusioni", Castello Sforzesco, Milan
+    credit: 'Umberto Pizzi · <a href="https://commons.wikimedia.org/wiki/File:Anna_Bonomi_Bolchini,_Valentino_e_Ornella_Vanoni.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a>'
+  - src: ../../assets/houses/valentino/valentino-cannes-2007.jpg
+    alt: Valentino Garavani with Elizabeth Hurley at the 2007 Cannes Film Festival.
+    caption: 2007 · Valentino with Elizabeth Hurley at the Cannes Film Festival
+    credit: 'Georges Biard · <a href="https://commons.wikimedia.org/wiki/File:Valentino_Liz_Hurley_Cannes.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener">CC BY-SA 3.0</a>'
+  - src: ../../assets/houses/valentino/valentino-sozzani-moma-2011.jpg
+    alt: Valentino Garavani with Franca Sozzani for Vogue Italia at the MoMA presentation of his online museum, 2011.
+    caption: 2011 · Valentino with Franca Sozzani at the MoMA launch of the Valentino Garavani Virtual Museum
+    credit: 'Alessandra Brunhildmedia · <a href="https://commons.wikimedia.org/wiki/File:Valentino_and_Sozzani_for_Vogue_Italia.JPG" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a>'

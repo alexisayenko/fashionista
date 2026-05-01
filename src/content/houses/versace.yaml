@@ -203,3 +203,21 @@ card:
   price: 4
   heat: 3
   exclusivity: 2
+
+heroSlides:
+  - src: ../../assets/houses/versace/donatella-versace-2005-life-ball.jpg
+    alt: Donatella Versace at the Life Ball in Vienna, 2005.
+    caption: 2005 · Donatella Versace at the Life Ball, Vienna
+    credit: 'Stephane Marin-Justicia · <a href="https://commons.wikimedia.org/wiki/File:Donatellaversace.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener">CC BY-SA 3.0</a>'
+  - src: ../../assets/houses/versace/donatella-versace-2009-whcd.jpg
+    alt: Donatella Versace at the White House Correspondents' Dinner, 2009.
+    caption: 2009 · Donatella Versace at the White House Correspondents' Dinner
+    credit: 'angela n. · <a href="https://commons.wikimedia.org/wiki/File:Donatella_Versace_(3537144779).jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.0/" rel="license noopener">CC BY 2.0</a>'
+  - src: ../../assets/houses/versace/donatella-versace-2010-time100.jpg
+    alt: Donatella Versace at the Time 100 Gala in New York, 2010.
+    caption: 2010 · Donatella Versace at the Time 100 Gala, New York
+    credit: 'David Shankbone · <a href="https://commons.wikimedia.org/wiki/File:Donatella_Versace_2010_Time_100_Shankbone.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/3.0/" rel="license noopener">CC BY 3.0</a>'
+  - src: ../../assets/houses/versace/donatella-versace-2019-shayk-ss20.jpg
+    alt: Donatella Versace with Irina Shayk backstage at the Versace Spring/Summer 2020 show, 2019.
+    caption: 2019 · Donatella Versace with Irina Shayk, Spring/Summer 2020 show
+    credit: 'Salvatore Delle Femmine · <a href="https://commons.wikimedia.org/wiki/File:Donatella_Versace_and_Irina_Shayk_in_2019.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/3.0/" rel="license noopener">CC BY 3.0</a>'

@@ -197,3 +197,21 @@ card:
   price: 4
   heat: 3
   exclusivity: 2
+
+heroSlides:
+  - src: ../../assets/houses/gucci/gucci-guccio-c1940.jpg
+    alt: Portrait of Guccio Gucci, founder of the house, circa 1940.
+    caption: c. 1940 · Guccio Gucci, founder, in Florence
+    credit: 'Unknown author · <a href="https://commons.wikimedia.org/wiki/File:Guccio_Gucci_c.1940.JPG" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/gucci/gucci-maurizio-dancora-1940.jpg
+    alt: Rodolfo Gucci, third son of Guccio, photographed in 1940 under his actor's stage name Maurizio D'Ancora.
+    caption: 1940 · Rodolfo Gucci (as actor Maurizio D'Ancora), Guccio's son
+    credit: 'Unknown author · <a href="https://commons.wikimedia.org/wiki/File:Maurizio_D%27Ancora.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/gucci/gucci-aldo-1964.png
+    alt: Aldo Gucci, son of Guccio and architect of the global Gucci business, in 1964.
+    caption: 1964 · Aldo Gucci, who built the house into a global brand
+    credit: 'Unknown author · <a href="https://commons.wikimedia.org/wiki/File:Aldo_Gucci.png" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/gucci/gucci-aldo-bruna-patricia-1965.jpg
+    alt: Aldo Gucci with Bruna Palombo and their daughter Patricia in Rome, 1965.
+    caption: 1965 · Aldo Gucci with Bruna Palombo and daughter Patricia, Rome
+    credit: 'Unknown author · <a href="https://commons.wikimedia.org/wiki/File:Aldo_Gucci,_Bruna_Palombo_%26_Patricia_Gucci.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'

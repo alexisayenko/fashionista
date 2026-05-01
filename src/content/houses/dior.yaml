@@ -194,3 +194,21 @@ card:
   price: 5
   heat: 4
   exclusivity: 3
+
+heroSlides:
+  - src: ../../assets/houses/dior/dior-1908-granville-carnival.jpg
+    alt: Christian Dior as a young boy with Serge Heftler-Louiche at the Granville flower carnival, 1908.
+    caption: 1908 · Christian Dior as a child at the Granville flower carnival
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Christian_Dior_et_Serge_Heftler-Louiche_au_carnaval_des_fleurs_de_Granville_en_1908.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/dior/dior-1954-copenhagen.jpg
+    alt: Christian Dior with Serge Heftler-Louiche in Copenhagen, 1954.
+    caption: 1954 · Christian Dior with Serge Heftler-Louiche in Copenhagen
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Christian_Dior_et_Serge_Heftler-Louiche_a_Copenhague.jpg" rel="license noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC BY 4.0</a>'
+  - src: ../../assets/houses/dior/dior-1954-portrait-soen.jpg
+    alt: Studio portrait of Christian Dior at the height of his couture career, 1954.
+    caption: 1954 · Christian Dior portrait, published in Sōen magazine
+    credit: 'Photographer unknown · <a href="https://commons.wikimedia.org/wiki/File:Christian_Dior_1954.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/dior/dior-1957-stockholm-nk.jpg
+    alt: Christian Dior during his visit to Nordiska Kompaniet in Stockholm, February 1957.
+    caption: 1957 · Christian Dior visiting Nordiska Kompaniet, Stockholm
+    credit: 'Photographer for Nordiska Kompaniet · <a href="https://commons.wikimedia.org/wiki/File:Christian_Diors_bes%C3%B6k_p%C3%A5_NK,_Nordiska_kompaniet_i_Stockholm_februari_1957_NMA.0097896.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a>'

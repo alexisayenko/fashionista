@@ -188,3 +188,17 @@ card:
   price: 4
   heat: 4
   exclusivity: 2
+
+heroSlides:
+  - src: ../../assets/houses/saint-laurent/ysl-1961-studio.jpg
+    alt: Yves Saint Laurent at his Paris studio in 1961, the year he founded his eponymous house.
+    caption: 1961 · Yves Saint Laurent at his Paris studio, the year he founded the house
+    credit: 'L''Espresso · <a href="https://commons.wikimedia.org/wiki/File:Yves_Saint-Laurent_at_his_old_studio_of_the_same_name,_1961_(cropped).jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/saint-laurent/ysl-1976-gray-portrait.jpg
+    alt: Portrait of Yves Saint Laurent in graphite and egg tempera by Reginald Gray, 1976.
+    caption: 1976 · Portrait of Yves Saint Laurent by Reginald Gray
+    credit: 'Reginald Gray · <a href="https://commons.wikimedia.org/wiki/File:Yves_Saint_Laurent_by_Reginald_Gray.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
+  - src: ../../assets/houses/saint-laurent/ysl-1976-gray-study.jpg
+    alt: Reginald Gray's graphite study of Yves Saint Laurent, 1976.
+    caption: 1976 · Reginald Gray's graphite study of the couturier
+    credit: 'Reginald Gray · <a href="https://commons.wikimedia.org/wiki/File:Study_of_Yves_Saint_Laurent_by_Reginald_Gray.jpg" rel="noopener">Wikimedia Commons</a> · <a href="https://en.wikipedia.org/wiki/Public_domain" rel="license noopener">Public domain</a>'
