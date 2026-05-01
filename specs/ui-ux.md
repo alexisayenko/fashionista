@@ -268,10 +268,19 @@ All hero photography on house pages follows a single **4 : 5 portrait** aspect r
 
 **Two flavours:**
 
-1. **Static portrait** — `.hero-portrait > img`, used when a house has a single canonical photo.
-2. **Slider** — `.hero-slider`, used when a house has multiple photos to cycle through.
+1. **Slider** — `.hero-slider`, the default. Each maison carries a sequence of portraits drawn from distinct eras of the house's life so the hero reads as a visual chronology.
+2. **Static portrait** — `.hero-portrait > img`, the fallback. Used only when no second-era image meeting the licensing rules in [compliances.md](compliances.md) can be sourced.
 
 Both honour the same `--hero-photo-ratio` so there is no visible difference in framing.
+
+### Slider chronology
+
+The slider is editorial, not a gallery. The intent is to show the house through time — founding figure or earliest atelier on the first slide, the house's defining mid-century or signature era in the middle, and the current creative-director era last.
+
+- **Target 3–5 slides per house**, in chronological order (oldest first).
+- **Span distinct life stages**, not just multiple shots from the same decade. Typical arc: *founder portrait or earliest documented atelier* → *house's golden era* (the run a general reader would recognize the maison for) → *current era*. Houses with longer histories (LV, Hermès, Chanel, Dior) can carry an extra mid-period slide.
+- **Caption carries the era**, prefixed before the descriptive text — e.g. `1921 · Coco Chanel at 31 rue Cambon`. The era prefix is the chronology's only anchor; there is no separate `era` field on the slide.
+- **Sourcing gaps are expected** for younger houses or recent revivals — when a founding-era PD/CC image cannot be sourced, fall back to fewer slides rather than padding with same-era photos. A two-slide chronology (mid-century + present) is acceptable; a single-slide slider is not — collapse to `heroPortrait` instead.
 
 ## Hero slider component
 
