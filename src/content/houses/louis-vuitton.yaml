@@ -27,18 +27,7 @@ palette:
   - { name: Black,       hex: '#000000' }
   - { name: Gold brass,  hex: '#C9A961' }
 
-trademarkNotice: |
-  LOUIS VUITTON, the LV monogram, and the Toile Monogram canvas
-  are trademarks of Louis Vuitton Malletier, used here for
-  identification under nominative fair use. Source files via
-  Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Louis_Vuitton_logo_and_wordmark.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons) and
-  <a href="https://commons.wikimedia.org/wiki/File:Louis_Vuitton_Monogram.svg">LV monogram</a>
-  (PD-shape, Wikimedia Commons). The full Toile Monogram canvas
-  pattern is omitted here as protected trade dress. Hex values are
-  approximations for editorial illustration; no Pantone licensing
-  implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1858

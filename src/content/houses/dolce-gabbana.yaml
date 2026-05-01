@@ -24,13 +24,7 @@ palette:
   - { name: Antique gold,    hex: '#B8860B' }
   - { name: Leopard tawny,   hex: '#8C5A2B' }
 
-trademarkNotice: |
-  DOLCE & GABBANA is a trademark of Dolce & Gabbana S.r.l., used
-  here for identification under nominative fair use. Source file via
-  Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Dolce_%26_Gabbana_logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons). Hex values are approximations
-  for editorial illustration; no Pantone licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1985

@@ -24,15 +24,7 @@ palette:
   - { name: Chocolate,     hex: '#3B2417' }
   - { name: Cream,         hex: '#F5EBD8' }
 
-trademarkNotice: |
-  HERMÈS and the <em>Duc-carriage-and-horse</em> device are
-  trademarks of Hermès International, used here for identification
-  under nominative fair use. Source file via Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Herm%C3%A8s_logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons). Hex values — including the
-  signature orange — are approximations for editorial illustration;
-  no Pantone licensing implied. Hermès does not hold a registered
-  single-colour trademark on the orange.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1837

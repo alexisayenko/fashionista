@@ -45,15 +45,7 @@ palette:
   - { name: Beige, hex: '#E8DCC4' }
   - { name: Gold,  hex: '#C9A961' }
 
-trademarkNotice: |
-  CHANEL and the interlocking-Cs device are trademarks of
-  Chanel SAS, used here for identification under nominative
-  fair use. Source files via Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Chanel_logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons) and
-  <a href="https://en.wikipedia.org/wiki/File:Chanel_logo_interlocking_cs.svg">device</a>
-  (PD-shape, English Wikipedia). Hex values are approximations
-  for editorial illustration; no Pantone licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1921

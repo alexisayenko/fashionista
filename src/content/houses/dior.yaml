@@ -24,13 +24,7 @@ palette:
   - { name: Black,     hex: '#000000' }
   - { name: Gold,      hex: '#C9A961' }
 
-trademarkNotice: |
-  DIOR and CHRISTIAN DIOR are trademarks of Christian Dior Couture
-  S.A., used here for identification under nominative fair use.
-  Source file via Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Dior_Logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons). Hex values are approximations
-  for editorial illustration; no Pantone licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1947

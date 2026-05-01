@@ -27,13 +27,7 @@ palette:
   - { name: Ivory,         hex: '#F2ECDF' }
   - { name: Industrial grey, hex: '#6E6E6E' }
 
-trademarkNotice: |
-  PRADA and the triangular plaque device are trademarks of Prada
-  S.p.A., used here for identification under nominative fair use.
-  Source file via Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Prada-Logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons). Hex values are approximations
-  for editorial illustration; no Pantone licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1913

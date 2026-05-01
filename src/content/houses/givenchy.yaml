@@ -22,11 +22,7 @@ palette:
   - { name: Gold,        hex: '#C9A961' }
   - { name: Sleek navy,  hex: '#1A2238' }
 
-trademarkNotice: |
-  GIVENCHY is a trademark of Givenchy S.A., a subsidiary of the
-  LVMH group, used here for identification under nominative fair
-  use. Hex values are approximations for editorial illustration;
-  no Pantone licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1952

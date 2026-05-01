@@ -24,16 +24,7 @@ palette:
   - { name: Baroque crimson, hex: '#A4243B' }
   - { name: Ivory,          hex: '#F4EADE' }
 
-trademarkNotice: |
-  VERSACE is a trademark of Gianni Versace S.r.l., used here for
-  identification under nominative fair use. Source file via Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Versace_logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons). The figurative <em>Medusa</em>
-  head device — the house's most recognised emblem — is omitted
-  here because it is an original artistic mark that does not fall
-  under PD-textlogo or PD-shape and is not in the public domain.
-  Hex values are approximations for editorial illustration; no
-  Pantone licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1978

@@ -23,15 +23,7 @@ palette:
   - { name: Black,          hex: '#000000' }
   - { name: Fondant,        hex: '#E8D9C4' }
 
-trademarkNotice: |
-  BOTTEGA VENETA is a trademark of Bottega Veneta S.r.l.
-  (Kering group), used here for identification under nominative
-  fair use. The house's <em>intrecciato</em> woven leather is a
-  protected element of its trade dress and is therefore
-  <strong>not visually replicated</strong> on this page — it is
-  named and described in prose only. Hex values are
-  approximations for editorial illustration; no Pantone
-  licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1966

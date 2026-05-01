@@ -22,17 +22,7 @@ palette:
   - { name: Red,    hex: '#A6192E' }
   - { name: White,  hex: '#FFFFFF' }
 
-trademarkNotice: |
-  BURBERRY is a trademark of Burberry Limited, used here for
-  identification under nominative fair use. The
-  <em>Equestrian Knight</em> figurative mark — the armoured rider
-  carrying a lance with the legend <em>Prorsum</em> — is omitted,
-  as it is not in the public domain and falls outside the
-  PD-textlogo / PD-shape thresholds that cover plain wordmarks. The
-  house's checked trade dress is likewise referenced in prose only;
-  no recognisable check pattern is rendered on the page. Hex values
-  are approximations for editorial illustration; no Pantone licensing
-  implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1879

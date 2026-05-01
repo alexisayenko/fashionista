@@ -36,16 +36,7 @@ palette:
   - { name: Ivory,          hex: '#F4EADE' }
   - { name: Midnight navy,  hex: '#1C2331' }
 
-trademarkNotice: |
-  GIORGIO ARMANI is a trademark of Giorgio Armani S.p.A., used here
-  for identification under nominative fair use. Source file via
-  Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Giorgio_Armani.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons). The eagle emblem associated with
-  the Emporio Armani diffusion line is omitted here as it does not
-  represent the Giorgio Armani house mark. Hex values are
-  approximations for editorial illustration; no Pantone licensing
-  implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: Late 1970s

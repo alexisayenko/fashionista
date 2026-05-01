@@ -28,15 +28,7 @@ palette:
   - { name: Saddle brown, hex: '#6B4423' }
   - { name: Antique gold, hex: '#C9A961' }
 
-trademarkNotice: |
-  GUCCI and the interlocking-GG monogram are trademarks of
-  Guccio Gucci S.p.A., used here for identification under
-  nominative fair use. Source files via Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Gucci_Logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons) and
-  <a href="https://commons.wikimedia.org/wiki/File:1933_Gucci_Logo.svg">monogram</a>
-  (PD-shape, Wikimedia Commons). Hex values are approximations
-  for editorial illustration; no Pantone licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1921

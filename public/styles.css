@@ -354,61 +354,67 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 
 .house-page p { margin: 0 0 0.9rem; color: #222; }
 
+main.house-page {
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: 220px minmax(0, 760px);
+  column-gap: 4rem;
+  align-items: start;
+  justify-content: center;
+}
+main.house-page > article { min-width: 0; }
+.house-timeline {
+  align-self: start;
+  margin-top: 5rem;
+}
+.house-timeline > h2 {
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--ink);
+}
+
 .milestones {
   list-style: none;
   padding: 0;
-  margin: 0 auto;
-  max-width: 880px;
+  margin: 0;
   position: relative;
 }
 .milestones::before {
   content: '';
   position: absolute;
-  left: 50%;
-  top: 0.25rem;
-  bottom: 0.25rem;
+  left: 0.4rem;
+  top: 0.4rem;
+  bottom: 0.4rem;
   width: 1px;
   background: rgba(17, 17, 17, 0.22);
-  transform: translateX(-50%);
 }
 .milestones li {
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 3rem;
-  padding: 0.9rem 0;
+  padding: 0.45rem 0 0.45rem 1.5rem;
 }
 .milestones li::before {
   content: '';
   position: absolute;
-  left: 50%;
-  top: 1.5rem;
-  width: 0.7rem;
-  height: 0.7rem;
+  left: 0.4rem;
+  top: 0.85rem;
+  width: 0.55rem;
+  height: 0.55rem;
   border-radius: 50%;
   background: var(--paper);
-  border: 1.5px solid var(--ink);
-  transform: translate(-50%, 0);
-  z-index: 1;
+  border: 1.4px solid var(--ink);
+  transform: translateX(-50%);
 }
 .milestone-card {
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
-}
-.milestones li:nth-child(odd) .milestone-card {
-  grid-column: 1;
-  text-align: right;
-  padding-right: 1.5rem;
-}
-.milestones li:nth-child(even) .milestone-card {
-  grid-column: 2;
-  text-align: left;
-  padding-left: 1.5rem;
+  gap: 0.2rem;
 }
 .milestone-year {
   font-family: var(--serif);
-  font-size: 1.65rem;
+  font-size: 1.15rem;
   letter-spacing: 0.04em;
   line-height: 1;
   color: var(--ink);
@@ -417,22 +423,20 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 .milestone-text {
   display: block;
   color: #222;
-  line-height: 1.55;
+  font-size: 0.88rem;
+  line-height: 1.5;
 }
-@media (max-width: 720px) {
-  .milestones { max-width: none; }
-  .milestones::before { left: 0.5rem; }
-  .milestones li {
+
+@media (max-width: 1100px) {
+  main.house-page {
     grid-template-columns: 1fr;
+    row-gap: 2rem;
   }
-  .milestones li::before { left: 0.5rem; top: 1.4rem; }
-  .milestones li:nth-child(odd) .milestone-card,
-  .milestones li:nth-child(even) .milestone-card {
-    grid-column: 1;
-    text-align: left;
-    padding-left: 1.75rem;
-    padding-right: 0;
+  .house-timeline {
+    order: 2;
+    margin-top: 0;
   }
+  main.house-page > article { order: 1; }
 }
 
 .plain-list {
@@ -479,8 +483,20 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 3rem; }
 .visual-identity {
   display: flex;
   flex-direction: column;
-  gap: 1.75rem;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 1.25rem;
 }
+
+.house-timeline .identity-marks { gap: 1rem; }
+.house-timeline .identity-mark img { max-height: 56px; max-width: 100%; }
+.house-timeline .palette-swatches { flex-direction: column; gap: 0.5rem; }
+.house-timeline .palette-swatches li { font-size: 0.78rem; gap: 0.45rem; }
+.house-timeline .palette-swatches .swatch { width: 1.1rem; height: 1.1rem; }
+.house-timeline .palette-swatches code { font-size: 0.7rem; }
+.house-timeline .trademark-notice { font-size: 0.7rem; line-height: 1.5; }
 
 .identity-marks {
   display: flex;
@@ -911,17 +927,6 @@ body.dev-tint .house-page article section > h2 {
   display: block;
 }
 
-body.dev-tint .house-page article section.visual-identity {
-  border: 1px solid var(--accent);
-  border-radius: 8px;
-  padding: 1.25rem 1.75rem;
-  margin-top: 1.5rem;
-}
-
-body.dev-tint .house-page article section.visual-identity > h2 {
-  display: none;
-}
-
 .hero-founding {
   font-size: 0.9rem;
   color: #333;
@@ -929,3 +934,10 @@ body.dev-tint .house-page article section.visual-identity > h2 {
   margin: 1rem 0 0;
   max-width: 32rem;
 }
+
+.hero-creative-director {
+  margin-top: 1rem;
+  max-width: 32rem;
+}
+.hero-creative-director p { font-size: 0.9rem; color: #333; line-height: 1.6; margin: 0 0 0.6rem; }
+.hero-creative-director p:last-child { margin-bottom: 0; }

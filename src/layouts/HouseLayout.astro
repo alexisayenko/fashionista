@@ -23,16 +23,56 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
     </header>
 
     <main class="house-page">
+      <aside class="house-timeline" aria-label="Visual identity and key milestones">
+        {house.identityMarks && (
+          <section class="visual-identity">
+            <div class="identity-marks">
+              {house.identityMarks.map((mark) => (
+                <figure class="identity-mark">
+                  <img src={`${base}${mark.src}`} alt={mark.alt} />
+                  <figcaption>{mark.caption}</figcaption>
+                </figure>
+              ))}
+            </div>
+            {house.palette && (
+              <ul class="palette-swatches">
+                {house.palette.map((color) => (
+                  <li>
+                    <span class="swatch" style={`background:${color.hex}`}></span>
+                    <strong>{color.name}</strong> <code>{color.hex}</code>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {house.trademarkNotice && (
+              <p class="trademark-notice" set:html={house.trademarkNotice}></p>
+            )}
+          </section>
+        )}
+        <h2>Key milestones</h2>
+        <ul class="milestones">
+          {house.milestones.map((m) => (
+            <li>
+              <div class="milestone-card">
+                <span class="milestone-year">{m.year}</span>
+                <span class="milestone-text"><Fragment set:html={m.text} /></span>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </aside>
       <article>
         <header class="house-hero">
           <div class="hero-text">
             <p class="eyebrow">Maison</p>
             <h1>{house.name}</h1>
-            <p class="house-sub">
-              <span class={`fi fi-${house.countryCode}`} aria-label={house.country} title={house.country}></span>
-              {house.city} · {house.country} · Est. {house.founded}
-            </p>
             <p class="hero-founding" set:html={house.founding}></p>
+            <div class="hero-creative-director">
+              <p set:html={house.creativeDirector}></p>
+              {house.volatileNote && (
+                <p class="note"><em>{house.volatileNote}</em></p>
+              )}
+            </div>
           </div>
 
           {house.heroSlides && (
@@ -83,66 +123,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           )}
         </header>
 
-        {house.identityMarks && (
-          <section class="visual-identity">
-            <div class="identity-marks">
-              {house.identityMarks.map((mark) => (
-                <figure class="identity-mark">
-                  <img src={`${base}${mark.src}`} alt={mark.alt} />
-                  <figcaption>{mark.caption}</figcaption>
-                </figure>
-              ))}
-            </div>
-            {house.palette && (
-              <ul class="palette-swatches">
-                {house.palette.map((color) => (
-                  <li>
-                    <span class="swatch" style={`background:${color.hex}`}></span>
-                    <strong>{color.name}</strong> <code>{color.hex}</code>
-                  </li>
-                ))}
-              </ul>
-            )}
-            {house.trademarkNotice && (
-              <p class="trademark-notice" set:html={house.trademarkNotice}></p>
-            )}
-          </section>
-        )}
-
-        <section>
-          <h2>Key milestones</h2>
-          <ul class="milestones">
-            {house.milestones.map((m) => (
-              <li>
-                <div class="milestone-card">
-                  <span class="milestone-year">{m.year}</span>
-                  <span class="milestone-text"><Fragment set:html={m.text} /></span>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section>
-          <h2>Creative director &amp; ownership</h2>
-          <p set:html={house.creativeDirector}></p>
-          {house.volatileNote && (
-            <p class="note"><em>{house.volatileNote}</em></p>
-          )}
-        </section>
-
-        <section>
-          <h2>Main product lines</h2>
-          <ul class="plain-list">
-            {house.productLines.map((line) => (
-              <li set:html={line}></li>
-            ))}
-          </ul>
-        </section>
-
         <section>
           <h2>Design DNA</h2>
           <p set:html={house.designDna}></p>
+        </section>
+
+        <section>
+          <h2>Cultural impact &amp; collaborations</h2>
+          <p set:html={house.culturalImpact}></p>
         </section>
 
         <section>
@@ -170,6 +158,15 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         </section>
 
         <section>
+          <h2>Main product lines</h2>
+          <ul class="plain-list">
+            {house.productLines.map((line) => (
+              <li set:html={line}></li>
+            ))}
+          </ul>
+        </section>
+
+        <section>
           <h2>Market positioning</h2>
           <p set:html={house.marketPositioning}></p>
         </section>
@@ -177,11 +174,6 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         <section>
           <h2>Business scale</h2>
           <p set:html={house.businessScale}></p>
-        </section>
-
-        <section>
-          <h2>Cultural impact &amp; collaborations</h2>
-          <p set:html={house.culturalImpact}></p>
         </section>
 
         <p class="back-link"><a href={`${base}/#houses`}>← All houses</a></p>

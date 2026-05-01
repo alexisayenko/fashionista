@@ -22,17 +22,7 @@ palette:
   - { name: Signature gold, hex: '#B8862F' }
   - { name: Bordeaux,      hex: '#5C1F2A' }
 
-trademarkNotice: |
-  SAINT LAURENT is a trademark of Yves Saint Laurent SAS, used
-  here for identification under nominative fair use. Source file
-  via Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Saint_Laurent_logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons). The historic
-  <em>YSL</em> monogram — Cassandre's interlocking-Y-S-L
-  device of 1961 — is <strong>not</strong> reproduced here, as
-  it remains under copyright protection. Hex values are
-  approximations for editorial illustration; no Pantone licensing
-  implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1962

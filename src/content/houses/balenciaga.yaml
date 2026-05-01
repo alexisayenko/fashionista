@@ -25,13 +25,7 @@ palette:
   - { name: Khaki,    hex: '#7A7560' }
   - { name: Acid yellow, hex: '#D6E000' }
 
-trademarkNotice: |
-  BALENCIAGA is a trademark of Balenciaga S.A., used here for
-  identification under nominative fair use. Source file via
-  Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Balenciaga_logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons). Hex values are approximations
-  for editorial illustration; no Pantone licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1917

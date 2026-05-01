@@ -23,13 +23,7 @@ palette:
   - { name: Roman terracotta, hex: '#B5523A' }
   - { name: Black,           hex: '#000000' }
 
-trademarkNotice: |
-  FENDI and the FF (<em>Zucca</em>) monogram are trademarks of Fendi
-  S.r.l., used here for identification under nominative fair use.
-  Source file via Wikimedia —
-  <a href="https://commons.wikimedia.org/wiki/File:Fendi_logo.svg">wordmark</a>
-  (PD-textlogo, Wikimedia Commons). Hex values are approximations
-  for editorial illustration; no Pantone licensing implied.
+trademarkNotice: 'Wordmark via <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> · PD-textlogo.'
 
 milestones:
   - year: 1925
