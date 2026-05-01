@@ -4,6 +4,15 @@ import 'flag-icons/css/flag-icons.min.css';
 
 const { house } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+
+type Milestone = { year: string | number; text: string; landmark?: boolean };
+const culturalLandmarks: Milestone[] = [
+  { year: 1945, text: '<em>End of World War II.</em>', landmark: true },
+];
+const yearOf = (m: Milestone) => parseInt(String(m.year).match(/\d{4}/)?.[0] ?? '0', 10);
+const timeline: Milestone[] = [...house.milestones, ...culturalLandmarks].sort(
+  (a, b) => yearOf(a) - yearOf(b),
+);
 ---
 <!doctype html>
 <html lang="en">
@@ -51,8 +60,8 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
         )}
         <h2>Key milestones</h2>
         <ul class="milestones">
-          {house.milestones.map((m) => (
-            <li>
+          {timeline.map((m) => (
+            <li class={m.landmark ? 'is-landmark' : undefined}>
               <div class="milestone-card">
                 <span class="milestone-year">{m.year}</span>
                 <span class="milestone-text"><Fragment set:html={m.text} /></span>

@@ -427,6 +427,16 @@ main.house-page > article { min-width: 0; }
   line-height: 1.5;
 }
 
+.milestones li.is-landmark .milestone-year,
+.milestones li.is-landmark .milestone-text {
+  color: var(--accent);
+  font-style: italic;
+}
+.milestones li.is-landmark::before {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
 @media (max-width: 1100px) {
   main.house-page {
     grid-template-columns: 1fr;
