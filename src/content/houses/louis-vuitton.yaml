@@ -198,3 +198,13 @@ culturalImpact: |
   in how a nineteenth-century craft business can scale into a
   twenty-first-century cultural institution without — its
   defenders argue — losing the workshop logic of the founder.
+
+card:
+  order: 1
+  ownership: "LVMH"
+  blurb: "Malletier to French society; the monogram canvas that became luxury's universal language."
+  directorLine: "<span class=\"cd-role\">Men</span> Pharrell Williams · since 2023<br><span class=\"cd-role\">Women</span> Nicolas Ghesquière · since 2013"
+  leather: true
+  price: 4
+  heat: 4
+  exclusivity: 3

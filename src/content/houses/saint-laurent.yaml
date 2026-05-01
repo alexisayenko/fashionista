@@ -179,3 +179,12 @@ culturalImpact: |
   the house has become a defining reference for contemporary
   rock'n'roll tailoring and a fixture of red-carpet and music-led
   cultural moments.
+
+card:
+  order: 10
+  ownership: "Kering"
+  blurb: "Le Smoking, the safari jacket, the Mondrian dress — modernism translated into couture."
+  directorLine: "Anthony Vaccarello · since 2016"
+  price: 4
+  heat: 4
+  exclusivity: 2

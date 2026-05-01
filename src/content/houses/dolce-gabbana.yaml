@@ -173,3 +173,12 @@ culturalImpact: |
   marketing. The house's continued joint creative direction by its
   two founders, four decades on, is among the rarest arrangements
   in contemporary luxury.
+
+card:
+  order: 16
+  ownership: "Independent · Founders"
+  blurb: "Sicilian romance, baroque ornament, and theatrical couture."
+  directorLine: "Domenico Dolce & Stefano Gabbana · founders"
+  price: 4
+  heat: 3
+  exclusivity: 2

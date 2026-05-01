@@ -193,3 +193,13 @@ culturalImpact: |
   from the 1990s onward, including Notorious B.I.G.'s
   <em>Versace</em>-laden styling), film, and, through
   <em>Versace Home</em>, hospitality and interiors.
+
+card:
+  order: 8
+  ownership: "Prada Group"
+  blurb: "Baroque opulence, the Medusa insignia, and unapologetic Italian glamour."
+  directorLine: "Dario Vitale · since 2025"
+  couture: correspondent
+  price: 4
+  heat: 3
+  exclusivity: 2

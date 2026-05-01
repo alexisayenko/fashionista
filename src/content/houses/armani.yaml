@@ -148,3 +148,13 @@ culturalImpact: |
   The brand has influenced modern dress codes toward relaxed
   elegance and has engaged in collaborations across cinema, sports,
   and architecture, reinforcing its global lifestyle identity.
+
+card:
+  order: 7
+  ownership: "Independent · Armani Group"
+  blurb: "Tailoring rooted in unstructured elegance and understatement."
+  directorLine: "In transition · 2025"
+  couture: correspondent
+  price: 3
+  heat: 2
+  exclusivity: 2

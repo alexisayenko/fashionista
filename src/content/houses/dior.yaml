@@ -184,3 +184,13 @@ culturalImpact: |
   collaborations through the <em>Lady Dior As Seen By</em> and
   <em>Dior Lady Art</em> programmes, and remains a fixture of red-
   carpet and royal dressing on both sides of the Atlantic.
+
+card:
+  order: 6
+  ownership: "LVMH"
+  blurb: "The New Look redrew the post-war silhouette; the maison still sets the tone of couture."
+  directorLine: "Jonathan Anderson · since 2025"
+  couture: official
+  price: 5
+  heat: 4
+  exclusivity: 3

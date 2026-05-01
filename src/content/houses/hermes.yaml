@@ -184,3 +184,13 @@ culturalImpact: |
   collaboration with illustrators and artists, and the in-house
   perfumery — under Ellena and his successors — has reframed
   what a fashion-house fragrance can be.
+
+card:
+  order: 3
+  ownership: "Independent · Hermès family"
+  blurb: "From equestrian leather to the silk carré and the Birkin — artisanal precision for nearly two centuries."
+  directorLine: "Nadège Vanhee · since 2014"
+  leather: true
+  price: 5
+  heat: 5
+  exclusivity: 5

@@ -190,3 +190,12 @@ culturalImpact: |
   monogram-era reset, and Daniel Lee's return to British outerwear
   codes — each turn debated in business schools and in the trade
   press as much as on the runway.
+
+card:
+  order: 12
+  ownership: "Public · LSE"
+  blurb: "The trench coat, gabardine, and the check — British outerwear distilled."
+  directorLine: "Daniel Lee · since 2022"
+  price: 3
+  heat: 2
+  exclusivity: 1

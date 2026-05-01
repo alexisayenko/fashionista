@@ -174,3 +174,13 @@ culturalImpact: |
   Trevi Fountain (announced in 2013 and completed in 2015) and the
   occupation of the <em>Palazzo della Civiltà Italiana</em>, the
   house has bound its identity to the visible fabric of Rome.
+
+card:
+  order: 11
+  ownership: "LVMH"
+  blurb: "Rome's house of fur and craft — the Baguette and the double-F emblem."
+  directorLine: "Silvia Venturini Fendi"
+  couture: correspondent
+  price: 4
+  heat: 3
+  exclusivity: 2

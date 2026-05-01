@@ -207,3 +207,13 @@ culturalImpact: |
   cinema, ballet (Pharrell Williams's pieces with Paris Opéra
   Ballet costumes), and the visual arts through the
   Métiers d'Art programme.
+
+card:
+  order: 2
+  ownership: "Independent · Wertheimer family"
+  blurb: "Tweed, pearls, and the codes that shaped modern womenswear."
+  directorLine: "Matthieu Blazy · since 2025"
+  couture: official
+  price: 5
+  heat: 4
+  exclusivity: 4

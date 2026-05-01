@@ -117,6 +117,17 @@ const houses = defineCollection({
       marketPositioning: z.string(),
       businessScale: z.string(),
       culturalImpact: z.string(),
+      card: z.object({
+        order: z.number().int(),
+        ownership: z.string(),
+        blurb: z.string(),
+        directorLine: z.string(),
+        couture: z.enum(['official', 'correspondent']).optional(),
+        leather: z.boolean().optional(),
+        price: z.number().int().min(1).max(5),
+        heat: z.number().int().min(1).max(5),
+        exclusivity: z.number().int().min(1).max(5),
+      }),
     }),
 });
 

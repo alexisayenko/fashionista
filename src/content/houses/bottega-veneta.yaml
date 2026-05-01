@@ -168,3 +168,13 @@ culturalImpact: |
   house also became one of the most-discussed runway propositions
   of its generation, with Blazy's leather-as-denim experiments
   cited well outside the trade press.
+
+card:
+  order: 13
+  ownership: "Kering"
+  blurb: "Quiet luxury, no logo, and the unmistakable intrecciato leather weave."
+  directorLine: "Louise Trotter · since 2025"
+  leather: true
+  price: 5
+  heat: 5
+  exclusivity: 3

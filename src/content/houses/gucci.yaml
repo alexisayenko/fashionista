@@ -188,3 +188,12 @@ culturalImpact: |
   Jared Leto's red-carpet appearances), and a thicket of
   watch-store, sneaker, and streetwear scandals that continue to
   shape how luxury is debated online.
+
+card:
+  order: 4
+  ownership: "Kering"
+  blurb: "Tuscan leather craft paired with a rotating cast of provocateur creative directors."
+  directorLine: "Demna · since 2025"
+  price: 4
+  heat: 3
+  exclusivity: 2

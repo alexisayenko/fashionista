@@ -1,0 +1,138 @@
+---
+import { getCollection } from 'astro:content';
+import 'flag-icons/css/flag-icons.min.css';
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+
+const houses = (await getCollection('houses'))
+  .map((entry) => ({ id: entry.id, ...entry.data }))
+  .sort((a, b) => a.card.order - b.card.order);
+
+const TIMELINE_START = 1825;
+const TIMELINE_END = 2025;
+const TIMELINE_SPAN = TIMELINE_END - TIMELINE_START;
+
+function timelinePos(year: number): string {
+  const clamped = Math.max(TIMELINE_START, Math.min(TIMELINE_END, year));
+  const pct = ((clamped - TIMELINE_START) / TIMELINE_SPAN) * 100;
+  return `${Math.round(pct * 10) / 10}%`;
+}
+
+const COUTURE_LABEL = {
+  official: 'Couture · Official',
+  correspondent: 'Couture · Correspondent',
+} as const;
+
+const COUTURE_CLASS = {
+  official: 'badge-couture-official',
+  correspondent: 'badge-couture-correspondent',
+} as const;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fashionista — Luxury Houses</title>
+    <link rel="stylesheet" href={`${base}/styles.css`} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">Fashionista</div>
+      <nav>
+        <a href="#houses">Houses</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Spring / Summer 2026</p>
+        <h1>The houses that define luxury.</h1>
+        <p class="lede">
+          A curated index of the world's most storied fashion maisons — their
+          ateliers, their heritage, their current collections.
+        </p>
+      </section>
+
+      <section id="houses" class="houses">
+        <h2>Maisons</h2>
+        <dl class="legend" aria-label="How to read the cards">
+          <div><dt>Timeline</dt><dd>Founding year plotted on an 1825–2025 bar.</dd></div>
+          <div><dt>Price</dt><dd>Retail tier, boutique entry to full archive.</dd></div>
+          <div><dt>Heat</dt><dd>Current cultural momentum.</dd></div>
+          <div><dt>Exclusivity</dt><dd>Access and distribution control.</dd></div>
+        </dl>
+        <p class="legend-note">Meters are editorial reads on a 1–5 scale.</p>
+        <ul class="house-grid">
+          {houses.map((house) => {
+            const detailHref = `${base}/houses/${house.id}.html`;
+            return (
+              <li class="house-card">
+                <h3><a href={detailHref}>{house.name}</a></h3>
+                <p class="meta">
+                  <span class={`fi fi-${house.countryCode}`} aria-label={house.country} title={house.country}></span>
+                  {' '}{house.city} · Est. {house.founded}
+                </p>
+                <p class="ownership">{house.card.ownership}</p>
+                <div class="timeline" title="1825–2025">
+                  <span class="timeline-dot" style={`--pos: ${timelinePos(house.founded)}`}></span>
+                </div>
+                <p class="badge-row">
+                  <span class="badge">Ready-to-Wear</span>
+                  {house.card.leather && <span class="badge badge-specialty">Leather</span>}
+                  {house.card.couture && (
+                    <span class={`badge ${COUTURE_CLASS[house.card.couture]}`}>
+                      {COUTURE_LABEL[house.card.couture]}
+                    </span>
+                  )}
+                </p>
+                <dl class="stats">
+                  <div class="stat">
+                    <dt>Price</dt>
+                    <dd class="meter price">
+                      {Array.from({ length: 5 }, (_, i) => (
+                        <span class={i < house.card.price ? 'on' : undefined}>$</span>
+                      ))}
+                    </dd>
+                  </div>
+                  <div class="stat">
+                    <dt>Heat</dt>
+                    <dd class="meter heat">
+                      {Array.from({ length: 5 }, (_, i) => (
+                        <span class={i < house.card.heat ? 'on' : undefined}>●</span>
+                      ))}
+                    </dd>
+                  </div>
+                </dl>
+                <p class="director" set:html={house.card.directorLine}></p>
+                <div class="exclusivity-panel">
+                  <p class="ex-label">Exclusivity</p>
+                  <p class="meter ex">
+                    {Array.from({ length: 5 }, (_, i) => (
+                      <span class={i < house.card.exclusivity ? 'on' : undefined}>●</span>
+                    ))}
+                  </p>
+                </div>
+                <p>{house.card.blurb}</p>
+                <p class="more"><a href={detailHref}>Read more →</a></p>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      <section id="about" class="about">
+        <h2>About</h2>
+        <p>
+          Fashionista is a reference project exploring the editorial,
+          commercial, and cultural layers of high-end fashion.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Fashionista. A test page.</p>
+    </footer>
+  </body>
+</html>
